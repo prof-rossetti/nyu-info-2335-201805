@@ -31,3 +31,23 @@ Today’s businesses rely on application software to perform operations, aid dec
 
   + Unit 10: Retrospective and Review
   + Unit 11: Final Exam
+
+## Deliverables
+
+Assignments are collectively worth 25% of the final grade. Projects are collectively worth 50% of the final grade. And the Final Exam is worth 25% of the final grade.
+
+category | deliverable | weight | due date
+--- | --- | --- | ---
+Assignment | Onboarding Survey | 3.0% | 05/16
+Assignment | Week 1 Check-in | 2.0% | 05/23
+Assignment | Week 2 Check-in | 2.0% | 05/30
+Assignment | Week 3 Check-in | 2.0% | 06/06
+Assignment | Week 4 Check-in | 2.0% | 06/13
+Assignment | Week 5 Check-in | 2.0% | 06/20
+Assignment | Industry Insights | 12.0% | 06/29
+Project | Point-of-Sale App | 7.5% | 05/25
+Project | Inventory Management App | 7.5% | 05/25
+Project | Stock Recommendation App | 15.0% | 06/11
+Project | Self-directed Project Proposal | 3.0% | 06/15
+Project | Self-directed Project Implementation | 17.0% | 06/25
+Exam | Final Exam | 25.0% | 06/27
