@@ -1,6 +1,6 @@
 # INFO 2335: Programming in Python & Fundamentals of Software Development
 
-This is a repository of instructional materials for a graduate business school elective on programming and software development. For more information, see the [syllabus](/syllabus.pdf).
+This is a repository of instructional materials for a graduate business school elective on programming and software development. For more information, see the [syllabus](/syllabus-20180513.pdf).
 
 ## Description
 
@@ -34,7 +34,7 @@ Today’s businesses rely on application software to perform operations, aid dec
 
 ## Deliverables
 
-Assignments are collectively worth 25% of the final grade. Projects are collectively worth 50% of the final grade. And the Final Exam is worth 25% of the final grade.
+Assignments are collectively worth 25% of the final grade. Projects are collectively worth 50% of the final grade. And the Final Exam is worth 25% of the final grade. All non-exam deliverables are due by 11:59pm on the due date specified.
 
 category | deliverable | weight | due date
 --- | --- | --- | ---
