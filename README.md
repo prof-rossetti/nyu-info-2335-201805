@@ -1,6 +1,6 @@
 # INFO 2335: Programming in Python & Fundamentals of Software Development
 
-This is a repository of instructional materials for a graduate business school elective on programming and software development. For more information, see the [syllabus](/syllabus-20180514.pdf).
+This is a repository of instructional materials for a graduate business school elective on programming and software development. For more information, see the [syllabus](/syllabus-20180515.pdf).
 
 ## Description
 
