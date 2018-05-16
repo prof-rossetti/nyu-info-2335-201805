@@ -14,9 +14,9 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
 ## Activities and Exercises
 
   + [Welcome to Slack](/exercises/welcome-to-slack/exercise.md)
-  + [Human Software](/exercises/human-software/exercise.md)
   + [Development Environment Setup](/exercises/dev-environment-setup/exercise.md) (including Python installation instructions and a crash course in command-line computing)
+  + [Human Software](/exercises/human-software/exercise.md)
 
 ## Assignments
 
-  + [Industry Insights](/assignments/industry-insights/assignment.md) (due at the end of the semester, but you'll want to get started with searchign for events right away so you don't run out of time)
+  + [Industry Insights](/assignments/industry-insights/assignment.md) (due at the end of the semester, but you'll want to get started with searching for events right away so you don't run out of time)
