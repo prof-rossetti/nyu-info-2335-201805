@@ -10,6 +10,10 @@ Open the Command Prompt application.
 
 ![a screenshot of the command prompt](img/command-prompt.png)
 
+After entering a command, press "enter" to execute it.
+
+Clear previous output at any time by typing "CLS" and pressing "enter".
+
 ### Current User
 
 Print the current user's name.

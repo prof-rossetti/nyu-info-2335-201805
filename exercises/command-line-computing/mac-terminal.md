@@ -12,6 +12,10 @@ Open the Terminal application.
 
 > FYI: If you are interested in learning how to customize color themes and keyboard shortcuts, you may reference [the professor's terminal customizations](mac-terminal-customizations.md). :smiley_cat:
 
+After entering a command, press "enter" to execute it.
+
+Clear previous terminal output at any time by pressing "command + k".
+
 ### Current User
 
 Print the current user's name.

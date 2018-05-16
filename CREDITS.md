@@ -24,3 +24,4 @@
 ## Content and Materials
 
   + [Professor Rossetti's Mac Terminal Customization](http://data-creative.info/reference-docs/2015/07/18/how-to-set-up-a-mac-development-environment/#terminal-customization)
+  + [Clearing the Windows Command Prompt](https://superuser.com/a/585241)
