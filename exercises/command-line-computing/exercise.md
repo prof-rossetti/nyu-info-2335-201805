@@ -12,3 +12,5 @@ See one of the following guides, based on your operating system:
 
   + [Using Terminal on Mac OS](mac-terminal.md)
   + [Using Command Prompt on Windows OS](windows-command-prompt.md)
+
+> NOTE: most online programming instructions are written for a Mac audience, so students using a Windows computer will need to gain a basic level of familiarity with the Mac equivalents, so if they read Mac commands online they will know how to translate and adapt them for Windows.
