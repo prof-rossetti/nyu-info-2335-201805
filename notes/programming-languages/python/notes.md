@@ -1,3 +1,3 @@
 # Python Programming Language
 
-TBD
+TBD - Unit 2 and 3
