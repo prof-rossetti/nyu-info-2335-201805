@@ -38,7 +38,7 @@ system type | general functions |  specific example(s)
 
 ## Components
 
-Information systems may or may not leverage technology. Examples of non-tech information systems include: a doctor's paper-based patient records system, a deli's paper-based ordering system, and a tin-can telephone system.
+Information systems may or may not leverage computers. Examples of such low-tech information systems include: a doctor's paper-based patient records system, a deli's paper-based ordering system, and a tin-can telephone system.
 
 ![a tin-can telephone](https://thumbs.dreamstime.com/b/tin-can-telephones-968914.jpg)
 
@@ -50,7 +50,7 @@ A computer-based information system uses
 component | description
 --- | ---
 People | Individuals who use the system.
-Processes | Procedures the system performs or facilitates.
+Processes | Procedures or operations the system performs or facilitates.
 **Hardware** | Physical devices such as computers, servers, sensors, monitors, printers, speakers, etc. which perform as instructed by the system's software.
 **Software** | Written instructions which govern the system's logic.
 **Network** | Facilitates connection and communication between system components, often a computer network such as the Internet.
