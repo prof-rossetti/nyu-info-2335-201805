@@ -12,7 +12,7 @@ For each process, write instructions in English to communicate to another human,
 
 If you have already [set up your development environment](/exercises/dev-environment-setup/exercise.md), use a combination of the command line and a text editor to create a new empty folder somewhere on your machine, perhaps on your Desktop, and place inside it a new Markdown file called `instructions.md`. If you have not yet learned about command-line computing, you can take your notes in a regular word processor for the time being.
 
-Record your instructions in the `instructions.md` file. You might consider use the following template:
+Record your instructions in the `instructions.md` file (or your word processor). You might consider use the following template which leverages [Markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf):
 
     # Human Software
 
@@ -36,7 +36,7 @@ Record your instructions in the `instructions.md` file. You might consider use t
 
 ## Submission Instructions
 
-> Submission of this exercise is optional. At this point, you may not yet have been instructed on how to submit deliverables to the course repository, but this is a good opportunity to see if you can figure it out on your own. Students who complete the submission process before the beginning of the second class may receive extra credit.
+> Submission of this exercise is optional. At this point, you may not yet have been instructed on how to submit deliverables to the course repository, but this is a good opportunity to see if you can figure it out on your own. Students who complete the submission process before the beginning of the second class will receive extra credit. You are encouraged to ask questions and help each other on Slack!
 
 Use the GitHub.com online interface to create a new GitHub repository, then and add a file to it called `instructions.md`. Paste your instructions into that file, then save and commit it. At this time you should be able to view your instructions online at your repository's URL.
 
