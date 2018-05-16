@@ -2,7 +2,7 @@
 
 Throughout the semester, we will be using a text editor to write and revise Python scripts, then we will be running those scripts from the command-line using the Python command-line utility. This exercise helps you install these tools.
 
-We will need to install and familiarize ourselves with additional tools like Git and Vim later-on, but that would be too much to handle right now, so for the moment let's just focus on doing the minimum to get Python scripts running.
+Later-on, we will need to install and familiarize ourselves with additional tools like Git and Vim, but that would be too much to handle right now, so for the moment let's just focus on doing the minimum to get Python up and running.
 
 ## Text Editor
 
