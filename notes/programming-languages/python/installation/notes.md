@@ -15,7 +15,7 @@ which python3 # check for Homebrew-installed Python Version 3.x
 
 # Windows Command Prompt:
 where python
-````
+```
 
 If you see a filepath output, it means Python is installed at the location specified, so you can advance to the version detection instructions below.
 
