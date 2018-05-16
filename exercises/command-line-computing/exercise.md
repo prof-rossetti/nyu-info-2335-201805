@@ -8,7 +8,7 @@ So before we start, we need to achieve a basic level of familiarity and comfort 
 
 ## Instructions
 
-See the following operating system-specific guides:
+See one of the following guides, based on your operating system:
 
   + [Using Terminal on Mac OS](mac-terminal.md)
   + [Using Command Prompt on Windows OS](windows-command-prompt.md)

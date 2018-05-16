@@ -16,7 +16,7 @@ Open the Terminal application.
 
 Print the current user's name.
 
-```` sh
+```sh
 whoami
 ````
 
@@ -24,7 +24,7 @@ whoami
 
 Print the current/present working directory.
 
-```` sh
+```sh
 pwd
 ````
 
@@ -32,7 +32,7 @@ pwd
 
 List files in the current working directory.
 
-```` sh
+```sh
 ls
 ls -al # for a different display
 ````
@@ -41,7 +41,7 @@ ls -al # for a different display
 
 Change directories (specifying an absolute file path).
 
-```` sh
+```sh
 cd ~/Desktop
 ````
 
@@ -49,13 +49,13 @@ cd ~/Desktop
 
 Make a new directory.
 
-```` sh
+```sh
 mkdir my_folder
 ````
 
 Remove a directory.
 
-```` sh
+```sh
 rm my_folder # triggers an error
 rm -rf my_folder # recursively (-r) forces (-f) removal
 ````
@@ -64,7 +64,7 @@ rm -rf my_folder # recursively (-r) forces (-f) removal
 
 Change directories (using relative file path).
 
-```` sh
+```sh
 cd my_folder # first re-create this directory if it doesn't exist, else this will trigger an error
 ````
 
@@ -72,7 +72,7 @@ cd my_folder # first re-create this directory if it doesn't exist, else this wil
 
 Create a file.
 
-```` sh
+```sh
 touch README.md
 touch index.html
 touch my_data.csv
@@ -81,25 +81,25 @@ touch my_message.txt
 
 Remove a file.
 
-```` sh
+```sh
 rm index.html
 ````
 
 Edit and save a file, using a text editor like nano, atom, sublime, or vim.
 
-```` sh
+```sh
 atom my_message.txt # requires "Install Shell Commands" from the Atom Settings
 ````
 
 Print file contents.
 
-```` sh
+```sh
 cat my_message.txt
 ````
 
 Move a file.
 
-```` sh
+```sh
 mv ~/Desktop/my_folder/my_message.txt ~/Desktop
 ````
 
@@ -107,13 +107,13 @@ mv ~/Desktop/my_folder/my_message.txt ~/Desktop
 
 Copy a file.
 
-```` sh
+```sh
 cp ~/Desktop/my_message.txt ~/Desktop/my_folder
 ````
 
 Copy contents of a file into the clipboard for pasting.
 
-```` sh
+```sh
 pbcopy < ~/Desktop/my_folder/my_message.txt
 # ... then just paste as you normally would after copying some text
 ````
@@ -124,7 +124,7 @@ There are many other utilities to use from the command-line.
 
 First, turn up the volume on your computer so everyone around you can hear, then make it speak:
 
-```` sh
+```sh
 say "Hello, I am your computer. Let's be friends." # or something else polite and appropriate
 ````
 
@@ -134,21 +134,21 @@ Optionally explore additional command-line interfaces, if you're curious.
 
 Trace the route traveled by a network request:
 
-```` sh
+```sh
 traceroute google.com
 # ... stop after a few seconds if necessary by pressing: control + c
 ````
 
 Time the duration of a network request:
 
-```` sh
+```sh
 ping google.com
 # ... stop after a few seconds if necessary by pressing: control + c
 ````
 
 Request the contents of a webpage:
 
-```` sh
+```sh
 curl google.com
 curl http://www.google.com
 curl https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-557-201803/master/exercises/web-requests/data/teams.json

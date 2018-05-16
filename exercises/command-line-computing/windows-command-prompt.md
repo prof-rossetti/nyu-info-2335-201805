@@ -14,7 +14,7 @@ Open the Command Prompt application.
 
 Print the current user's name.
 
-```` sh
+```sh
 whoami
 ````
 
@@ -22,7 +22,7 @@ whoami
 
 Print the current/present working directory.
 
-```` sh
+```sh
 cd
 ````
 
@@ -30,7 +30,7 @@ cd
 
 List files in the current working directory.
 
-```` sh
+```sh
 dir
 ````
 
@@ -38,19 +38,19 @@ dir
 
 Change directories (specifying absolute file path).
 
-```` sh
+```sh
 cd C:\Users\YOUR_USERNAME\Desktop\ # where YOUR_USERNAME is the name of the user currently operating your local machine
 ````
 
 Make a new directory.
 
-```` sh
+```sh
 mkdir my_folder
 ````
 
 Remove a directory.
 
-```` sh
+```sh
 rmdir my_folder
 ````
 
@@ -58,13 +58,13 @@ rmdir my_folder
 
 Change directories (using relative file path).
 
-```` sh
+```sh
 cd my_folder # first re-create this directory if it doesn't exist, else this will trigger an error
 ````
 
 Create a file.
 
-```` sh
+```sh
 type nul > README.md
 type nul > index.html
 type nul > my_data.csv
@@ -73,25 +73,25 @@ type nul > my_message.txt
 
 Remove/delete a file.
 
-```` sh
+```sh
 del index.html
 ````
 
 Edit and save a file, using a text editor like nano, atom, sublime, or vim.
 
-```` sh
+```sh
 atom my_message.txt # requires "Install Shell Commands" from the Atom Settings
 ````
 
 Print file contents.
 
-```` sh
+```sh
 type my_message.txt
 ````
 
 Move a file to target location.
 
-```` sh
+```sh
 move C:\Users\YOUR_USERNAME\Desktop\my_folder\my_message.txt C:\Users\YOUR_USERNAME\Desktop
 ````
 
@@ -99,13 +99,13 @@ move C:\Users\YOUR_USERNAME\Desktop\my_folder\my_message.txt C:\Users\YOUR_USERN
 
 Copy a file.
 
-```` sh
+```sh
 xcopy C:\Users\YOUR_USERNAME\Desktop\my_message.txt C:\Users\YOUR_USERNAME\Desktop\my_folder
 ````
 
 Copy contents of a file into the clipboard for pasting.
 
-```` sh
+```sh
 type C:\Users\YOUR_USERNAME\Desktop\my_folder\my_message.txt | clip
 # ... then just paste as you normally would after copying some text
 ````
@@ -118,19 +118,19 @@ Optionally explore additional command-line interfaces, if you're curious.
 
 Trace the route traveled by a network request:
 
-```` sh
+```sh
 tracert google.com # stop after a few seconds if necessary by pressing: control + c
 ````
 
 Time the duration of a network request:
 
-```` sh
+```sh
 ping google.com # stop after a few seconds if necessary by pressing: control + c
 ````
 
 Download the [cURL](https://curl.haxx.se/download.html) utility if necessary, then request the contents of a webpage:
 
-```` sh
+```sh
 curl google.com
 curl http://www.google.com
 curl https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-557-201803/master/exercises/web-requests/data/teams.json
