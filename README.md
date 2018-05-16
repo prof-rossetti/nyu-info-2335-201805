@@ -1,10 +1,10 @@
 # INFO 2335: Programming in Python & Fundamentals of Software Development
 
-This is a repository of instructional materials for a graduate business school elective on programming and software development. For more information, see the [syllabus](/syllabus-20180515.pdf).
-
-## Description
+This is a repository of instructional materials for a graduate business school elective on programming and software development.
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Students will also explore business models and best practices involved in the production and management of application software. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
+
+For more information, see the [syllabus](/syllabus-20180515.pdf).
 
 ## Schedule
 
@@ -32,15 +32,14 @@ This is a repository of instructional materials for a graduate business school e
   + Unit 10: Retrospective and Review
   + Unit 11: Final Exam
 
-<hr>
 
-## Exercises
+## Activities and Deliverables
+
+Ungraded exercises:
 
   + [Human Software](/exercises/human-software/exercise.md)
   + [Python Development Environment Setup](/exercises/dev-environment-setup/exercise.md)
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
-
-## Deliverables
 
 Assignments:
 
@@ -62,3 +61,7 @@ Major Projects:
 Exams:
 
   + Final Exam
+
+## [Contributing](/CONTRIBUTING.md)
+
+## [License](/LICENSE.md)
