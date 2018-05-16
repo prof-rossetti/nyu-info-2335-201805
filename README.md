@@ -10,7 +10,7 @@ Today’s businesses rely on application software to perform operations, aid dec
 
 ### Module I: Python Programming
 
-  + Unit 1: Information Systems and Application Software
+  + [Unit 1](/units/unit-1/agenda.md): Information Systems and Application Software
   + Unit 2: Basic Python
   + Unit 3: Intermediate Python
 
@@ -39,7 +39,7 @@ Assignments:
   + [Onboarding Survey](https://goo.gl/forms/UhXUqDUVE0pgeQlK2)
   + [Weekly Check-ins](https://goo.gl/forms/6MiFYOcwBdDulp763)
   + Self-directed Project Proposal
-  + Industry Insights
+  + [Industry Insights](/assignments/industry-insights/assignment.md)
 
 Minor Projects:
 
