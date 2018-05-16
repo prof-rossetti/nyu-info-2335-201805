@@ -40,8 +40,8 @@ Else no credit.
 
 ## Alternate Assignment - Informational Interviews
 
-If the idea of attending a business and technology community event makes you uncomfortable, or if your schedule prohibits you from attending an events before the end of the semester,
- you have another option. You may substitute one event with three informational interview of some active member within the business and technology community.
+If the idea of attending a business and technology community event makes you uncomfortable, or if your schedule prohibits you from attending an event before the end of the semester,
+ you have another option. You may substitute one event with three informational interviews of some active members within the business and technology community.
 
 After conducting the interviews, write a short (2-3 page) summary of your experiences,
 to address at least the following questions:
