@@ -40,6 +40,6 @@ Record your instructions in the `instructions.md` file (or your word processor).
 
 Use the GitHub.com online interface to create a new GitHub repository, then and add a file to it called `instructions.md`. Paste your instructions into that file, then save and commit it. At this time you should be able to view your instructions online at your repository's URL.
 
-After you have committed your file, add a new record to the [submissions file](submissions.csv), to include your GitHub username and the repository's URL.
+After you have committed your file to your own repo, "Fork" the course repository under your own control, then add a new record to the [submissions file](submissions.csv), to include your GitHub username and the repository's URL.
 
-You will need to submit a Pull Request for your content to be included in this course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you should expect to be able to submit a PR using the GitHub online interface.
+After updating your own fork, you will need to submit a Pull Request for your content to be accepted into the main course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions.
