@@ -2,6 +2,8 @@
 
 Before we start writing instructions for the computer, let's warm up by writing instructions for other humans. By doing so, we will learn about issues, challenges, and considerations relevant when writing software in general.
 
+> ADVICE: writing software is less about computers or programming languages than it is about how you see the world, paying attention to detail, and anticipating all possible outcomes.
+
 ## Instructions
 
 Pick two processes or activities you engage in on a daily basis. One should be the process of brushing your teeth. The other is your choice.
