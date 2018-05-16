@@ -44,3 +44,7 @@ To install Python, see one of the following guides, based on your operating syst
   + [Installing Python on Windows OS](on-windows.md)
 
 After Python is installed, you should be able to run Python commands from the command line. Depending on your installation, you will either be running `python` and `pip` (website-downloaded Python on Windows or Mac), or `python3` and `pip3` (Homebrew-installed Python on Mac).
+
+If you type `python` and press "enter", you will enter an interactive Python console. When you are done using the Python console, shut it down with `exit()`. You can alternatively write scripts and execute them from the command-line (e.g. `python hello.py`).
+
+![a screenshot of using the python console to perform a simple calculation (2+2 = 4)](img/mac-interactive-python-console.png)
