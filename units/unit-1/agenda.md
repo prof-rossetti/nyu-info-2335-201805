@@ -6,6 +6,7 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
 
 ## Discussions and Notes
 
+  + Guest Speaker on "Python Programming within a Startup Business Context"
   + [Information Systems](/notes/information-systems/notes.md)
   + [Software](/notes/software/notes.md)
   + [Ethics, Security, and Privacy](/notes/software/malware.md)
@@ -13,4 +14,4 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
 ## Activities and Exercises
 
   + [Human Software](/exercises/human-software/exercise.md)
-  + [Development Environment Setup](/exercises/dev-environment-setup/exercise.md), including Python installation instructions and a crash course in command-line computing
+  + [Development Environment Setup](/exercises/dev-environment-setup/exercise.md) (including Python installation instructions and a crash course in command-line computing)
