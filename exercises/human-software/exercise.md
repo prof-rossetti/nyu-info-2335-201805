@@ -10,7 +10,7 @@ Pick two processes or activities you engage in on a daily basis. One should be t
 
 For each process, write instructions in English to communicate to another human, perhaps even a child, how to perform that process.
 
-If you have already [set up your development environment](/exercises/dev-environment-setup/exercise.md), use a combination of the command line and a text editor to create a new empty folder somewhere on your machine, perhaps on your Desktop, and place inside it a new Markdown file called `instructions.md`. If you have not yet learned about command-line computing, you can take your notes in a regular word processor for the time being.
+If you have already [set up your development environment](/exercises/dev-environment-setup/exercise.md), use a combination of the command-line and a text editor to create a new empty folder somewhere on your machine, perhaps on your Desktop, and place inside it a new Markdown file called `instructions.md`. If you have not yet learned about command-line computing, you can take your notes in a regular word processor for the time being.
 
 Record your instructions in the `instructions.md` file (or your word processor). You might consider using the following template which leverages [Markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf):
 
