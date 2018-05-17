@@ -10,7 +10,7 @@
     + Tech vs non-tech examples?
     + Commercially successful examples? :moneybag: :moneybag: :moneybag:
 
-## Key Terms and Concepts:
+## Key Terms and Concepts
 
   + **Information System**
   + **Information Input**
