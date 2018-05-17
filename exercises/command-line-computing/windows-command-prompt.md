@@ -10,9 +10,11 @@ Open the Command Prompt application.
 
 ![a screenshot of the command prompt](img/windows-command-prompt.png)
 
-After typing any of the commands below, press "enter" to execute it.
+## Instructions
 
-Clear previous output at any time by typing "CLS" and pressing "enter".
+After typing each of the commands below, press "enter" to execute it.
+
+Optionally, clear previous output at any time by typing "CLS" and pressing "enter".
 
 ### Current User
 
@@ -74,6 +76,8 @@ type nul > index.html
 type nul > my_data.csv
 type nul > my_message.txt
 ```
+
+> CLARIFICATION: yes, `type` is part of the command :smiley_cat:
 
 Remove/delete a file:
 

@@ -18,4 +18,4 @@ Software distributors develop and maintain software in private or in public. Sof
 
 ## Business Models
 
-An organization can derive value by using software provided by others, or by creating its own software. An organization which distributes its own software can make money by charging other people and organizations money to use the software (e.g. *Microsoft Windows*), and/or by charging advertisers to place ads inside the software (e.g. *facebook.com* and *mail.google.com*). What other business models can you think of?
+An organization can derive value by using software provided by others, or by creating its own software. An organization which distributes its own software can make money by charging other people and organizations to use the software (e.g. *Microsoft Windows*), and/or by charging advertisers to place ads inside the software (e.g. *facebook.com* and *mail.google.com*). What other business models can you think of?

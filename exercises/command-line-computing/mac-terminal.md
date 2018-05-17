@@ -12,9 +12,11 @@ Open the Terminal application.
 
 > FYI: If you are interested in learning how to customize color themes and keyboard shortcuts, you may reference [the professor's terminal customizations](mac-terminal-customizations.md). :smiley_cat:
 
-After typing any of the commands below, press "enter" to execute it.
+## Instructions
 
-Clear previous terminal output at any time by pressing "command + k".
+After typing each of the commands below, press "enter" to execute it.
+
+Optionally clear previous terminal output at any time by pressing "command + k".
 
 ### Current User
 
