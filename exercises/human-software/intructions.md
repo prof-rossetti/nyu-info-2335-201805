@@ -1,4 +1,5 @@
 Author: GhostinAJaRR
+GitHub.com/GhostinAJaRR/nyu-info-2335-201805/tree/master/exercises/human-software
 
 #Cooking an Egg:
 1. Turn on stove
