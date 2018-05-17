@@ -42,10 +42,12 @@ Step 1:
 
 Use the GitHub.com online interface to create a new GitHub repository under your control called "human-software". When you create a new repository, in order to easily use the GitHub.com online interface, check the box to **Initialize this repository with a README**. Once the repository is created, add a file to it called `instructions.md`. Paste your instructions into that file, then save and commit it. At this time you should be able to view your instructions online at your repository's URL.
 
-... [Step 1 Video Walkthrough](https://youtu.be/DT1d3vQ9kHM) :clapper:
+[![Step 1 Video Walkthrough](img/submission-process-1-of-2.gif)](https://youtu.be/DT1d3vQ9kHM)
+
 
 Step 2:
 
 After you have committed your file to your own repo, "Fork" the course repository under your own control, then add a new record to the [submissions file](submissions.csv), to include your GitHub username and the repository's URL (e.g. https://github.com/s2t2/human-software). After updating your own fork, you will need to submit a Pull Request for your content to be accepted into the main course repository.
 
-... [Step 2 Video Walkthrough](https://youtu.be/TKEEwue1BV0) :clapper:
+
+[![Step 2 Video Walkthrough](img/submission-process-2-of-2.gif)](https://youtu.be/TKEEwue1BV0)
