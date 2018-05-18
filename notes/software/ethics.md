@@ -1,11 +1,29 @@
-# Malware
+# Software Ethics
+
+We have the opportunity to build products that change the world in positive ways. Don't be like these guys:
+
+> Two alleged owners of Mugshots.com ... have been arrested ... The notorious website publishes mugshots and then demands payment for their removal... "This pay-for-removal scheme attempts to profit off of someone else's humiliation," said Attorney General Becerra in a statement. "Those who can't afford to pay into this scheme to have their information removed pay the price when they look for a job, housing, or try to build relationships with others. This is exploitation, plain and simple." - [Ars Technica](https://arstechnica.com/tech-policy/2018/05/all-of-mugshots-coms-alleged-co-owners-arrested-on-extortion-charges/) on May 18, 2018
+
+&nbsp;
+
+> **Ashley Madison Used Chatbots to Lure Cheaters, Then Threatened to Expose Them When They Complained** - It turns out a company established to facilitate unethical behavior made some ethical lapses of its own. In a statement last week, Ashley Madison parent company Avid Life Media confirmed long-circulating suspicions that it used "bots" to give users the impression that the site had more female users than it actually did... Meanwhile, CNN Money reports that customers who disputed charges from the site were told that records of their activity would be mailed to their home, essentially a threat to expose them to spouses and families - [Fortune]() on July 10, 2016
+
+Even so, sometimes our creations can be used in unintended and unfortunate ways:
+
+> Facebook told congressional investigators on Wednesday that it sold political ads during the 2016 U.S. presidential election to a so-called Russian troll farm that was looking to target American voters... Facebook sells its advertising through a self-service ad model, through which buyers can choose demographic, geographic and interest-based targets... Due to the volume of these ad buys, Facebook said it was unable to identify the inauthentic nature of these ad buys at the time. - [CNN](http://money.cnn.com/2017/09/06/media/facebook-russia-ads-2016-election/index.html) on September 7 2017
+
+&nbsp;
+
+> San Francisco-based company reached an agreement with California’s housing agency amid complaints of guests being rejected for their race... On social media, black Airbnb users reported experiences of facing a rejection by a host, who later accepted them when they changed their profile to a white person. Earlier this month, an Asian American woman’s account of discrimination in California went viral after she said a host cancelled on her last minute specifically because of her race, leaving her stranded in a storm. ... Harvard Business School professor Ben Edelman previously found that black users were 16% less likely to be accepted than identical guests with white names... - [The Guardian](https://www.theguardian.com/technology/2017/apr/27/airbnb-government-housing-test-black-discrimination) on April 27, 2017
+
+
+## Malware
 
 The term **Malware** refers to software that is created with malicious intent.
 
 > Malware is an abbreviated term meaning “malicious software.”  This is software that is specifically designed to gain access or damage a computer without the knowledge of the owner. There are various types of malware including spyware, keyloggers, true viruses, worms, or any type of malicious code that infiltrates a computer.
 >
 > Generally, software is considered malware based on the intent of the creator rather than its actual features. Malware creation is on the rise due to the sheer volume of new types created daily and the lure of money that can be made through organized Internet crime. Malware was originally created as experiments and pranks, but eventually led to vandalism and destruction of targeted machines. Today, much of malware is created for profit through forced advertising (adware), stealing sensitive information (spyware), spreading email spam or child pornography (zombie computers), or to extort money (ransomware). - [Norton website](https://us.norton.com/internetsecurity-malware.html)
-
 
 &nbsp;
 
