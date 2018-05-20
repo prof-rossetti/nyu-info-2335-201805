@@ -40,6 +40,7 @@ Ungraded exercises:
   + [Human Software](/exercises/human-software/exercise.md)
   + [Python Development Environment Setup](/exercises/dev-environment-setup/exercise.md)
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
+  + [Python Datatypes](/exercises/python-datatypes/exercise.md)
 
 Assignments:
 
@@ -50,7 +51,7 @@ Assignments:
 
 Minor Projects:
 
-  + Point-of-Sale App
+  + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + Inventory Management App
 
 Major Projects:
@@ -60,7 +61,7 @@ Major Projects:
 
 Exams:
 
-  + Final Exam
+  + [Final Exam](/exams/final/exam.md)
 
 ## [Contributing](/CONTRIBUTING.md)
 

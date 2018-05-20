@@ -1,3 +1,3 @@
-# Python Programming Language
+# Python Programming Language Overview
 
-TBD - Unit 2 and 3
+TBD
