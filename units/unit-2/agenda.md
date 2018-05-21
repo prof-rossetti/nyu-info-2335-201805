@@ -11,22 +11,22 @@ Please read through the following materials in order. As you review this materia
 So now might be a good time to create a new Python script somewhere on your computer, perhaps on your Desktop, named `learning.py`. Then iteratively revise/overwrite the script using your text editor and execute it from the command-line (e.g. `python learning.py` or `python3 learning.py`) to observe the results. The practice of typing and executing the code yourself and observing the results will help you learn.
 
   + [Python Language Overview](/notes/programming-languages/python/notes.md):
-    + [Syntax and Style](syntax-and-style.md)
-    + [Comments](comments.md)
-    + [Logging](logging.md)
-    + [Variables](variables.md)
-    + [Functions](functions.md)
-    + [Control Flow](control-flow.md)
-    + [Datatypes](datatypes.md):
-      + [None](datatypes/none.md)
-      + [Booleans](datatypes/booleans.md)
-      + [Strings](datatypes/strings.md)
-      + [Numbers](datatypes/numbers.md)
-      + [Dates and Times](datatypes/dates.md)
-      + [Lists and Sets](datatypes/lists.md) (Intermediate Concept)
-      + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
-    + [Package Management](package-management.md) (Intermediate Concept)
-    + [Debugging](debugging.md) (Intermediate Concept)
+    + [Syntax and Style](/notes/programming-languages/python/syntax-and-style.md)
+    + [Comments](/notes/programming-languages/python/comments.md)
+    + [Logging](/notes/programming-languages/python/logging.md)
+    + [Variables](/notes/programming-languages/python/variables.md)
+    + [Functions](/notes/programming-languages/python/functions.md)
+    + [Control Flow](/notes/programming-languages/python/control-flow.md)
+    + [Datatypes](/notes/programming-languages/python/datatypes.md):
+      + [None](/notes/programming-languages/python/datatypes/none.md)
+      + [Booleans](/notes/programming-languages/python/datatypes/booleans.md)
+      + [Strings](/notes/programming-languages/python/datatypes/strings.md)
+      + [Numbers](/notes/programming-languages/python/datatypes/numbers.md)
+      + [Dates and Times](/notes/programming-languages/python/datatypes/dates.md)
+      + [Lists and Sets](/notes/programming-languages/python/datatypes/lists.md) (Intermediate Concept)
+      + [Dictionaries](/notes/programming-languages/python/datatypes/dictionaries.md) (Intermediate Concept)
+    + [Package Management](/notes/programming-languages/python/package-management.md) (Intermediate Concept)
+    + [Debugging](/notes/programming-languages/python/debugging.md) (Intermediate Concept)
 
 ## Exercises
 
