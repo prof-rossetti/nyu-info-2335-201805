@@ -11,7 +11,7 @@ Reference:
 
 ### Installation
 
-Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
+Once you have learned how to [install packages](../package-management.md) using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
 
 First install `ipython`, if necessary:
 
