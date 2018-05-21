@@ -88,11 +88,7 @@ For students desiring even more optional further exploration, add a new product 
 
 ## Submission Instructions
 
-Create a new repository on GitHub.com, and add your `shopping_cart.py` file to it. Note the URL of your repository.
-
-Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in the course repository.
-
-
+By this time, students should be able to replicate the submission instructions for previous exercises, also abbreviated below.
 
 ### Step 1 - Creating a new Project Repo
 
@@ -124,9 +120,9 @@ for your content to be accepted into the main course repository.
 
 ## Evaluation
 
-Extra credit for presence of a Python program which runs without error and produces the desired functionality, including tackling one or more "further exploration" challenges.
+Extra credit for presence of a Python program which runs without error and produces the desired functionality, in addition to the functionality described in the "further exploration" challenges: "validating user inputs" and/or "writing receipts to file".
 
-Full credit for presence of a Python program which runs without error and produces the desired functionality.
+Full credit for presence of a Python program which runs without error and produces the desired basic functionality.
 
 Else half credit for presence of a Python program which doesn't run or doesn't exactly produce the desired functionality.
 
