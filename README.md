@@ -12,7 +12,7 @@ For more information, see the [syllabus](/syllabus-20180515.pdf).
 
   + [Unit 1](/units/unit-1/agenda.md): Information Systems and Application Software
   + [Unit 2](/units/unit-2/agenda.md): Python Language Overview
-  + [Unit 3](/units/unit-3/agenda.md): Python Language Overview, continued
+  + Unit 3: Python Language Overview, continued
 
 ### Module II: Python Applications
 
