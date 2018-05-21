@@ -2,13 +2,7 @@
 
 ## Checkpoints
 
-First set-up a new local Git repository to contain this program (suggested), or choose the same repository you used for the "Groceries" project (acceptable).
-
-Create a new file in your repository called `shopping_cart.py`, paste into it the list of products, then make your first commit.
-
-When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
-
-#### Checkpoint I - User Inputs
+### Checkpoint 1 - User Inputs
 
 The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
 
@@ -23,7 +17,7 @@ When you have finished this checkpoint, your program should perform like this:
 
 ![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-1-demo.gif)
 
-#### Checkpoint II - Product Lookups
+### Checkpoint 2 - Product Lookups
 
 If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
 
@@ -60,7 +54,7 @@ When you have finished this checkpoint, your program should perform something li
 
 ![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-2-demo.gif)
 
-#### Checkpoint III - Receipt Printing
+### Checkpoint 3 - Receipt Printing
 
 Steps:
 
