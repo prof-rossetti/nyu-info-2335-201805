@@ -55,5 +55,9 @@ Then revise the `requirements.txt` file. Write the name of each required Python 
 Finally, install package dependencies, as necessary:
 
 ```shell
+# For Homebrew-installed Python 3.x on Mac OS:
+pip3 install -r requirements.txt
+
+# All others:
 pip install -r requirements.txt
 ```
