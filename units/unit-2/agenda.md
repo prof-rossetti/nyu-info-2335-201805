@@ -2,13 +2,13 @@
 
 ## Objectives
 
-In this unit, we will take a guided tour of the Python programming language. We'll start by familiarizing ourselves with some introductory Python reference materials, then we will illustrate and apply these concepts as we work through a guided exercise.
+In this unit, we will take a guided tour of the Python programming language. We'll start by familiarizing ourselves with some introductory Python reference materials, then we will illustrate and apply these concepts as we work through a guided Python exercise.
 
 ## Discussions and Notes
 
-Please read through the following materials in order. As you review this material, take opportunities to execute the referenced code snippets and observe the results.
+Please read through the following materials in order. As you review this material, take opportunities to execute the referenced code snippets and observe the results. As you are engaging with the material, take all the opportunities you'd like to explore your own curiosities and try things out.
 
-So now might be a good time to create a new Python script somewhere on your computer, perhaps on your Desktop, named `learning.py`. Then revise/overwrite it as you encounter new Python examples and materials, and execute it from the command-line (e.g. `python learning.py` or `python3 learning.py`) to observe the results. The practice of typing the code yourself will help you learn.
+So now might be a good time to create a new Python script somewhere on your computer, perhaps on your Desktop, named `learning.py`. Then iteratively revise/overwrite the script using your text editor and execute it from the command-line (e.g. `python learning.py` or `python3 learning.py`) to observe the results. The practice of typing and executing the code yourself and observing the results will help you learn.
 
   + [Python Language Overview](/notes/programming-languages/python/notes.md):
     + [Syntax and Style](syntax-and-style.md)
@@ -29,7 +29,7 @@ So now might be a good time to create a new Python script somewhere on your comp
 
 ## Exercises
 
-Once you have sufficiently reviewed these materials, this exercise should help you practice some of the more common and important techniques:
+Once you have sufficiently reviewed these materials, complete the following guided exercise to help you practice and internalize what you have learned:
 
   + [Python Datatypes Exercise](/exercises/python-datatypes/exercise.md)
 
