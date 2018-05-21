@@ -1,6 +1,6 @@
-# Professor Rossetti's Mac Terminal Customizations
+# Professor Rossetti's Mac Terminal Configuration
 
-These are the professor's own personal terminal customizations. Feel free but not obligated to use any or all of them.
+These are some of the professor's own terminal configurations. Feel free but not obligated to use any or all of them.
 
 ## Theme
 
