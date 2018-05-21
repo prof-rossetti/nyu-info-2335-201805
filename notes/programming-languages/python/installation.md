@@ -53,7 +53,7 @@ After Python is installed, you should be able to run Python commands from the co
 
 If you type `python` and press "enter", you will enter an interactive Python console. When you are done using the Python console, shut it down with `exit()`.
 
-![a screenshot of using the python console to perform a simple calculation (2+2 = 4)](img/mac-interactive-python-console.png)
+![a screenshot of using the python console to perform a simple calculation (2+2 = 4)](installation/img/mac-interactive-python-console.png)
 
 #### Scripts
 
@@ -69,4 +69,4 @@ print("--------------------------")
 
 After saving the file, execute `python hello.py` from the command-line.
 
-![a screenshot of the output resulting from running a python script from the command-line. the hello message is printed in the terminal](img/python-running-script.png)
+![a screenshot of the output resulting from running a python script from the command-line. the hello message is printed in the terminal](installation/img/python-running-script.png)
