@@ -17,7 +17,6 @@ So now might be a good time to create a new Python script somewhere on your comp
     + [Variables](variables.md)
     + [Functions](functions.md)
     + [Control Flow](control-flow.md)
-    + [Debugging](debugging.md) (Intermediate Concept)
     + [Datatypes](datatypes.md):
       + [None](datatypes/none.md)
       + [Booleans](datatypes/booleans.md)
@@ -26,6 +25,8 @@ So now might be a good time to create a new Python script somewhere on your comp
       + [Dates and Times](datatypes/dates.md)
       + [Lists and Sets](datatypes/lists.md) (Intermediate Concept)
       + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
+    + [Package Management](package-management.md) (Intermediate Concept)
+    + [Debugging](debugging.md) (Intermediate Concept)
 
 ## Exercises
 
