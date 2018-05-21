@@ -111,7 +111,7 @@ now would be a good time to create a new Git repository via the GitHub.com onlin
 to represent your submittable work product.
 After creating the repository, add the `groceries.py` file to it.
 You will be revising and "committing" changes to this file periodically throughout the course of this exercise
-until it finally achieves the desired functionality.
+until it finally achieves the desired functionality. Otherwise, if you would rather focus solely on learning Python and don't feel comfortable working with GitHub yet, ignore references to "committing" in the instructions below.
 
 ### Checkpoints
 
@@ -124,7 +124,7 @@ After you are done, your repository's history of commit messages should roughly 
 
 Challenges:
 
-  1. Print all products
+  1. Print all products (already done for you!).
   2. Print the first product.
   3. Print the name of the first product.
   4. Print the number of products.
