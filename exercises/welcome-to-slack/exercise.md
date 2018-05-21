@@ -1,6 +1,6 @@
 # Welcome to Slack Exercise
 
-We're going to be using Slack throughout the semester to communicate with eachother, and to share code snippets and links to helpful resources.
+We're going to be using Slack throughout the semester to communicate with each other, and to share code snippets and links to helpful resources.
 
 Let's take this time to get familiarized with the platform. This should be especially helpful if you haven't used Slack before.
 
@@ -12,7 +12,7 @@ On the first day of class, the professor sent invitation emails to the NYU addre
 
 ### Getting Started
 
-After gaining access to https://nyu-info-2335.slack.com/, take a moment to set up your profile and account settings. For example, you might want to update your display name and/or your profile photo.
+After gaining access to https://nyu-info-2335.slack.com/, take a moment to set up your profile and account settings. For example, you might want to update your display name and/or your profile photo. And you might consider adding a link to your GitHub and/or LinkedIn profiles, as desired.
 
 When you get a moment later on, you are encouraged to [enable two-factor authentication](https://get.slack.help/hc/en-us/articles/204509068-Set-up-two-factor-authentication) to enhance the security of our organization. Also consider downloading the Slack app to your mobile device and configuring your notification preferences.
 
