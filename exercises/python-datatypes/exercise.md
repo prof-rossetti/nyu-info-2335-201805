@@ -162,10 +162,11 @@ If you have not yet already forked the course repository, do so now.
 Otherwise, if you have already forked the course repository
 (i.e. if you have already submitted a previous exercise),
 then you will need to update your existing fork instead.
+To do this from the GitHub.com online interface, delete your fork from the repository's "Settings" menu, then re-fork it. There are easier ways to do this from the command-line, but we will get to that later.
 
 ### Step 3 - Submitting a Pull Request
 
 Add a new record to the [submissions file](submissions.csv),
-to include your GitHub username and the repository's URL (e.g. https://github.com/s2t2/python-datatypes).
-After updating your own fork, you will need to submit a Pull Request
+to include your GitHub username and the repository's URL (e.g. `https://github.com/YOUR_USERNAME/python-datatypes`).
+Finally, submit a Pull Request
 for your content to be accepted into the main course repository.
