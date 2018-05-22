@@ -140,6 +140,7 @@ Challenges:
   9. Print the name of each unique department.
   10. Print in alphabetical order the name of each unique department.
   11. Print in alphabetical order the name of each unique department, as well as the number of products associated with that department.
+  12. Print in alphabetical order the name of each unique department, as well as the number of products associated with that department, and properly differentiate between "products" plural and "product" singular, depending on how many there are.
 
 ## Submission Instructions
 
