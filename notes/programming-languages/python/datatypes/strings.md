@@ -60,7 +60,7 @@ Strings also support equality, inclusion, and matching operators:
 "Hello World".count("l") #> 3
 ```
 
-Strings are iterable objects comprised of multiple characters. Once you have learned about arrays, or "lists", you can perform additional array-related string operations:
+Strings are iterable objects comprised of multiple characters. Once you have learned about lists, you can perform additional list-related operations:
 
 ```python
 "Hello World"[0] #> "H"
