@@ -77,7 +77,7 @@ del person["stops"] # this is mutating
 person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'spouse': 'Mrs. Claus', 'fav_color': 'red' }
 ```
 
-Make use of built-in Dictionary methods for easier data-processing:
+Make use of built-in dictionary methods for easier data-processing:
 
 ```python
 person = {
