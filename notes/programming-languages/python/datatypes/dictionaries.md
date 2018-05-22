@@ -68,13 +68,13 @@ person = {
     "fav_color": "blue"
 }
 
-person["wife"] = "Mrs. Claus" # this is mutating
+person["spouse"] = "Mrs. Claus" # this is mutating
 
 person["fav_color"] = "red" # this is mutating
 
 del person["stops"] # this is mutating
 
-person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'wife': 'Mrs. Claus', 'fav_color': 'red' }
+person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'spouse': 'Mrs. Claus', 'fav_color': 'red' }
 ```
 
 Make use of built-in Dictionary methods for easier data-processing:
