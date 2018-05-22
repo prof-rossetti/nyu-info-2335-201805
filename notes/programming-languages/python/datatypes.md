@@ -28,7 +28,7 @@ type({"a":1, "b":2, "c":3}) #> <type 'dict'>
 type([1,2,3]) #> <type 'list'>
 ```
 
-Alternatively call `.__class__.__name__` on any object to detect it's class name:
+Alternatively call `.__class__.__name__` on any object to detect its class name:
 
 ```py
 "Hello".__class__.__name__ #> 'str'
