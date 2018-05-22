@@ -15,10 +15,11 @@
   + [How-to Request Recordings](http://www.nyu.edu/servicelink/KB0013493)
   + Contacts: cetg@stern.nyu.edu and helpdesk@stern.nyu.edu
   + Enable within NYU Classes: "Settings" > "Tool Order" > "Mediasite"
+  + Also email the helpdesk to request recordings be made public, i.e. to remove NYU login barrier
 
 ## Screencasting
 
-  + [Converting QuickTime screen recordings to GIF format](https://gist.github.com/dergachev/4627207)): `ffmpeg -i ~/Dropbox/Screenshares/YOUR_SCREENCAST.mov -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > admin/YOUR_SCREENCAST.gif`
+  + [Converting QuickTime screen recordings to GIF format](https://gist.github.com/dergachev/4627207)): `ffmpeg -i ~/Dropbox/Screenshares/YOUR_SCREENCAST.mov -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=5 > admin/YOUR_SCREENCAST.gif`
   + [Hiding all Folders on the Desktop](http://www.cultofmac.com/272595/quickly-hide-icons-desktop-os-x-tips/): `defaults write com.apple.finder CreateDesktop false && killall Finder`
 
 ## Content and Materials
