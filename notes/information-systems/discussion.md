@@ -1,6 +1,6 @@
 # Information Systems
 
-Discussion Topics:
+## Discussion Topics
 
   + What is an Information System?
   + What are the main components of a Computer-based Information System?
@@ -10,7 +10,7 @@ Discussion Topics:
     + Tech vs non-tech examples?
     + Commercially successful examples? :moneybag: :moneybag: :moneybag:
 
-Key Terms and Concepts:
+## Key Terms and Concepts
 
   + **Information System**
   + **Information Input**

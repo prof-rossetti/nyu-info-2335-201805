@@ -9,7 +9,7 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
   + Guest Speaker on "Python Programming within a Startup Business Context"
   + [Information Systems](/notes/information-systems/notes.md)
   + [Software](/notes/software/notes.md)
-  + [Ethics, Security, and Privacy](/notes/software/malware.md)
+  + [Ethics and Malware](/notes/software/ethics.md)
 
 ## Activities and Exercises
 
