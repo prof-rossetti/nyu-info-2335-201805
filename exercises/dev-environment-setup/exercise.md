@@ -30,6 +30,6 @@ If you haven't already gotten familiar with [command-line computing](/exercises/
 
 ## Python
 
-Finally, [install Python](/notes/programming-languages/python/installation/notes.md) (version 3.6.x).
+Finally, [install Python](/notes/programming-languages/python/installation.md) (version 3.6.x).
 
 Nice job, you're now ready to start learning Python! :snake:
