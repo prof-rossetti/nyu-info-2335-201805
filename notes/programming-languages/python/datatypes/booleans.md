@@ -43,7 +43,7 @@ True == False #> False
 False == False #> True
 ```
 
-The converse is the inequality operator, `!=`. Its functionality is represented by the phrase, "Is this not equal to that?":
+The inverse is the inequality operator, `!=`. Its functionality is represented by the phrase, "Is this not equal to that?":
 
 ```python
 True != True #> False
