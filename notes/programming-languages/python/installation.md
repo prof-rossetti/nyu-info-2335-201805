@@ -42,8 +42,8 @@ If Python 2.x is installed and you're not sure how to install version 3.x withou
 
 To install Python, see one of the following guides, based on your operating system:
 
-  + [Installing Python on Mac OS](on-mac-via-homebrew.md)
-  + [Installing Python on Windows OS](on-windows.md)
+  + [Installing Python on Mac OS](installation/on-mac-via-homebrew.md)
+  + [Installing Python on Windows OS](installation/on-windows.md)
 
 ### Usage
 
