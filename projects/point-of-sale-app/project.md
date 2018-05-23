@@ -102,6 +102,10 @@ print(products)
 Run the script to see it print the list of products:
 
 ```sh
+# For Homebrew-installed Python 3.x on Mac OS:
+python3 shopping_cart.py
+
+# All others:
 python shopping_cart.py
 ```
 
@@ -159,7 +163,7 @@ then you will need to update your existing fork instead.
 ### Step 3 - Submitting a Pull Request
 
 Add a new record to the [submissions file](submissions.csv),
-to include your GitHub username and the repository's URL (e.g. https://github.com/s2t2/point-of-sale-app).
+to include your GitHub username and the repository's URL (e.g. `https://github.com/YOUR_USERNAME/point-of-sale-app`).
 After updating your own fork, you will need to submit a Pull Request
 for your content to be accepted into the main course repository.
 
