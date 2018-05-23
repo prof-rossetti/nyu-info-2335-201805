@@ -254,13 +254,6 @@ def greater_than_two(i):
 def really_big(i):
     return i > 102
 
-# Python 2.x:
-filter(all_of_them, arr) #> [1, 2, 4, 8, 16]
-filter(equals_two, arr) #> [2]
-filter(greater_than_two, arr) #> [4, 8, 16]
-filter(really_big, arr) #> []
-
-# Python 3.x:
 filter(all_of_them, arr) #> <filter at 0x103fa71d0>
 list(filter(all_of_them, arr)) #> [1, 2, 4, 8, 16]
 list(filter(equals_two, arr)) #> [2]
@@ -274,11 +267,6 @@ When using the filter function, observe this alternative filtering syntax involv
 
 ```python
 arr = [1,2,4,8,16]
-
-# Python 2.x:
-filter(lambda i: i > 2, arr) #> [4, 8, 16]
-
-# Python 3.x:
 list(filter(lambda i: i > 2, arr)) #> #> [4, 8, 16]
 ```
 
@@ -304,13 +292,6 @@ def from_new_haven(obj):
 def from_new_something(obj):
     return "New" in obj["city"]
 
-# Python 2.x:
-filter(yanks, teams) #> [{...}]
-filter(from_new_york, teams) #> [{...}, {...}]
-filter(from_new_haven, teams) #> [{...}]
-filter(from_new_something, teams) #> [{...}, {...}, {...}]
-
-# Python 3.x:
 list(filter(yanks, teams)) #> [{...}]
 list(filter(from_new_york, teams)) #> [{...}, {...}]
 list(filter(from_new_haven, teams)) #> [{...}]
@@ -333,7 +314,7 @@ def teams_from(city):
 
 # using "lambda" syntax
 def teams_from2(city):
-  return filter(lambda team: team["city"] == city, teams)
+  return list(filter(lambda team: team["city"] == city, teams))
 
 # the long way
 def teams_from3(city):
@@ -343,9 +324,9 @@ def teams_from3(city):
           matches.append(team)
   return matches
 
-teams_from("New York") #> [{...}, {...}]
-teams_from2("New York") #> [{...}, {...}] You might have to first convert this to a list depending on your Python version (see examples above).
-teams_from3("New York") #> [{...}, {...}]
+print(teams_from("New York")) #> [{'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
+print(teams_from2("New York")) #> [{'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
+print(teams_from3("New York")) #> [{'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
 ```
 
 Reference the [`itertools` module](../modules/itertools.md) for additional operations.

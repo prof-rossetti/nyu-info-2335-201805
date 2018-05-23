@@ -21,7 +21,7 @@ Unlike other languages, when you start a statement in Python, you don't need to 
 
 ### Naming
 
-Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use snake case, not camel-case. As usual, only use title case for class names.
+Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use snake case, not camel-case. As usual, only use title case for class names. Use snake case for Python (`.py`) files as well.
 
 DO:
 
@@ -37,5 +37,3 @@ DON'T:
   + `firstName`
   + `lastName`
   + `firstAndLastName`
-
-Use snake case for Python (`.py`) files as well.

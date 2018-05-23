@@ -6,16 +6,16 @@
 
 The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
 
-Steps:
+Challenges:
 
-  1. Accept a user input value, store it in a variable, and print it. Hint: use the `input()` function.
-  2. One at a time, iteratively accept a user input value, store it in a variable, and print it. Hint: use an infinite `while` loop. Note: you may have to press "control-c" to quit your script.
-  3. One at a time, iteratively accept a user input value, store it in a variable, and print it. But stop the loop if the user inputs the word "DONE". Hint: use an `if` statement in conjunction with the `break` keyword.
+  1. Accept a user input value, store it in a variable, and print it. HINT: use the [`input()`](https://docs.python.org/3/library/functions.html#input) function :smiley_cat:.
+  2. One at a time, iteratively accept a user input value, store it in a variable, and print it. HINT: use an infinite `while` loop. NOTE: you may have to press "control-c" to quit your script if you get stuck.
+  3. One at a time, iteratively accept a user input value, store it in a variable, and print it. But stop the loop if the user inputs the word "DONE". HINT: use an `if` statement in conjunction with the `break` keyword.
   4. Repeat the previous step, but instead of printing each user input, store them all in a single list. Then print the list after the user is "DONE".
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-1-demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-1-demo.gif)
 
 ### Checkpoint 2 - Product Lookups
 
@@ -44,26 +44,26 @@ print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
 #TODO: perform product look-ups here!
 ```
 
-Steps:
+Challenges:
 
-  1. For a single valid product identifier, look up the matching product and print its name and price. Hint: try using a custom function in conjunction with a list comprehension.
+  1. For a single valid product identifier, look up the matching product and print its name and price. HINT: try using a custom function in conjunction with a list comprehension.
   1. For each valid product identifier in the example list, look up the matching product and print its name and price.
   1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list. For now, you don't necessarily need to worry about formatting prices as USD.
 
 When you have finished this checkpoint, your program should perform something like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-2-demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-2-demo.gif)
 
 ### Checkpoint 3 - Receipt Printing
 
-Steps:
+Challenges:
 
-  1. For each receipt component listed in the "Requirements" section above (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component. Commit your code after implementing each component in the list.
+  1. For each receipt component listed in the project requirements (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component.
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](checkpoint-3-demo.gif)
+![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](img/checkpoint-3-demo.gif)
 
 Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
 
-Wow, you are finally done! Nice job. Now it's time to submit your work.
+Wow, you are finally done! Nice job. Now you are ready to submit your work.
