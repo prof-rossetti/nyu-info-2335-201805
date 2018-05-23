@@ -35,7 +35,9 @@ Define a function with a parameter:
 
 ```python
 def do_stuff_with_param(message):
+    print("---------")
     print(message)
+    print("---------")
 ```
 
 In this case, `message` is the name of the function's parameter. Invoke it like so:

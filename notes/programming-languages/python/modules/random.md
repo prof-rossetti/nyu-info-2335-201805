@@ -16,7 +16,7 @@ random.randint(1, 100) #> 15
 random.randint(1, 100) #> 95
 ```
 
-Once you have learned about arrays, or "lists", you can perform randomness-related operations on them:
+Once you have learned about lists, you can perform randomness-related operations on them:
 
 ```python
 arr = [1,2,3,4,5,6,7,8,9]
