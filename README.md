@@ -4,34 +4,33 @@ This is a repository of instructional materials for a graduate business school e
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Students will also explore business models and best practices involved in the production and management of application software. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
 
-For more information, see the [syllabus](/syllabus-20180515.pdf).
+For more information, see the [syllabus](/syllabus-20180523.pdf).
 
 ## Schedule
 
 ### Module I: Python Programming
 
-  + [Unit 1](/units/unit-1/agenda.md): Information Systems and Application Software
-  + [Unit 2](/units/unit-2/agenda.md): Python Language Overview
-  + Unit 3: Python Language Overview, continued
+  + [Unit 1](/units/unit-1/agenda.md): Command-line Computing
+  + [Unit 2](/units/unit-2/agenda.md): Processing Python Datatypes
+  + [Unit 3](/units/unit-3/agenda.md): Processing User Inputs
 
 ### Module II: Python Applications
 
-  + Unit 4: Version Control and Open Source
-  + Unit 5: Networks and Protocols
-  + Unit 6: Databases and Datastores
+  + Unit 4: Processing CSV Data
+  + Unit 5: Processing Data from the Internet
 
 ### Module III: Management of Software Development
 
-  + Unit 7: Design Thinking and the Systems Development Lifecycle (SDLC)
-  + Unit 8: Quality Control and Automated Testing
-  + Unit 9: Hardware and Delivery
+  + Unit 6: Command-line Git
+  + Unit 7: Testing
+  + Unit 8: Design Thinking Workshop (Lab)
+  + Unit 9: Heroku
   + Unit 10: Self-directed Project Support (Lab)
 
 ### Recap and Review
 
   + Unit 10: Retrospective and Review
   + Unit 11: Final Exam
-
 
 ## Activities and Deliverables
 
@@ -51,8 +50,8 @@ Assignments:
 
 Minor Projects:
 
-  + Point-of-Sale App
-  + Inventory Management App
+  + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
+  + [Inventory Management App](/projects/inventory-app/project.md)
 
 Major Projects:
 
