@@ -101,6 +101,10 @@ print(products)
 Run the script to see it print the list of products:
 
 ```sh
+# For Homebrew-installed Python 3.x on Mac OS:
+python3 groceries.py
+
+# All others:
 python groceries.py
 ```
 
