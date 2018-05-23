@@ -4,7 +4,7 @@ Your local corner grocery store has hired you to help them modernize their check
 
 Currently, the store affixes a price tag to each grocery item in stock. But the store owner wants to be able to change product prices at any given time. The store owner does not want to wait until all currently-priced items sell-out before being able to charge a different price for that type of item. And if there are any price tags that differ from prices charged at checkout, that would lead to confusion and a poor customer experience.
 
-The store owner describes a desired checkout process which involves a clerk scanning each item's barcode to look up its price. You agree using a barcode scanner would be a helpful process improvement. The store owner says the barcode scanners are somewhat expensive, so it would be ideal to test out the process before making a hardware purchase.
+The store owner describes a desired checkout process which involves a checkout clerk scanning each item's barcode to look up its price. You agree using a barcode scanner would be a helpful process improvement. The store owner says the barcode scanners are somewhat expensive, so it would be ideal to test out the process before making a hardware purchase.
 
 You offer to write a Python program that can run on the clerk's computer at the checkout counter. The program will look up the prices of items based on the unique identifier of each. You explain that the store can use this software to process the unique identifiers provided as a result of the barcode-scanning process, if the owner eventually decides to purchase the barcode scanners.
 
@@ -12,7 +12,7 @@ To provide the program with information inputs, you ask the store owner to maint
 
 The store owner agrees! Now it's time to write software to mimic the barcode-scanning process.
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](img/demo.gif)
 
 ## Instructions
 
@@ -102,6 +102,10 @@ print(products)
 Run the script to see it print the list of products:
 
 ```sh
+# For Homebrew-installed Python 3.x on Mac OS:
+python3 shopping_cart.py
+
+# All others:
 python shopping_cart.py
 ```
 
@@ -109,30 +113,7 @@ Great, now you are ready to start the exercise.
 
 If you need help or inspiration, see the [Checkpoints](checkpoints.md) document for a step-by-step guided walk-through.
 
-### Further Exploration
-
-#### Validate User Inputs
-
-For students desiring optional further exploration, the program should also validate the identifiers input by the clerk, displaying to the clerk a helpful message (e.g. "Hey, are you sure that product identifier is correct? Please try again!") if there are no products matching the given identifier.
-
-#### Write Receipt to File
-
-For students desiring even more optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds/microseconds, respectively). NOTE: you should exclude these receipt files from being tracked in version control by adding a file called `/receipts/.gitignore` and adding the following content:
-
-    *
-    !.gitignore
-
-
-See [Python file management](/notes/programming-languages/python/file-management.md) for examples of how to write to file.
-
-#### Handle Pricing per Pound
-
-For students desiring even more optional further exploration, add a new product to the list. Name it "Professor Rossetti's Bananas" and assign it other attribute values as desired. Assign it a price of `0.79`, but add another attribute called something like `price_per` to indicate the item is priced per "pound". Update all the other product dictionaries to match the new structure, indicating they are priced per "item". Finally, when running the program, if the clerk inputs the identifier of the bananas (or any other item that is priced by pound), the program should ask the clerk to input the number of pounds (e.g. `2.2`), then the program should calculate the price accordingly.
-
-
-
-
-
+If you are moving through this project with ease, consider addressing one or more of the [Further Exploration](further.md) challenges, but only after you have finished the core required functionality.
 
 ## Submission Instructions
 
@@ -159,7 +140,7 @@ then you will need to update your existing fork instead.
 ### Step 3 - Submitting a Pull Request
 
 Add a new record to the [submissions file](submissions.csv),
-to include your GitHub username and the repository's URL (e.g. https://github.com/s2t2/point-of-sale-app).
+to include your GitHub username and the repository's URL (e.g. `https://github.com/YOUR_USERNAME/point-of-sale-app`).
 After updating your own fork, you will need to submit a Pull Request
 for your content to be accepted into the main course repository.
 

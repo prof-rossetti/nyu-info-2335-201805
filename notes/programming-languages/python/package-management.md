@@ -2,7 +2,10 @@
 
 ## Package Management
 
-Reference: https://docs.python.org/3/installing/index.html#installing-index.
+Reference:
+
+  + https://docs.python.org/3/installing/index.html#installing-index
+  + https://packaging.python.org/tutorials/installing-packages
 
 When you install Python, you also get Python's package manager, `pip`. Use `pip` to install and manage third-party Python packages.
 
