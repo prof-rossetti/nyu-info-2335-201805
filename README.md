@@ -48,7 +48,7 @@ Assignments:
 Minor Projects:
 
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
-  + [Inventory Management App](/projects/inventory-app/project.md)
+  + Inventory Management App
 
 Major Projects:
 
