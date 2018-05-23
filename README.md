@@ -8,23 +8,20 @@ For more information, see the [syllabus](/syllabus-20180523.pdf).
 
 ## Schedule
 
-### Module I: Python Programming
+### Module I: Python Programming and Applications
 
   + [Unit 1](/units/unit-1/agenda.md): Command-line Computing
   + [Unit 2](/units/unit-2/agenda.md): Processing Python Datatypes
   + [Unit 3](/units/unit-3/agenda.md): Processing User Inputs
-
-### Module II: Python Applications
-
   + Unit 4: Processing CSV Data
   + Unit 5: Processing Data from the Internet
 
-### Module III: Management of Software Development
+### Module II: Management of Software Development
 
-  + Unit 6: Command-line Git
-  + Unit 7: Testing
+  + Unit 6: Version Control, Open Source, and Command-line Git
+  + Unit 7: SDLC and Automated Testing
   + Unit 8: Design Thinking Workshop (Lab)
-  + Unit 9: Heroku
+  + Unit 9: Delivery, Deployment Environments, and Heroku
   + Unit 10: Self-directed Project Support (Lab)
 
 ### Recap and Review
