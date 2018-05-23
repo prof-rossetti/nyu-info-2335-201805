@@ -2,6 +2,8 @@
 
 ## Objectives
 
+In this unit, we will build upon our introductory understanding of Python programming concepts and continue to apply them as we work through a guided Python project. This unit focuses primarily on processing and validating user inputs.
+
 ## Discussions and Notes
 
   + [Software Ethics](/notes/software/ethics.md)
