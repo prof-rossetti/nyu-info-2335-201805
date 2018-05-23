@@ -254,13 +254,6 @@ def greater_than_two(i):
 def really_big(i):
     return i > 102
 
-# Python 2.x:
-filter(all_of_them, arr) #> [1, 2, 4, 8, 16]
-filter(equals_two, arr) #> [2]
-filter(greater_than_two, arr) #> [4, 8, 16]
-filter(really_big, arr) #> []
-
-# Python 3.x:
 filter(all_of_them, arr) #> <filter at 0x103fa71d0>
 list(filter(all_of_them, arr)) #> [1, 2, 4, 8, 16]
 list(filter(equals_two, arr)) #> [2]
