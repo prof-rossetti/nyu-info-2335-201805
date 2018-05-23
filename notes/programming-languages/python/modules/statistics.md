@@ -4,7 +4,7 @@
 
 Reference: https://docs.python.org/3/library/statistics.html.
 
-Once you have learned about arrays, or "lists", you can perform statistics-related operations on them:
+Once you have learned about lists, you can perform statistics-related operations on them:
 
 ```python
 import statistics # load the module to avoid `NameError: name 'statistics' is not defined`
