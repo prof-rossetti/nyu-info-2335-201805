@@ -15,7 +15,7 @@ Steps:
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-1-demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-1-demo.gif)
 
 ### Checkpoint 2 - Product Lookups
 
@@ -52,7 +52,7 @@ Steps:
 
 When you have finished this checkpoint, your program should perform something like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-2-demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-2-demo.gif)
 
 ### Checkpoint 3 - Receipt Printing
 
@@ -62,7 +62,7 @@ Steps:
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](checkpoint-3-demo.gif)
+![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](img/checkpoint-3-demo.gif)
 
 Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
 
