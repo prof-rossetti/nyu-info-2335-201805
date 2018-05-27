@@ -33,18 +33,23 @@ print(str)
 Example string functions:
 
 ```python
-"Hello" + " " + "World" #> "Hello World" (string concatenation)
+# string concatenation
+"Hello" + " " + "World" #> "Hello World"
 
-"{0} {1}".format("Hello", "World") #> "Hello World" (string interpolation)
+# string formatting
+"{0} {1}".format("Hello", "World") #> "Hello World"
+"My Message is: {0}".format("Hello World") #> "My message is: Hello World"
 
+# string interpolation (note the preceding "f")
+greeting = "Hello"
+audience = "World"
+f"My message is: {greeting} {audience}" #> "My message is: Hello World"
+
+# string manipulation
 "hello world".upper() #> "HELLO WORLD"
-
 "Hello World".lower() #> "hello world"
-
 "hello world".title() #> "Hello World"
-
 "   Hello World   ".strip() #> "Hello World"
-
 "Hello World".replace("Hello", "Goodbye") #> "Goodbye World"
 ```
 
