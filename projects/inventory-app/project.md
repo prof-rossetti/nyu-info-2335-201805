@@ -63,10 +63,10 @@ The program's source code should be hosted on GitHub.com in its own dedicated re
   + A Python file located at `products_app/app.py`, which includes your application code.
   + A CSV file located at `products_app/db/products_default.csv`, which should be a copy of [this default products file](https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/projects/inventory-app/products_default.csv).
 
-### Datastore Requirements
+### CSV Datastore Requirements
 
 The program should interface with an inventory of products kept in a CSV file located at `products_app/db/products.csv`,
-however this CSV file should not be tracked in version control or included in your GitHub repository. HINT: you may need to use a [local `.gitignore` file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore), or just don't upload the CSV file.
+however this CSV file should not be tracked in version control or included in your GitHub repository. HINT: you may need to use a [local `.gitignore` file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore), or just don't upload the CSV file to GitHub.
 
 The program should assume existence of this CSV file in the specified location.
 And it should assume the CSV file contains the proper header row:
@@ -154,8 +154,8 @@ for your content to be accepted into the main course repository. Before you upda
 Extra credit for presence of a Python program which runs without error,
 satisfies all requirements,
 and exactly produces the desired functionality,
-in addition to the functionality described in the "further exploration" challenge:
-"validating price inputs".
+in addition to the functionality described in the "further exploration" challenges:
+"validating price inputs" and/or "relational database".
 
 Full credit for presence of a Python program which runs without error,
 satisfies all requirements,

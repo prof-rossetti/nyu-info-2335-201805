@@ -16,3 +16,11 @@ After focusing on validating prices, optionally devise a better system for stand
 ### Refactoring
 
 For students desiring optional further exploration, the program's source code should be simplified, or "refactored" to contain minimal or no duplications. The program should conform to the "DRY" principle, which means "Don't Repeat Yourself".
+
+### Relational Database
+
+For students desiring optional further exploration who know SQL, the program should interface with a relational database instead of a CSV file datastore.
+
+> HINT: Maybe try the [PyMySQL](/notes/programming-languages/python/packages/pymysql.md) or [psycopg2](/notes/programming-languages/python/packages/psycopg.md) packages.
+
+Include as many Python and/or SQL scripts as necessary to create and manage the database, and provide appropriate database-related instructions in the `README.md` file.
