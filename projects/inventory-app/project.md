@@ -101,12 +101,6 @@ prompting the user for additional inputs as necessary:
   + The **Update** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should prompt the user to input new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes, and overwrite that product's corresponding row in the CSV file.
   + The **Destroy** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should display a helpful message and remove that product's corresponding row from the CSV file.
 
-> HINT: Don't try to locate certain lines within the CSV file.
-Instead, read the entire CSV file into a list of dictionaries,
-then manipulate that list as appropriate,
-then write the entire list to the CSV file when the program is finished with execution.
-See also [the `csv` module](notes/programming-languages/python/modules/csv.md).
-
 The "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "Product Not Found" message) if no product matches the specified identifier.
 
 Additionally, the program should have a way of automatically overwriting
