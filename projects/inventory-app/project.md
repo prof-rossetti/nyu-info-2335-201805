@@ -49,7 +49,7 @@ Destroy Product:
 Your program should meet all the requirements set forth in the sections below.
 
 If you need help or inspiration, see the [Checkpoints](checkpoints.md) document for a step-by-step guided walk-through,
-or try using this [Starter App](https://github.com/prof-rossetti/inventory-mgmt-app-py) as a foundation to build on.
+or try using this [Starter App](https://github.com/prof-rossetti/inventory-mgmt-app-py) as a foundation to build upon.
 
 If you are moving through this project with ease,
 consider addressing one or more of the [Further Exploration](further.md) challenges,
@@ -66,7 +66,7 @@ The program's source code should be hosted on GitHub.com in its own dedicated re
 ### Datastore Requirements
 
 The program should interface with an inventory of products kept in a CSV file located at `products_app/db/products.csv`,
-however this CSV file should not be tracked in version control or included in your GitHub repository. HINT: you may need to use a [local `.gitignore` file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore).
+however this CSV file should not be tracked in version control or included in your GitHub repository. HINT: you may need to use a [local `.gitignore` file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore), or just don't upload the CSV file.
 
 The program should assume existence of this CSV file in the specified location.
 And it should assume the CSV file contains the proper header row:
@@ -120,7 +120,7 @@ One way to do this would be to allow the user to enter an operation called **Res
 
 ## Submission Instructions
 
-By this time, students should be able to replicate the submission instructions for previous exercises, also abbreviated below.
+By this time, students should be able to replicate the submission instructions from previous deliverables, also abbreviated below.
 
 ### Step 1 - Creating a new Project Repo
 
@@ -147,14 +147,15 @@ then you will need to update your existing fork instead.
 Add a new record to the [submissions file](submissions.csv),
 to include your GitHub username and the repository's URL (e.g. `https://github.com/YOUR_USERNAME/inventory-mgmt-app`).
 After updating your own fork, you will need to submit a Pull Request
-for your content to be accepted into the main course repository.
+for your content to be accepted into the main course repository. Before you update your fork, make sure you don't have any outstanding [pull requests](https://github.com/prof-rossetti/nyu-info-2335-201805/pulls).
 
 ## Evaluation
 
-Extra credit for presence of a Python program which runs without error
+Extra credit for presence of a Python program which runs without error,
+satisfies all requirements,
 and exactly produces the desired functionality,
-in addition to the functionality described in one or more "further exploration" challenges:
-"validating price inputs" and/or "validating aisle and department inputs".
+in addition to the functionality described in the "further exploration" challenge:
+"validating price inputs".
 
 Full credit for presence of a Python program which runs without error,
 satisfies all requirements,
