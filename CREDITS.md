@@ -28,3 +28,6 @@
 
   + [Professor Rossetti's Mac Terminal Customization](http://data-creative.info/reference-docs/2015/07/18/how-to-set-up-a-mac-development-environment/#terminal-customization)
   + [Clearing the Windows Command Prompt](https://superuser.com/a/585241)
+  + [String interpolation in Python 3.6](https://www.programiz.com/python-programming/string-interpolation)
+  + [The `isinstance` function](https://stackoverflow.com/questions/707674/how-to-compare-type-of-an-object-in-python)
+  + [Formatting numbers as currency with thousands separator]()

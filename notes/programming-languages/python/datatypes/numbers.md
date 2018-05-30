@@ -49,6 +49,7 @@ Use [string formatting](https://docs.python.org/3.4/library/string.html#string-f
 
 ```python
 'the price is ${0:.2f}'.format(6.5) #> 'the price is $6.50'
+'the price is ${0:,.2f}'.format(1234567890.12345678) #> 'the price is $1,234,567,890.12'
 ```
 
 Also reference the numeric functionality of these built-in Python modules:

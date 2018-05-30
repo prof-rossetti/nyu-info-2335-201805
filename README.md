@@ -4,7 +4,7 @@ This is a repository of instructional materials for a graduate business school e
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Students will also explore business models and best practices involved in the production and management of application software. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
 
-For more information, see the [syllabus](/syllabus-20180523.pdf).
+For more information, see the [syllabus](/syllabus-20180530.pdf).
 
 ## Schedule
 
@@ -13,7 +13,7 @@ For more information, see the [syllabus](/syllabus-20180523.pdf).
   + [Unit 1](/units/unit-1/agenda.md): Command-line Computing
   + [Unit 2](/units/unit-2/agenda.md): Processing Python Datatypes
   + [Unit 3](/units/unit-3/agenda.md): Processing User Inputs
-  + Unit 4: Processing CSV Data
+  + [Unit 4](/units/unit-4/agenda.md): Processing CSV Data
   + Unit 5: Processing Data from the Internet
 
 ### Module II: Management of Software Development
@@ -37,6 +37,7 @@ Ungraded exercises:
   + [Python Development Environment Setup](/exercises/dev-environment-setup/exercise.md)
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
   + [Python Datatypes](/exercises/python-datatypes/exercise.md)
+  + [CSV Processing](/exercises/csv-processing/exercise.md)
 
 Assignments:
 
@@ -48,7 +49,7 @@ Assignments:
 Minor Projects:
 
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
-  + Inventory Management App
+  + [Inventory Management App](/projects/inventory-app/project.md)
 
 Major Projects:
 

@@ -36,6 +36,14 @@ Alternatively call `.__class__.__name__` on any object to detect its class name:
 [1,2,3].__class__.__name__ #> 'list'
 ```
 
+Use the `isinstance` function when comparing datatypes:
+
+```py
+isinstance("Hello", str) #> True
+isinstance([1,2,3], list) #> True
+isinstance([1,2,3], str) #> False
+```
+
 ### Conversion
 
 Here are a few examples of how to convert between datatypes:
