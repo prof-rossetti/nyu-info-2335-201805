@@ -27,9 +27,11 @@ Your submission should loop through each of the provided CSV files, and for each
 
 ### Setup
 
+To setup this exercise, either "fork" and download this [Starter Repo](https://github.com/prof-rossetti/monthly-sales-reporting-py), or follow the instructions below.
+
 Create a new directory on your Desktop called something like "csv-processing", then navigate there from the command-line.
 
-Within that directory, create a new directory called "data" and place inside it all of the provided CSV files (e.g. `data/sales-201803.csv`, etc.).
+Within that directory, create a new directory called "data" and place inside it all of the provided CSV files (e.g. `data/sales-201803.csv`, etc.). HINT: you could either copy and paste the "raw" file contents, or you could download the files and move them into the proper directory.
 
 Also create a new file called `sales_report.py` and place inside the following code:
 
