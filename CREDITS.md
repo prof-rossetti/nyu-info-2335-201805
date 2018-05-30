@@ -30,3 +30,4 @@
   + [Clearing the Windows Command Prompt](https://superuser.com/a/585241)
   + [String interpolation in Python 3.6](https://www.programiz.com/python-programming/string-interpolation)
   + [The `isinstance` function](https://stackoverflow.com/questions/707674/how-to-compare-type-of-an-object-in-python)
+  + [Formatting numbers as currency with thousands separator]()
