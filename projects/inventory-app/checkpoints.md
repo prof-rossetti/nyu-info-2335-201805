@@ -6,7 +6,7 @@
 
   1. Print a menu which contains a greeting message and a hard-coded number of products and a list of available operations.
   1. Using the aforementioned menu, prompt the user to choose one of the available operations, and print the name of the chosen operation.
-  1. Implement a single "handler" function to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your "handler" function invoke a function called `create_product()` to print the name of the chosen operation.
+  1. Implement a single "handler" function (or a simple "if" statement) to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your program should invoke a function called `create_product()` to print the name of the chosen operation (e.g. "CREATING A NEW PRODUCT").
   1. Handle invalid operation inputs by displaying a helpful message like "Unrecognized Operation. Please choose one of: 'List', 'Show', 'Create', 'Update', or 'Destroy'."
 
 After demonstrating your ability to properly prompt the user for inputs, feel free to comment-out all your user input-related code as you move on to implementing and testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
@@ -27,13 +27,12 @@ See also [the `csv` module](/notes/programming-languages/python/modules/csv.md).
 
 #### Writing
 
-  1. Write some random content to a temporary file, perhaps named `data/writing-stuff.csv`.
-  1. Read the existing inventory of products from `products.csv` and write to a separate, temporary file, perhaps named `data/writing-products.csv`.
-  1. Read the existing inventory of products from `products.csv` and overwrite that same file with its original contents.
+  1. Read the existing inventory of products from `products_app/db/products_default.csv` and write its contents to a new `products_app/db/products.csv` file.
+  1. Read the existing inventory of products from the `products_app/db/products.csv` file and overwrite that same file with its same contents.
 
 ### Checkpoint III - CRUD Operations
 
-  1. Implement the "List" operation. Hint: loop through a list of product items like you have done before.
+  1. Implement the "List" operation. HINT: loop through a list of product dictionaries like you have done before.
   1. Implement the "Show" operation.
   1. Implement the "Create" operation.
   1. Implement the "Destroy" operation.
