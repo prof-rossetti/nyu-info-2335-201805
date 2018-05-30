@@ -19,7 +19,7 @@ The expected name for any of these files resembles "sales-`YYYYMM`.csv", where `
 
 Write a Python script which automates the process of transforming this monthly sales data into a report of business insights.
 
-Your submission should be able to process any of the monthly CSV files, and print the following information outputs:
+Your submission should loop through each of the provided CSV files, and for each print the following information outputs:
 
   1. The name of the year and month, formatted in a human-friendly way (e.g. "Sales Report for March, 2018")
   2. Total monthly sales, equivalent to the sum of total monthly sales for each product, formatted as USD with a dollar sign and two decimal places (e.g. "Total Monthly Sales: $12,000.71").
@@ -29,14 +29,16 @@ Your submission should be able to process any of the monthly CSV files, and prin
 
 Create a new directory on your Desktop called something like "csv-processing", then navigate there from the command-line.
 
-Within that directory, create a new directory called "data" and place inside it one or more of the provided CSV files (e.g. `data/sales-201803.csv`).
+Within that directory, create a new directory called "data" and place inside it all of the provided CSV files (e.g. `data/sales-201803.csv`, etc.).
 
 Also create a new file called `sales_report.py` and place inside the following code:
 
 ```python
 # sales_report.py
 
-print("PROCESSING A CSV FILE HERE") # TODO: write some Python code to produce the desired output
+print("PROCESSING SOME CSV FILES HERE")
+
+# TODO: write some Python code to produce the desired output
 ```
 
 Run the script to see it print:
@@ -51,14 +53,9 @@ python sales_report.py
 
 Great, now you are ready to start the exercise.
 
-> If you plan on submitting this exercise for extra credit,
-now would be a good time to create a new Git repository via the GitHub.com online interface
-to represent your submittable work product.
-After creating the repository, add the `sales_report.py` file and CSV file(s) to it.
-
 ## Submission Instructions
 
-> Submission of this exercise is optional. The first student to submit a full working solution will receive extra credit to be applied toward the final exam. By this time, students should be able to replicate the submission instructions for previous deliverables, also abbreviated below.
+> Submission of this exercise is optional. The professor may announce conditions under which a full working solution will earn extra credit to be applied toward the final exam. By this time, students should be able to replicate the submission instructions for previous deliverables, also abbreviated below.
 
 ### Step 1 - Creating a new Project Repo
 
@@ -68,7 +65,7 @@ When you create a new repository, in order to easily use the GitHub.com online i
 check the box to **Initialize this repository with a README**.
 Once the repository is created, add a file to it called `sales_report.py`.
 Paste your Python code into that file, then save and commit it. Revise this file until it produces the desired outputs.
-At this time you should be able to view your files online at your project repository's URL.
+At this time you should be able to view your file online at your project repository's URL.
 
 ### Step 2 - Forking the Course Repo
 
