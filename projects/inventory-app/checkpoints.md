@@ -17,7 +17,7 @@ After demonstrating your ability to properly prompt the user for inputs, feel fr
 Instead, read the entire CSV file into a list of dictionaries,
 then manipulate that list as appropriate,
 then write the entire list to the CSV file when the program is finished with execution.
-See also [the `csv` module](notes/programming-languages/python/modules/csv.md).
+See also [the `csv` module](/notes/programming-languages/python/modules/csv.md).
 
 #### Reading
 
