@@ -124,6 +124,8 @@ Iteratively revise and re-run the script to implement desired functionality.
 When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality (i.e. "challenges"), commit your changes before moving on to the next step.
 After you are done, your repository's history of commit messages should roughly resemble the checkpoint steps below.
 
+If you need help or inspiration, consider following along with this [Screencast](https://www.youtube.com/watch?v=TtDWY-g8IFM) which depicts one possible solution.
+
 #### Checkpoint 1 - Printing Products
 
 Challenges:

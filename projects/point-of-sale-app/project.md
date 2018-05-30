@@ -111,9 +111,10 @@ python shopping_cart.py
 
 Great, now you are ready to start the exercise.
 
-If you need help or inspiration, see the [Checkpoints](checkpoints.md) document for a step-by-step guided walk-through.
+If you need help or inspiration, see the [Checkpoints](checkpoints.md) document for a step-by-step guided walk-through. Also consider following along with these Screencasts ([Part 1](https://youtu.be/avC4xbZx-No), [Part 2](https://youtu.be/Vl8AiW9iukQ)) which depict one possible solution.
 
 If you are moving through this project with ease, consider addressing one or more of the [Further Exploration](further.md) challenges, but only after you have finished the core required functionality.
+
 
 ## Submission Instructions
 
