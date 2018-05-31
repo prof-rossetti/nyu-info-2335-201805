@@ -6,7 +6,7 @@
 
   1. Print a menu which contains a greeting message and a hard-coded number of products and a list of available operations.
   1. Using the aforementioned menu, prompt the user to choose one of the available operations, and print the name of the chosen operation.
-  1. Implement a single "handler" function (or a simple "if" statement) to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your program should invoke a function called `create_product()` to print the name of the chosen operation (e.g. "CREATING A NEW PRODUCT").
+  1. Implement a single "handler" function (or a simple "if" statement) to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your program invoke a function called `create_product()` to print the name of the chosen operation (e.g. "CREATING A NEW PRODUCT").
   1. Handle invalid operation inputs by displaying a helpful message like "Unrecognized Operation. Please choose one of: 'List', 'Show', 'Create', 'Update', or 'Destroy'."
 
 After demonstrating your ability to properly prompt the user for inputs, feel free to comment-out all your user input-related code as you move on to implementing and testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
