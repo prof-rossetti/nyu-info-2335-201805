@@ -23,11 +23,11 @@ pip3 install pytest
 pip install pytest
 ```
 
-If you are using Pipenv, you will want to first navigate inside your repository's root directory before installing `pytest`:
+Otherwise, if you are using Pipenv, you will want to first navigate inside your repository's root directory before installing `pytest`:
 
 ```sh
 cd path/to/my-repo/
-pipenv install pytest --dev
+pipenv install pytest --dev # optionally use the --dev flag to denote this package will be used in development only
 ```
 
 ### Usage
@@ -40,6 +40,7 @@ To setup this first example, create a new directory on your Desktop called "test
 
 ```python
 # testing-123/my_script.py
+
 def enlarge(i):
     return i * 100
 ```
@@ -99,10 +100,16 @@ For your test to properly load application code, you need to also create a new e
 
 > NOTE: you may also need to add a `tests/__init__.py` file to resolve the error "ImportError while importing test module"
 
-You may also need to refactor all code inside `app/my_script.py` such that nothing is automatically executed when the file is loaded, but the desired functionality is still executed when the file is run from the command-line. Use the convention `if __name__ == "__main__": ...` to perform a check to determine whether the file is being loaded (e.g. from a test) or whether it is being invoked from the command-line. Your application script should end up looking like this:
+Once you have finished setting up this example, run `pytest` from the repository's root directory.
+
+### Caveats
+
+When testing a script, you may need to refactor all code inside it such that nothing is automatically executed when the file is loaded, but the desired functionality is still executed when the file is run from the command-line.
+
+Use the convention `if __name__ == "__main__": ...` to perform a check to determine whether the file is being loaded (e.g. from a test) or whether it is being invoked from the command-line. Your application script should end up looking like this:
 
 ```python
-# testing-123/app/my_script.py
+# testing-123/my_script.py OR testing-123/app/my_script.py, depending on the example
 
 def enlarge(i):
     return i * 100
@@ -110,5 +117,3 @@ def enlarge(i):
 if __name__ == "__main__": # "if this script is run from the command-line, then ..."
     enlarge()
 ```
-
-Once you have setup the example, run `pytest` from the repository's root directory.
