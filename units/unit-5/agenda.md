@@ -19,4 +19,4 @@ Learn how to incorporate automated testing into your development process to save
 
 ## Projects
 
-  + [Inventory Management App](/projects/inventory-app/project.md) - (a.k.a "CRUD" App), continued.
+  + [Inventory Management App](/projects/inventory-app/project.md) - (a.k.a "CRUD" App), continued
