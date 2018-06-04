@@ -1,6 +1,6 @@
 # Software Testing Overview
 
-> Software testing is any activity aimed at evaluating an attribute or capability of a program or system and determining that it meets its required results. [Hetzel88](https://users.ece.cmu.edu/~koopman/des_s99/sw_testing/#reference)
+> Software testing is any activity aimed at evaluating an attribute or capability of a program or system and determining that it meets its required results. - [Hetzel88](https://users.ece.cmu.edu/~koopman/des_s99/sw_testing/#reference)
 
 During the software development process, developers often perform actions to determine whether a program achieves its desired functionality. In a practical sense, this often involves running a program multiple times under a variety of scenarios to cover all possible combinations of user interactions and inputs.
 
@@ -28,7 +28,7 @@ Sometimes software developers write tests after completing the development proce
 
 Your professor prefers to practice TDD and a related approach of **Document-driven Development** whereby the software development process follows the testing process which in-turn follows from the process of writing the software's documentation (most likely in a `README.md` file).
 
-The test-driven development process is closely related with the refactoring process. When performing the two processes in conjunction with each other, as a best practice developers follow the approach of "Red Light, Green Light, Refactor". This refers to a process of first writing a failing test, then writing functional code to make the test pass, then refactoring the functional code and re-running tests to make sure they are still passing.
+The test-driven development process is closely related with the [refactoring process](/notes/software/refactoring.md). When performing the two processes in conjunction with each other, as a best practice developers follow the approach of "Red Light, Green Light, Refactor". This refers to a process of first writing a failing test, then writing functional code to make the test pass, then refactoring the functional code and re-running tests to make sure they are still passing.
 
 ### Continuous Integration
 

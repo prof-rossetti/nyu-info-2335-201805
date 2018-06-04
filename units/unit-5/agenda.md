@@ -2,11 +2,11 @@
 
 ## Objectives
 
-Learn how to incorporate automated testing into your development process to save you time and improve the quality of your applications.
+Learn how to incorporate automated testing into your development process to save time and improve the quality of your applications.
 
 ## Projects
 
-By now, some of you are further along in your [Inventory Management App](/projects/inventory-app/project.md) development than others. Regardless of how far along you are, there will be around 90 minutes of class time to continue working on your project.
+By now, some of you are further along in your [Inventory Management App](/projects/inventory-app/project.md) development than others. Regardless of how far along you are, there will be around 60-90 minutes of class time to continue working on your project.
 
 If you have already finished implementing the core required functionality, use the time to address one or more of the ["Further Exploration" exercises](/projects/inventory-app/further.md), then get a head start on reading through the written materials on testing and package management (below), then complete the Automated Testing Exercise (below), then move on to testing your Inventory Management App.
 
