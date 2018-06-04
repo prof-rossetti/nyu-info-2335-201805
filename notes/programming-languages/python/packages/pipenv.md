@@ -7,20 +7,20 @@ Reference:
   + https://docs.pipenv.org/
   + https://docs.pipenv.org/basics/
   + https://docs.pipenv.org/diagnose/
-  + http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
+  + http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref <-- an awesome guide to help you get started
   + http://docs.python-guide.org/en/latest/starting/install3/win/
   + https://github.com/pypa/pipenv
 
 ### Installation
 
-When installing Pipenv, one option is to install it via Pip, like you would any other Python package:
+When installing Pipenv, one option is to install it via Pip, almost like you would any other Python package:
 
 ```sh
 # For Homebrew-installed Python 3.x on Mac OS:
-pip3 install pipenv
+pip3 install --user pipenv
 
 # All others:
-pip install pipenv
+pip install --user pipenv
 ```
 
 However, alternatively, if you have used Homebrew to install Python on Mac OS, then you can try using Homebrew to install Pipenv as well. This is the approach the professor recommends for Mac users:
