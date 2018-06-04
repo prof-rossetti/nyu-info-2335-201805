@@ -23,7 +23,7 @@ For students desiring even more optional further exploration, the repository sho
 
 The test file(s) should exist inside a new "tests" directory, and should be implemented using the `pytest` package.
 
-In order to test the application, its source code may first need to be refactored into functions to remove as much source code as possible from the program's global scope. This enables the resulting functions to be individually invoked and tested.
+In order to test the application, its source code may first need to be refactored into functions to remove as much source code as possible from the program's global scope. This enables the resulting functions to be individually loaded and tested without being invoked.
 
 ### Relational Database
 
