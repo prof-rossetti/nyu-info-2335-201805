@@ -10,9 +10,9 @@ By now, some of you are further along in your [Inventory Management App](/projec
 
 If you have already finished implementing the core required functionality, use the time to address one or more of the ["Further Exploration" exercises](/projects/inventory-app/further.md), then get a head start on reading through the written materials on testing and package management (below), then complete the Automated Testing Exercise (below), then move on to testing your Inventory Management App.
 
-Otherwise, use the time to address the basic requirements.
+Otherwise, use the time to address the basic project requirements.
 
-After everyone has more time to work on the app, we will re-convene to share some partial solutions and learn how to test our application.
+After everyone has more time to work on the app, we will re-convene to share some partial solutions and learn how to test it.
 
 ## Discussions and Notes
 
