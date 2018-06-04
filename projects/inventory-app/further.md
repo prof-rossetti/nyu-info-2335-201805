@@ -17,6 +17,14 @@ After focusing on validating prices, optionally devise a better system for stand
 
 For students desiring optional further exploration, the program's source code should be simplified, or "refactored" to contain minimal or no duplications. The program should conform to the "DRY" principle, which means "Don't Repeat Yourself".
 
+### Testing
+
+For students desiring even more optional further exploration, the repository should contain one or more "tests" which communicate and verify the functionality of one or more of the program's functions.
+
+The test file(s) should exist inside a new "tests" directory, and should be implemented using the `pytest` package.
+
+In order to test the application, its source code may first need to be refactored into functions to remove as much source code as possible from the program's global scope. This enables the resulting functions to be individually invoked and tested.
+
 ### Relational Database
 
 For students desiring optional further exploration who know SQL, the program should interface with a relational database instead of a CSV file datastore.

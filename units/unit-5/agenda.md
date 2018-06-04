@@ -6,15 +6,16 @@ Learn how to incorporate automated testing into your development process to save
 
 ## Discussions and Notes
 
-  + [Automated Testing](/notes/software/testing.md)
+  + [Software Testing](/notes/software/testing.md)
   + Python Language:
-    + [Python Package Management](/notes/programming-languages/python/package-management.md), re-examined
-    + [The `pipenv` Package](/notes/programming-languages/python/packages/pipenv.md)
-    + [The `pytest` Package](/notes/programming-languages/python/packages/pytest.md)
+    + [Testing](/notes/programming-languages/python/testing.md)
+    + [Python Package Management](/notes/programming-languages/python/package-management.md), re-examined, including [The `pipenv` Package](/notes/programming-languages/python/packages/pipenv.md) if necessary
+    + Third-party Python Packages:
+      + [The `pytest` Package](/notes/programming-languages/python/packages/pytest.md)
 
 ## Ungraded Exercises
 
-  + [Testing Python Exercise](/exercises/automated-testing/exercise.md)
+  + [Automated Testing Exercise](/exercises/automated-testing/exercise.md)
 
 ## Projects
 

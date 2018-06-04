@@ -155,7 +155,7 @@ Extra credit for presence of a Python program which runs without error,
 satisfies all requirements,
 and exactly produces the desired functionality,
 in addition to the functionality described in the "further exploration" challenges:
-"validating price inputs" and/or "relational database".
+"validating price inputs" and/or "testing" and/or "relational database".
 
 Full credit for presence of a Python program which runs without error,
 satisfies all requirements,
