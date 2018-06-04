@@ -6,11 +6,9 @@ Learn how to incorporate automated testing into your development process to save
 
 ## Projects
 
-By now, some of you are further along in your Inventory Management App development than others. Regardless of how far along you are, there will be around 90 minutes of class time to continue working on your project.
+By now, some of you are further along in your [Inventory Management App](/projects/inventory-app/project.md) development than others. Regardless of how far along you are, there will be around 90 minutes of class time to continue working on your project.
 
-  + [Inventory Management App](/projects/inventory-app/project.md) - (a.k.a "CRUD" App), continued
-
-If you have already finished implementing the core required functionality, use the time to address one or more of the ["Further Exploration" exercises](/projects/inventory-app/further.md), and get a head start on reading through the written materials on testing and package management (below).
+If you have already finished implementing the core required functionality, use the time to address one or more of the ["Further Exploration" exercises](/projects/inventory-app/further.md), then get a head start on reading through the written materials on testing and package management (below), then complete the Automated Testing Exercise (below), then move on to testing your Inventory Management App.
 
 Otherwise, use the time to address the basic requirements.
 
@@ -18,6 +16,7 @@ After everyone has more time to work on the app, we will re-convene to share som
 
 ## Discussions and Notes
 
+  + [Software Refactoring](/notes/software/refactoring.md)
   + [Software Testing](/notes/software/testing.md)
   + Python Language:
     + [Testing in Python](/notes/programming-languages/python/testing.md)
@@ -28,6 +27,6 @@ After everyone has more time to work on the app, we will re-convene to share som
 
 ## Ungraded Exercises
 
-When you are ready to get into testing, this exercise is a great place to start:
+Whenever you are ready to get into testing, this exercise is a great place to start:
 
   + [Automated Testing Exercise](/exercises/automated-testing/exercise.md)
