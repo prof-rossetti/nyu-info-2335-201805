@@ -6,7 +6,13 @@ Practice writing and executing automated tests for your Python applications.
 
 ## Prerequisites
 
-To setup these examples, create a new directory on your Desktop called "testing123" and navigate there from your command line.
+To setup these examples, create a new directory on your Desktop called "testing-123" and navigate there from your command line:
+
+```sh
+cd Desktop
+mkdir testing-123
+cd testing-123/
+```
 
 If you haven't already, you will need to install [the `pytest` package](/notes/programming-languages/python/packages/pytest.md), using either Pip or Pipenv, whichever works for you:
 
