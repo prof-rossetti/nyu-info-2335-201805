@@ -2,6 +2,8 @@
 
 ## The `pipenv` Package
 
+Pipenv provides an alternative command-line utility for installing third-party Python packages and managing Python versions and package dependencies. The Python community is moving towards using Pipenv as a best practice.
+
 Reference:
 
   + https://docs.pipenv.org/
