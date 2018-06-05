@@ -26,8 +26,8 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
 
 ### Recap and Review
 
-  + Unit 10: Retrospective and Review
-  + Unit 11: Final Exam
+  + Unit 11: Retrospective and Review
+  + Unit 12: Final Exam
 
 ## Activities and Deliverables
 
