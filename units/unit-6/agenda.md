@@ -18,13 +18,3 @@ Learn how to use Python to process data from the Internet. We will primarily foc
 ## Projects
 
   + Stock Recommendation App
-
-## Further Exploration (Advanced)
-
-If you are familiar with HTML, you might be interested in the packages below.
-
-  + Third-party Python Packages:
-     + [The `BeautifulSoup` Package](/notes/programming-languages/python/packages/beautifulsoup.md) - for scraping website contents
-     + [The `Flask` Package](/notes/programming-languages/python/packages/flask.md) - for building your own web applications
-
-There will be an opportunity to further explore these packages later in the semester, if desired.
