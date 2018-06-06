@@ -69,7 +69,7 @@ After receiving a successful API response, the system should write historical st
     2018-05-31, 99.2900, 99.9900, 98.6100, 98.8400, 34140891
     2018-05-30, 98.3100, 99.2500, 97.9100, 98.9500, 22158528
 
-If the system processes only a single stock symbol at a time, the system may use a single CSV file named `data/prices.csv`. Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding CSV file that is named after the stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If writing multiple CSV files, the program should have a way of cleaning-up to prevent uncontrolled proliferation of new files.
+If the system processes only a single stock symbol at a time, the system may use a single CSV file named `data/prices.csv`, or it may use multiple CSV files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If the system processes multiple stock symbols at a time, it should use multiple files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If using more than one CSV file, the program should have a way of cleaning-up to prevent uncontrolled proliferation of new files.
 
 After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce the following outputs:
 
