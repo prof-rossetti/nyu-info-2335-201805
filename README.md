@@ -4,7 +4,7 @@ This is a repository of instructional materials for a graduate business school e
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Students will also explore business models and best practices involved in the production and management of application software. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
 
-For more information, see the [syllabus](/syllabus-20180530.pdf).
+For more information, see the [syllabus](/syllabus-20180604.pdf).
 
 ## Schedule
 
@@ -14,20 +14,20 @@ For more information, see the [syllabus](/syllabus-20180530.pdf).
   + [Unit 2](/units/unit-2/agenda.md): Processing Python Datatypes
   + [Unit 3](/units/unit-3/agenda.md): Processing User Inputs
   + [Unit 4](/units/unit-4/agenda.md): Processing CSV Data
-  + Unit 5: Processing Data from the Internet
+  + Unit 6: Processing Data from the Internet
 
 ### Module II: Management of Software Development
 
-  + Unit 6: Version Control, Open Source, and Command-line Git
-  + Unit 7: SDLC and Automated Testing
+  + [Unit 5](/units/unit-5/agenda.md): Automated Testing
+  + Unit 7: SDLC, Version Control, Open Source, and Command-line Git
   + Unit 8: Design Thinking Workshop (Lab)
   + Unit 9: Delivery, Deployment Environments, and Heroku
   + Unit 10: Self-directed Project Support (Lab)
 
 ### Recap and Review
 
-  + Unit 10: Retrospective and Review
-  + Unit 11: Final Exam
+  + Unit 11: Retrospective and Review
+  + Unit 12: Final Exam
 
 ## Activities and Deliverables
 
@@ -38,6 +38,7 @@ Ungraded exercises:
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
   + [Python Datatypes](/exercises/python-datatypes/exercise.md)
   + [CSV Processing](/exercises/csv-processing/exercise.md)
+  + [Automated Testing](/exercises/automated-testing/exercise.md)
 
 Assignments:
 
@@ -46,13 +47,10 @@ Assignments:
   + Self-directed Project Proposal
   + [Industry Insights](/assignments/industry-insights/assignment.md)
 
-Minor Projects:
+Projects:
 
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + [Inventory Management App](/projects/inventory-app/project.md)
-
-Major Projects:
-
   + Stock Recommendation App
   + Self-directed Project
 

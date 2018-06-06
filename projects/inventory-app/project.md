@@ -61,7 +61,7 @@ The program's source code should be hosted on GitHub.com in its own dedicated re
 
   + A Markdown file located at `README.md`, which describes how to install and use the program.
   + A Python file located at `products_app/app.py`, which includes your application code.
-  + A CSV file located at `products_app/db/products_default.csv`, which should be a copy of [this default products file](https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/projects/inventory-app/products_default.csv).
+  + A CSV file located at `products_app/db/products_default.csv`, which should be a copy of [this default products file](https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/projects/inventory-app/data/products_default.csv).
 
 ### CSV Datastore Requirements
 
@@ -155,7 +155,7 @@ Extra credit for presence of a Python program which runs without error,
 satisfies all requirements,
 and exactly produces the desired functionality,
 in addition to the functionality described in the "further exploration" challenges:
-"validating price inputs" and/or "relational database".
+"validating price inputs" and/or "testing" and/or "relational database".
 
 Full credit for presence of a Python program which runs without error,
 satisfies all requirements,
