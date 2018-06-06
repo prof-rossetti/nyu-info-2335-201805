@@ -108,7 +108,7 @@ The **52-week high** should be equal to the maximum "high" price, for each avail
 
 The **52-week low** should be calculated in a similar manner as the 52-week high, but it should instead be equal to the minimum of all "low" prices within the past year.
 
-> HINT: If you were previously requesting daily data, you will have to change your approach to either request more of it (i.e. by requesting a "full" response by specifying the URL parameter `&outputsize=full`), or to instead request weekly data. Theoretically the maximum weekly "high" price should be the same as the maximum daily "high" price within the same period.
+> HINT: If you were previously requesting daily data, you will have to change your approach to either request more of it (i.e. by specifying the URL parameter `&outputsize=full`), or to instead request weekly data. Theoretically the maximum weekly "high" price should be the same as the maximum daily "high" price within the same period.
 
 > NOTE: If you do request "full" responses of daily data, the size of the response may drastically increase, and the speed of your requests may slow down noticeably. If you think these changes negatively impact user experience, you might want to consider requesting weekly data instead.
 
