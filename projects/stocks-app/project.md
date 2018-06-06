@@ -114,7 +114,7 @@ The **52-week low** should be calculated in a similar manner as the 52-week high
 
 ##### Automated Tests
 
-For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`).
+For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`). And the `README.md` file should include instructions and commands for how to run the tests.
 
 One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like `tests/example_responses/daily_response.json`. Then configure your tests to read its inputs from this local file instead of reading the response that would have been returned by the API.
 
