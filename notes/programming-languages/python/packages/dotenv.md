@@ -36,6 +36,7 @@ Create two files in the "my-project" directory named `.env` and `my_script.py`, 
 
 ```sh
 # my-project/.env
+
 NYU_INFO_2335="SecretPassword123"
 ```
 
@@ -47,7 +48,7 @@ import os
 
 load_dotenv()
 
-my_env = os.environ.get("")
+my_var = os.environ.get("NYU_INFO_2335")
 
-print()
+print(my_var) #> SecretPassword123
 ```
