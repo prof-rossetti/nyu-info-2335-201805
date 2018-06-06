@@ -73,27 +73,40 @@ If the system processes only a single stock symbol at a time, the system may use
 
 After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce the following outputs:
 
-  + The selected stock symbol(s) (e.g. "Stock: MSFT")
-  + The Date and Time the program was executed, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
-  + The Date when the data was last refreshed, usually the same as the latest available day of price data (e.g. "Latest Data from: June 4th, 2018")
-  + For each stock symbol: its latest closing price, its 52-week high price, and its 52-week low price, formatted as currency with a dollar sign and two decimal places, and a thousands separator as applicable (e.g. "52-week high: $1,234.56", etc.)
-  + A recommendation as to whether or not the client should buy the stock (see guidance below), and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale).
-  + The reason **why** the program produced the given recommendation (e.g. "because the stock's latest closing price is exceeds threshold XYZ")
+  + The **selected stock symbol(s)** (e.g. "Stock: MSFT")
+  + The **date and time when the program was executed**, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
+  + The **date when the data was last refreshed**, usually the same as the latest available day of daily trading data (e.g. "Latest Data from: June 4th, 2018")
+  + For each stock symbol: its **latest closing price**, its **recent average high price**, and its **recent average low price**, calculated according to the instructions below, and formatted as currency with a dollar sign and two decimal places and a thousands separator as applicable (e.g. "26-week high: $1,234.56", etc.)
+  + A **recommendation** as to whether or not the client should buy the stock (see guidance below), and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale).
+  + A **recommendation explanation**, describing in a human-friendly way the reason why the program produced the recommendation it did (e.g. "because the stock's latest closing price is exceeds threshold XYZ")
 
 #### Calculation Requirements
 
-The latest closing price should be the stock's "close" price on the latest available day of price data.
+The **latest closing price** should be equal to the stock's "close" price on the latest available day of trading data.
 
-The 52-week high should be equal to the maximum "high" price, for each available day in the past year. For example, if the last available day of price data is 2018-06-05, the program should find the maximum price of all the available daily "high" prices between around 2017-06-05 and 2018-06-05. HINT: to get enough historical data to cover the 52 week period, you may have to either specify the URL parameter `&outputsize=full` as part of your API requests for daily data, or request weekly data instead of daily data - theoretically the maximum weekly "high" price should be the same as the maximum daily "high" price. But if you find this not to be the case, use daily data.
+The **recent average high price** should be equal to the maximum daily "high" price, for all available days in approximately the past 100 available days of trading data.
 
-The 52-week low should be calculated in a similar manner as the 52-week high, but it should instead be equal to the minimum of all daily "low" prices within the past year.
+The **recent average low price** should be calculated in a similar manner as the **recent average high price**, but it should instead be equal to the minimum of all daily "low" prices.
 
-You are free to develop your own custom recommendation algorithm. This is perhaps one of the most fun and creative parts of this project. :smiley: One simple example algorithm would be (in pseudocode): If the stock's latest closing price is less than 20% above its 52-week low, "Buy", else "Don't Buy".
+> NOTE: By default, the [daily data returned by the AlphaVantage API](https://www.alphavantage.co/documentation/#daily) uses an `outputsize` parameter value of `compact`. This "compact" response should provide daily data covering the previous 100 trading days, which is sufficient to use to calculate the **recent average high** and **recent average low** prices. It is acceptable and recommended to use these default, "compact" responses to calculate these recent average prices.
 
-
-
+You are free to develop your own custom **recommendation** algorithm. This is perhaps one of the most fun and creative parts of this project. :smiley: One simple example algorithm would be (in pseudocode): If the stock's latest closing price is less than 20% above its 52-week low, "Buy", else "Don't Buy".
 
 #### Further Exploration
+
+##### 52-Week Highs and Lows
+
+For students desiring optional further exploration, instead of calculating and printing the stock's **recent average high** and **recent average low**, calculate and print the stock's **52-week high** and **52-week low**, respectively.
+
+The **52-week high** should be equal to the maximum "high" price, for each available day in approximately the past year. For example, if the last available day of trading data is June 1st, 2018, the program should find the maximum price of all the available "high" prices between around June 1st, 2017 and June 1st, 2018.
+
+The **52-week low** should be calculated in a similar manner as the 52-week high, but it should instead be equal to the minimum of all "low" prices within the past year.
+
+> HINT: If you were previously requesting daily data, you will have to change your approach to either request more of it (i.e. by requesting a "full" response by specifying the URL parameter `&outputsize=full`), or to instead request weekly data. Theoretically the maximum weekly "high" price should be the same as the maximum daily "high" price within the same period.
+
+> NOTE: If you do request "full" responses of daily data, the size of the response may drastically increase, and the speed of your requests may slow down noticeably. If you think these changes negatively impact user experience, you might want to consider requesting weekly data instead.
+
+##### Automated Tests
 
 For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`).
 
