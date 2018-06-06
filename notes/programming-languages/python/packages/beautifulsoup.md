@@ -13,7 +13,7 @@ Reference: https://www.crummy.com/software/BeautifulSoup/bs4/doc/.
 First install the package, if necessary:
 
 ```` sh
-# For Pipenv users (Mac or Windows):
+# For Pipenv users (Mac or Windows), run from a project's root directory:
 pipenv install beautifulsoup4 # note the 4 at the end - this is the latest version
 
 # For Homebrew-installed Python 3.x on Mac OS:
