@@ -114,10 +114,11 @@ One best practice when testing applications that issue HTTP requests is to avoid
 
 If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help.
 
+##### Multiple Stocks
 
+For students desiring optional further exploration, instead of processing a single stock at a time, allow the user to process multiple stocks at the same time.
 
-
-
+If you decide to implement this approach, pay attention to the "Information Output Requirements" about using multiple CSV files instead of a single file. And you are encouraged to issue a single API request to the ["batch quotes" endpoint](https://www.alphavantage.co/documentation/#batchquotes) instead of issuing multiple requests for each individual stock.
 
 
 
