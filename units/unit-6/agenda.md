@@ -18,24 +18,24 @@ At your own pace, familiarize yourself with these written materials:
      + [The `dotenv` Package](/notes/programming-languages/python/packages/dotenv.md)
      + [The `BeautifulSoup` Package](/notes/programming-languages/python/packages/beautifulsoup.md) <-- optional further exploration, only if you are familiar with HTML
 
-Spend around at most 35-45 minutes on these materials.
+Spend at most around 30 minutes on these materials.
 
 ## Ungraded Exercises
 
-When you are ready to practice issuing HTTP requests to get data, start with the Web Requests Exercise.
+When you are ready to practice issuing HTTP requests to get data, start with the Web Requests Exercise. If you are making good time, you might try moving on to API Client Exercise, but if you are short on time, you might want to consider trying it out sometime after class.
 
-If you are making good time, you might try the API Client Exercise, but you might want to save it for after class.
-
-  + [Web Requests](/exercises/web-requests/exercise.md) <-- do a few of these challenges. if you're struggling with them, ask for help right away
+  + [Web Requests](/exercises/web-requests/exercise.md) <-- do at least two of the JSON challenges. if you're struggling with them, ask for help right away
   + [API Client](/exercises/api-client/exercise.md) <-- a little harder, but definitely very fun, especially when you start creating and deleting products and seeing the products other people have created
 
-Spend at most around 60-75 minutes working through one or both of these exercises.
+Spend at most around 60 minutes working through one or both of these exercises.
 
 ## Projects
 
-With at least 60-90 minutes of remaining class time, move on to set up and start developing your Stock Recommendation App. If using a starter repo with existing code is helpful for you, consider adapting your own solution from this [Starter Repo](https://github.com/prof-rossetti/stocks-app-py), otherwise feel free to start from scratch.
+With at least 75-90 minutes of remaining class time, move on to set up and start developing your Stock Recommendation App. If using a starter repo with existing code is helpful for you, consider adapting your own solution from this [Starter Repo](https://github.com/prof-rossetti/stocks-app-py), otherwise feel free to start from scratch.
 
   + [Stock Recommendation App](/projects/stocks-app/project.md)
+
+Before you start requesting stock data, you will need to [obtain an AlphaVantage API Key](https://www.alphavantage.co/support/#api-key), and you should consider spending a few minutes to consult the [AlphaVantage API Documentation](https://www.alphavantage.co/documentation/) to learn about which requests are available.
 
 **Your mission by the end of class** is to develop your Stock Recommendation App to:
 
