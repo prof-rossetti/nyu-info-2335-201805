@@ -97,7 +97,7 @@ You are free to develop your own custom recommendation algorithm. This is perhap
 
 For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`).
 
-One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a files named something like `tests/example_responses/daily_response.json`. Then configure your tests to read from these local files instead of reading the response that would have been returned by the API.
+One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like `tests/example_responses/daily_response.json`. Then configure your tests to read its inputs from this local file instead of reading the response that would have been returned by the API.
 
 If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help.
 
@@ -166,15 +166,13 @@ Submissions will be evaluated based on ability to meet each of the component req
 
 Category | Weight
 --- | ---
-User Experience and Instructions | 20%
-Information	Input Requirements | 15%
-Validation Requirements (Performs Preliminary Validations) | 15%
-Calculation Requirements (Issues API Request) | 8%
-Validation Requirements (Handles API Response Errors) | 15%
-Information	Output Requirements (Writes Historical Prices to CSV) | 7%
-Calculation Requirements (Appropriateness of Custom Algorithm) | 7%
-Information	Output Requirements (Displays Final Recommendations) | 13%
+Repository Requirements | 10%
+Security Requirements | 15%
+Information	Input Requirements | 10%
+Validation Requirements | 25%
+Information	Output Requirements | 20%
+Calculation Requirements | 20%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award up to 10% extra credit for presence of meaningful automated tests!
+The professor reserves the right to award up to 10% extra credit for presence of meaningful automated tests (see "Further Exploration" above)!
