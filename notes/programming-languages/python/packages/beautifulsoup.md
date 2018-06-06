@@ -27,7 +27,7 @@ pip install beautifulsoup4 # note the 4 at the end - this is the latest version
 
 You can use this package from the command line or from within a script. The examples below depict usage from within a script.
 
-When you make a request that returns some HTML string, you can parse it:
+When you make a request that returns some HTML string, you can parse it like this:
 
 ```py
 import requests
@@ -39,11 +39,13 @@ response_html = response.text
 soup = BeautifulSoup(response_html)
 
 titles = soup.find_all("span", "title")
+
 print(type(titles)) #> <class 'bs4.element.ResultSet'> (like a list)
 print(titles[5]) #> <span class="title">Macbeth</span>
 print(titles[5].text) #> Macbeth
 
 booklinks = soup.find_all("li", "booklink")
+
 books = []
 for list_item in booklinks:
     title = list_item.find("span", "title").text #> "Shakespeare's Sonnets"
