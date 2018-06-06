@@ -27,4 +27,4 @@ Requests:
 
 ## Projects
 
-  + Stock Recommendation App
+  + [Stock Recommendation App](/projects/stocks-app/project.md)
