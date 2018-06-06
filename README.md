@@ -49,6 +49,8 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Python Datatypes](/exercises/python-datatypes/exercise.md)
   + [CSV Processing](/exercises/csv-processing/exercise.md)
   + [Automated Testing](/exercises/automated-testing/exercise.md)
+  + [Web Requests](/exercises/web-requests/exercise.md)
+  + [API Client](/exercises/api-client/exercise.md)
 
 ### Assignments
 

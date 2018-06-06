@@ -14,13 +14,13 @@ First install the package, if necessary:
 
 ```` sh
 # For Pipenv users (Mac or Windows):
-pipenv install python-dotenv
+pipenv install python-dotenv # note: not just `dotenv`
 
 # For Homebrew-installed Python 3.x on Mac OS:
-pip3 install python-dotenv
+pip3 install python-dotenv # note: not just `dotenv`
 
 # All others:
-pip install python-dotenv
+pip install python-dotenv # note: not just `dotenv`
 ````
 
 ### Usage

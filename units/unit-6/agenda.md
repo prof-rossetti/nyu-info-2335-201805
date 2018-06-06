@@ -23,7 +23,7 @@ Requests:
 ## Ungraded Exercises
 
   + [Web Requests](/exercises/web-requests/exercise.md)
-  + Products API Client
+  + [API Client](/exercises/api-client/exercise.md)
 
 ## Projects
 

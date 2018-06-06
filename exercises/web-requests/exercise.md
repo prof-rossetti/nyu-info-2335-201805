@@ -1,6 +1,6 @@
 # Web Requests Exercise
 
-> Prerequisite: [The `requests` Package](/notes/programming-languages/python/packages/requests.md)
+> Prerequisite: [the `requests` package](/notes/programming-languages/python/packages/requests.md)
 
 ## Objectives
 

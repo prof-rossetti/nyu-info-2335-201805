@@ -1,18 +1,21 @@
 # Python Language Overview
 
-> This guide was originally written by @mz888 with contributions by @s2t2!
-
 ## The `requests` Package
 
-The `requests` package provides helpful functionality for requesting the contents of a web page, whether the contents exist in HTML, XML, JSON, or some other format.
+> Prerequisite: [Computer Networks](/notes/networks/notes.md) and [APIs](/notes/software/apis.md)
+
+The `requests` package provides an easy way for Python programs to issue HTTP requests, whether scraping the contents of a web page, or exchanging data with an API.
 
 Reference: http://docs.python-requests.org/en/master/.
 
 ### Installation
 
-First install the packages using pip, if necessary:
+First install the package, if necessary:
 
 ```` sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install requests
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install requests
 
@@ -20,62 +23,49 @@ pip3 install requests
 pip install requests
 ````
 
-You can use this package from the command line or from within a script. The examples below depict usage from within a script.
-
 ### Usage
 
-#### Requesting HTML from a Website
+#### Issuing HTTP Requests
 
-```python
+Issue a "GET" request (perhaps the most common):
+
+```py
 import requests
 
-# ISSUE REQUEST
-
-r = requests.get("https://www.gutenberg.org/ebooks/author/65")
-
-# PARSE RESPONSE
-
-#check whether request was successful
-r.status_code #> 200
-
-#output contents of site
-r.text
-#> '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" #"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">\n<!--\n\nDON\'T\
-#> USE THIS PAGE FOR SCRAPING.\n\nSeriously. You\'ll only get your IP #blocked.\n\nDownload http://www.gutenberg.org/feeds/\
-#> catalog.rdf.bz2 instead,\nwhich contains *all* Project Gutenberg #metadata in one RDF/XML file.\n\n--><html xmlns="http:/\
-#> /www.w3.org/1999/xhtml" xmlns:dcterms="http://purl.org/dc/terms/" #xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns\
-#> ... #this goes on for many more lines...how do we get useful content?
+requestl_url = "https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/exercises/web-requests/data/products/1.json"
+response = requests.get(request_url)
+print(response.status_code)
+print(response.text)
 ```
 
-Reference [the `beautifulsoup` package](beautifulsoup.md) for ways to parse this HTML content!
+You can also issue other types of requests like "POST", "PUT", and "DELETE", sending data to the server as necessary:
 
-A word of warning: while almost all sites can technically be scraped, many discourage web-scraping and will ban an IP address if it detects multiple attempts by a program to scrape content. One reason for this is that large volumes of scraping requests can slow down or crash certain sites. Many sites offer APIs as an alternative way to access data. If available, this is the best way to access data from a site.
+```py
+my_data = {} # a dictionary representing the data you want to send to the server
 
-#### Requesting JSON from an API
+request_url = "a url which accepts POST requests"
+response = requests.post(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
+print(response.status_code)
 
-Example of using `requests` to request data from a simple JSON API (e.g. [the CityBikes API](https://api.citybik.es/v2/)):
+request_url = "a url which accepts PUT requests"
+response = requests.put(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
+print(response.status_code)
 
-```python
-import requests
-import json
-
-# ISSUE REQUEST
-
-response = requests.get("http://api.citybik.es/v2/networks")
-type(response) #> <class 'requests.models.Response'>
-
-# PARSE RESPONSE
-
-response.headers #> {'Server': 'nginx/1.10.1', 'Date': 'Mon, 24 Jul 2017 18:05:36 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Strict-Transport-Security': 'max-age=15768000', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip'}
-response.status_code #>
-response.text #> (a big garbled JSON-formatted string)
-type(response.text) #> <class 'str'>
-
-results = json.loads(response.text)
-type(results) #> <class 'dict'>
-results.keys() #> dict_keys(['networks'])
-type(results["networks"]) #> <class 'list'>
-len(results["networks"]) #> 491
-results["networks"][0] #> {'company': ['Nextbike GmbH'], 'href': '/v2/networks/opole-bike', 'id': 'opole-bike', 'location': {'city': 'Opole', 'country': 'PL', 'latitude': 50.6645, 'longitude': 17.9276}, 'name': 'Opole Bike'}
-# etc.
+request_url = "a url which accepts DELETE requests"
+response = requests.delete(request_url)
+print(response.status_code)
 ```
+
+> NOTE: if you are looking to try out these other kinds of requests, head on over to the [API Client Exercise](/exercises/api-client/exercise.md).
+
+### Parsing HTTP Responses
+
+If the response contains JSON, you can use [the `json` module](/notes/programming-languages/python/modules/json.md) to parse it:
+
+```py
+response = requests.get(some_url)
+response_data = json.loads(response.text)
+print(type(response_data)) #> _________ or ________
+```
+
+If the response contains HTML, you can use [the `BeautifulSoup` package](/notes/programming-languages/python/packages/beautifulsoup.md) to parse it.
