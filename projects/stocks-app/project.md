@@ -76,7 +76,7 @@ After writing historical data to a CSV file, the system should perform calculati
   + The **selected stock symbol(s)** (e.g. "Stock: MSFT")
   + The **date and time when the program was executed**, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
   + The **date when the data was last refreshed**, usually the same as the latest available day of daily trading data (e.g. "Latest Data from: June 4th, 2018")
-  + For each stock symbol: its **latest closing price**, its **recent average high price**, and its **recent average low price**, calculated according to the instructions below, and formatted as currency with a dollar sign and two decimal places and a thousands separator as applicable (e.g. "26-week high: $1,234.56", etc.)
+  + For each stock symbol: its **latest closing price**, its **recent average high price**, and its **recent average low price**, calculated according to the instructions below, and formatted as currency with a dollar sign and two decimal places with a thousands separator as applicable (e.g. "Recent Average High: $1,234.56", etc.)
   + A **recommendation** as to whether or not the client should buy the stock (see guidance below), and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale).
   + A **recommendation explanation**, describing in a human-friendly way the reason why the program produced the recommendation it did (e.g. "because the stock's latest closing price is exceeds threshold XYZ")
 
