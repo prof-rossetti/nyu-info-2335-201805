@@ -64,7 +64,7 @@ os.path.join(os.path.dirname(__file__), "../../some_upstream_file.txt")
 
 ### Accessing Environment Variables
 
-To setup the following examples, follow the [Environment Variables Overview](/notes/software/environment-variables.md) to set an environment variable named `NYU_INFO_2335`.
+To setup the following examples, follow the [Environment Variables Overview](/notes/software/environment-variables.md) and/or [the `dotenv` package](/notes/programming-languages/python/packages/dotenv.md) notes to set an environment variable named `NYU_INFO_2335`.
 
 Get the entire environment:
 
