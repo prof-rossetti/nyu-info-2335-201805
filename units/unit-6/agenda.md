@@ -13,6 +13,7 @@ At your own pace, familiarize yourself with these written materials:
   + [Environment Variables](/notes/software/environment-variables.md) <-- focus here
   + Python Programming Language:
      + [The `json` Module](/notes/programming-languages/python/modules/json.md), revisited
+     + [The `os` Module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables), revisited
   + Third-party Python Packages:
      + [The `requests` Package](/notes/programming-languages/python/packages/requests.md) <-- focus here
      + [The `dotenv` Package](/notes/programming-languages/python/packages/dotenv.md)
