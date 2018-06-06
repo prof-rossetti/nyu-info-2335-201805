@@ -38,7 +38,9 @@ print(response.status_code)
 print(response.text)
 ```
 
-You can also issue other types of requests like "POST", "PUT", and "DELETE", sending data to the server as necessary:
+> NOTE: if you are looking for more example URLs to request data from, head on over to the [Web Requests Exercise](/exercises/web-requests/exercise.md).
+
+In addition to "GET" requests, you can also issue other types of requests like "POST", "PUT", and "DELETE", sending data to the server as necessary:
 
 ```py
 my_data = {} # a dictionary representing the data you want to send to the server
@@ -65,7 +67,7 @@ If the response contains JSON, you can use [the `json` module](/notes/programmin
 ```py
 response = requests.get(some_url)
 response_data = json.loads(response.text)
-print(type(response_data)) #> _________ or ________
+print(type(response_data)) #> <class 'list'> or <class 'dict'>
 ```
 
 If the response contains HTML, you can use [the `BeautifulSoup` package](/notes/programming-languages/python/packages/beautifulsoup.md) to parse it.

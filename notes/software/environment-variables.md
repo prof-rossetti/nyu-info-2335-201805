@@ -1,6 +1,6 @@
 # Environment Variables
 
-*Environment variables* allow developers to customize the environment in which an application is operating.
+**Environment variables** allow developers to customize the environment in which an application is operating.
 
 ## Setting
 
@@ -30,7 +30,7 @@ To set project-specific local environment variables, consider using the "dotenv"
 NYU_INFO_2335="SecretPassword123"
 ```
 
-To access these `.env` variables from a Python program, use [the `dotenv` package](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
+To load these `.env` variables into a Python program, use [the `dotenv` package](/notes/programming-languages/python/modules/dotenv.md).
 
 ## Getting
 
@@ -44,7 +44,7 @@ echo $NYU_INFO_2335 #> SecretPassword123
 echo %NYU_INFO_2335% #> SecretPassword123
 ```
 
-To access environment variables from within a Python program, use [The `os` Module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
+To access environment variables from within a Python program, use [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
 
 <hr>
 

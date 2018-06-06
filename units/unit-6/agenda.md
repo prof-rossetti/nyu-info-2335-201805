@@ -16,7 +16,7 @@ At your own pace, familiarize yourself with these written materials:
   + Third-party Python Packages:
      + [The `requests` Package](/notes/programming-languages/python/packages/requests.md) <-- focus here
      + [The `dotenv` Package](/notes/programming-languages/python/packages/dotenv.md)
-     + [The `BeautifulSoup` Package](/notes/programming-languages/python/packages/beautifulsoup.md) <-- optional further exploration, only if you are familiar with HTML
+     + [The `BeautifulSoup` Package](/notes/programming-languages/python/packages/beautifulsoup.md) <-- optional further exploration, only if you are familiar with HTML, and recognizing there will be an opportunity later in the semester to explore this package further
 
 Spend at most around 30 minutes on these materials.
 
