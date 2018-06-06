@@ -32,7 +32,7 @@ Issue a "GET" request (perhaps the most common):
 ```py
 import requests
 
-requestl_url = "https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/exercises/web-requests/data/products/1.json"
+request_url = "https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-201805/master/exercises/web-requests/data/products/1.json"
 response = requests.get(request_url)
 print(response.status_code)
 print(response.text)
