@@ -94,6 +94,12 @@ You are free to develop your own custom **recommendation** algorithm. This is pe
 
 #### Further Exploration
 
+##### Multiple Stocks
+
+For students desiring optional further exploration, instead of processing a single stock at a time, allow the user to process multiple stocks at the same time.
+
+If you decide to implement this approach, pay attention to the "Information Output Requirements" about using multiple CSV files instead of a single file.
+
 ##### 52-Week Highs and Lows
 
 For students desiring optional further exploration, instead of calculating and printing the stock's **recent average high** and **recent average low**, calculate and print the stock's **52-week high** and **52-week low**, respectively.
@@ -112,13 +118,8 @@ For students desiring optional further exploration, the repository should contai
 
 One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like `tests/example_responses/daily_response.json`. Then configure your tests to read its inputs from this local file instead of reading the response that would have been returned by the API.
 
-If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help.
+If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help. But generally, you might try testing your application is performing accurate calculations given various example responses. And you might try testing your application is properly validating user inputs given various possible inputs.
 
-##### Multiple Stocks
-
-For students desiring optional further exploration, instead of processing a single stock at a time, allow the user to process multiple stocks at the same time.
-
-If you decide to implement this approach, pay attention to the "Information Output Requirements" about using multiple CSV files instead of a single file.
 
 
 
@@ -189,4 +190,4 @@ Calculation Requirements | 20%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award up to 10% extra credit for presence of meaningful automated tests (see "Further Exploration" above)!
+Additionally, for submissions which successfully address one or more of the "further exploration" challenges above, the professor reserves the right to award up to 5% extra credit for each (up to 15% total extra credit).
