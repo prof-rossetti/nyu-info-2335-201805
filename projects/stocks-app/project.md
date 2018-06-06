@@ -63,11 +63,11 @@ When the system makes an HTTP request for that stock symbol's trading data, if t
 
 After receiving a successful API response, the system should write historical stock prices to one or more CSV files located in the repository's `data` directory. The CSV file contents should resemble the following example:
 
-    timestamp,open,high,low,close,volume
-    2018-06-04,101.2600,101.8600,100.8510,101.6700,27172988
-    2018-06-01,99.2798,100.8600,99.1700,100.7900,28655624
-    2018-05-31,99.2900,99.9900,98.6100,98.8400,34140891
-    2018-05-30,98.3100,99.2500,97.9100,98.9500,22158528
+    timestamp, open, high, low, close, volume
+    2018-06-04, 101.2600, 101.8600, 100.8510, 101.6700, 27172988
+    2018-06-01, 99.2798, 100.8600, 99.1700, 100.7900, 28655624
+    2018-05-31, 99.2900, 99.9900, 98.6100, 98.8400, 34140891
+    2018-05-30, 98.3100, 99.2500, 97.9100, 98.9500, 22158528
 
 If the system processes only a single stock symbol at a time, the system may use a single CSV file named something like `data/prices.csv`. Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding CSV file that is named after the stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If writing multiple CSV files, the program should have a way of cleaning-up to prevent uncontrolled proliferation of new files.
 
