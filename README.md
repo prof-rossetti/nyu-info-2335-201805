@@ -6,6 +6,11 @@ This is a repository of instructional materials for a graduate business school e
 
 For more information, see the [syllabus](/syllabus-20180604.pdf).
 
+
+
+
+
+
 ## Schedule
 
 ### Module I: Python Programming and Applications
@@ -14,7 +19,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Unit 2](/units/unit-2/agenda.md): Processing Python Datatypes
   + [Unit 3](/units/unit-3/agenda.md): Processing User Inputs
   + [Unit 4](/units/unit-4/agenda.md): Processing CSV Data
-  + Unit 6: Processing Data from the Internet
+  + [Unit 6](/units/unit-6/agenda.md): Processing Data from the Internet
 
 ### Module II: Management of Software Development
 
@@ -29,9 +34,14 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + Unit 11: Retrospective and Review
   + Unit 12: Final Exam
 
+
+
+
+
+
 ## Activities and Deliverables
 
-Ungraded exercises:
+### Exercises
 
   + [Human Software](/exercises/human-software/exercise.md)
   + [Python Development Environment Setup](/exercises/dev-environment-setup/exercise.md)
@@ -39,24 +49,30 @@ Ungraded exercises:
   + [Python Datatypes](/exercises/python-datatypes/exercise.md)
   + [CSV Processing](/exercises/csv-processing/exercise.md)
   + [Automated Testing](/exercises/automated-testing/exercise.md)
+  + [Web Requests](/exercises/web-requests/exercise.md)
+  + [API Client](/exercises/api-client/exercise.md)
 
-Assignments:
+### Assignments
 
   + [Onboarding Survey](https://goo.gl/forms/UhXUqDUVE0pgeQlK2)
   + [Weekly Check-ins](https://goo.gl/forms/6MiFYOcwBdDulp763)
   + Self-directed Project Proposal
   + [Industry Insights](/assignments/industry-insights/assignment.md)
 
-Projects:
+### Projects
 
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + [Inventory Management App](/projects/inventory-app/project.md)
-  + Stock Recommendation App
+  + [Stock Recommendation App](/projects/stocks-app/project.md)
   + Self-directed Project
 
-Exams:
+### Exams
 
   + [Final Exam](/exams/final/exam.md)
+
+
+
+
 
 ## [Contributing](/CONTRIBUTING.md)
 
