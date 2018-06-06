@@ -97,7 +97,7 @@ You are free to develop your own custom recommendation algorithm. This is perhap
 
 For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`).
 
-One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like "example_response.json". Then configure your tests to read from these local files instead of reading the response that would have been returned by the API.
+One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a files named something like `tests/example_responses/daily_response.json`. Then configure your tests to read from these local files instead of reading the response that would have been returned by the API.
 
 If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help.
 
