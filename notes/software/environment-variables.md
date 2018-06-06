@@ -30,7 +30,7 @@ To set project-specific local environment variables, consider using the "dotenv"
 NYU_INFO_2335="SecretPassword123"
 ```
 
-To load these `.env` variables into a Python program, use [the `dotenv` package](/notes/programming-languages/python/modules/dotenv.md).
+To load these `.env` variables into a Python program, use [the `dotenv` package](/notes/programming-languages/python/packages/dotenv.md).
 
 ## Getting
 
