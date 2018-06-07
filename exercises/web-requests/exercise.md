@@ -14,7 +14,7 @@ After completing this exercise, students should be ready to issue requests to re
 
 ### JSON Challenges
 
-> HINT: the response text for each of the following challenges will be formatted as JSON, so you can use [the `json` module](/notes/programming-languages/python/modules/json.md) to parse it.
+> HINT: the response text for each of the following challenges will be formatted as JSON, so you can use [the `json` module](/notes/programming-languages/python/modules/json.md) to parse it. Also, depending on which URL we are making a request to, sometimes the JSON response will resemble a list and sometimes it will resemble a dictionary, so make sure to parse each accordingly.
 
 #### JSON Challenge 1 - Product
 
@@ -36,7 +36,7 @@ Write a Python program which issues a GET request for this [gradebook.json data]
 
 ### CSV Challenges
 
-> HINT: the response text for each of the following challenges will be formatted as a CSV string, so you can read it using [the `csv` module](/notes/programming-languages/python/modules/csv.md).
+> HINT: the response text for each of the following challenges will be formatted as a CSV string, so you can read it using [the `csv` module](/notes/programming-languages/python/modules/csv.md). But we are parsing CSV-formatted stings instead of CSV-formatted files, so you will need an alterantive approach than the one we have used so far. If you get stuck, consult this [partial CSV solution](solutions/csv_partial_solution.py). :smiley:
 
 #### CSV Challenge 1 - Products
 
