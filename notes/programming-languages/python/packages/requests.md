@@ -45,20 +45,20 @@ In addition to "GET" requests, you can also issue other types of requests like "
 ```py
 my_data = {} # a dictionary representing the data you want to send to the server
 
-request_url = "a url which accepts POST requests"
+request_url = "https://example-api/some/path" # <--- replace with a real url that accepts POST requests
 response = requests.post(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
 print(response.status_code)
 
-request_url = "a url which accepts PUT requests"
+request_url = "https://example-api/some/path" # <--- replace with a real url that accepts PUT requests
 response = requests.put(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
 print(response.status_code)
 
-request_url = "a url which accepts DELETE requests"
+request_url = "https://example-api/some/path" # <--- replace with a real url that accepts DELETE requests
 response = requests.delete(request_url)
 print(response.status_code)
 ```
 
-> NOTE: if you are looking to try out these other kinds of requests, head on over to the [API Client Exercise](/exercises/api-client/exercise.md).
+> NOTE: if you are looking to try out these other kinds of requests, head on over to the [API Client Exercise](/exercises/api-client/exercise.md), which links to documentation for the "Products API", which provides example URLs you can use.
 
 ### Parsing HTTP Responses
 
