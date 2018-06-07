@@ -71,7 +71,7 @@ After receiving a successful API response, the system should write historical st
 
 If the system processes only a single stock symbol at a time, the system may use a single CSV file named `data/prices.csv`, or it may use multiple CSV files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If the system processes multiple stock symbols at a time, it should use multiple files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If using more than one CSV file, the program should have a way of cleaning-up to prevent uncontrolled proliferation of new files.
 
-After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce the following outputs:
+After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce/print the following outputs:
 
   + The **selected stock symbol(s)** (e.g. "Stock: MSFT")
   + The **date and time when the program was executed**, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
@@ -80,11 +80,13 @@ After writing historical data to a CSV file, the system should perform calculati
   + A **recommendation** as to whether or not the client should buy the stock (see guidance below), and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale).
   + A **recommendation explanation**, describing in a human-friendly way the reason why the program produced the recommendation it did (e.g. "because the stock's latest closing price is exceeds threshold XYZ")
 
+> NOTE: the CSV files are information outputs of this system, not information inputs. So it shouldn't be necessary for your program to read a CSV file to perform calculations. The JSON API responses should have all the information your program needs to perform calculations.
+
 #### Calculation Requirements
 
 The **latest closing price** should be equal to the stock's "close" price on the latest available day of trading data.
 
-The **recent average high price** should be equal to the maximum daily "high" price, for all available days in approximately the past 100 available days of trading data.
+The **recent average high price** should be equal to the maximum daily "high" price over approximately the past 100 available days of trading data.
 
 The **recent average low price** should be calculated in a similar manner as the **recent average high price**, but it should instead be equal to the minimum of all daily "low" prices.
 
@@ -104,7 +106,7 @@ If you decide to implement this approach, pay attention to the "Information Outp
 
 For students desiring optional further exploration, instead of calculating and printing the stock's **recent average high** and **recent average low**, calculate and print the stock's **52-week high** and **52-week low**, respectively.
 
-The **52-week high** should be equal to the maximum "high" price, for each available day in approximately the past year. For example, if the last available day of trading data is June 1st, 2018, the program should find the maximum price of all the available "high" prices between around June 1st, 2017 and June 1st, 2018.
+The **52-week high** should be equal to the maximum daily "high" price over approximately the past year of trading data. For example, if the last available day of trading data is June 1st, 2018, the program should find the maximum of all the "high" prices between around June 1st, 2017 and June 1st, 2018.
 
 The **52-week low** should be calculated in a similar manner as the 52-week high, but it should instead be equal to the minimum of all "low" prices within the past year.
 
@@ -116,7 +118,7 @@ The **52-week low** should be calculated in a similar manner as the 52-week high
 
 For students desiring optional further exploration, the repository should contain meaningful and relevant tests. If there are any tests, they should exist in a "tests" directory in a file called something like `robo_adviser_test.py` (e.g. `tests/robo_adviser_test.py`). And the `README.md` file should include instructions and commands for how to run the tests.
 
-One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like `tests/example_responses/daily_response.json`. Then configure your tests to read its inputs from this local file instead of reading the response that would have been returned by the API.
+One best practice when testing applications that issue HTTP requests is to avoid issuing any requests during automated testing. To test your application's ability to parse API responses without actually issuing a request, use an example "mock" response instead. For example you may save a copy of a real response into a file named something like `tests/example_responses/daily_response.json`. Then configure your tests to parse the contents of this local file instead of parsing the response that would have been returned by the API.
 
 If you would like clarification about recommended testing strategies or general advice on how to meaningfully test this application, ask the professor, who would be happy to help. But generally, you might try testing your application is performing accurate calculations given various example responses. And you might try testing your application is properly validating user inputs given various possible inputs.
 
@@ -159,6 +161,8 @@ When you create the new repository, in order to easily use the GitHub.com online
 check the box to **Initialize this repository with a README**.
 Once the repository is created, add all the necessary files and commit them.
 At this time you should be able to view your files online at your project repository's URL.
+
+> NOTE: to create files nested inside sub-directories of the repository, use a slash character (`/`) in the file's name and the GitHub.com online interface will automatically create the directory for you. You can also add slashes when editing the name of an existing file.
 
 ### Step 2 - Forking the Course Repo
 
