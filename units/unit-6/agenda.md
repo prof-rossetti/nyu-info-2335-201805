@@ -25,7 +25,7 @@ Spend at most around 30 minutes on these materials.
 
 When you are ready to practice issuing HTTP requests to get data, start with the Web Requests Exercise. If you are making good time, you might try moving on to API Client Exercise, but if you are short on time, you might want to consider trying it out sometime after class.
 
-  + [Web Requests](/exercises/web-requests/exercise.md) <-- do at least two of the JSON challenges. if you're struggling with them, ask for help right away
+  + [Web Requests](/exercises/web-requests/exercise.md) <-- do all of the JSON challenges. if you're struggling with them, ask for help right away. feel free to skip the CSV challenges and return to them later
   + [API Client](/exercises/api-client/exercise.md) <-- a little harder, but definitely very fun, especially when you start creating and deleting products and seeing the products other people have created
 
 Spend at most around 60 minutes working through one or both of these exercises.
