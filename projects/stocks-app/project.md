@@ -162,6 +162,8 @@ check the box to **Initialize this repository with a README**.
 Once the repository is created, add all the necessary files and commit them.
 At this time you should be able to view your files online at your project repository's URL.
 
+> NOTE: to create files nested inside sub-directories of the repository, use a slash character (`/`) in the file's name and the GitHub.com online interface will automatically create the directory for you. You can also add slashes when editing the name of an existing file.
+
 ### Step 2 - Forking the Course Repo
 
 If you have not yet already forked the course repository, do so now.
