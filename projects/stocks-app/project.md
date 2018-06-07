@@ -84,7 +84,7 @@ After writing historical data to a CSV file, the system should perform calculati
 
 The **latest closing price** should be equal to the stock's "close" price on the latest available day of trading data.
 
-The **recent average high price** should be equal to the maximum daily "high" price, for all available days in approximately the past 100 available days of trading data.
+The **recent average high price** should be equal to the maximum daily "high" price over approximately the past 100 available days of trading data.
 
 The **recent average low price** should be calculated in a similar manner as the **recent average high price**, but it should instead be equal to the minimum of all daily "low" prices.
 
@@ -104,7 +104,7 @@ If you decide to implement this approach, pay attention to the "Information Outp
 
 For students desiring optional further exploration, instead of calculating and printing the stock's **recent average high** and **recent average low**, calculate and print the stock's **52-week high** and **52-week low**, respectively.
 
-The **52-week high** should be equal to the maximum "high" price, for each available day in approximately the past year. For example, if the last available day of trading data is June 1st, 2018, the program should find the maximum price of all the available "high" prices between around June 1st, 2017 and June 1st, 2018.
+The **52-week high** should be equal to the maximum daily "high" price over approximately the past year of trading data. For example, if the last available day of trading data is June 1st, 2018, the program should find the maximum of all the "high" prices between around June 1st, 2017 and June 1st, 2018.
 
 The **52-week low** should be calculated in a similar manner as the 52-week high, but it should instead be equal to the minimum of all "low" prices within the past year.
 
