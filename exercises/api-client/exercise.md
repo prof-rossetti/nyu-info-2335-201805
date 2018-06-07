@@ -12,26 +12,36 @@ Your objective is to write a command-line Python application that will allow use
 
 ## Challenges
 
-First, read the [Products API's Documentation](https://github.com/prof-rossetti/products-api-flask/tree/csv#api-documentation), which describes how to make requests to perform certain CRUD operations.
+First, read the [Products API's Documentation](https://github.com/prof-rossetti/products-api-flask/tree/csv#api-documentation), which describes how to make requests to perform certain CRUD operations. You'll see some `curl` references in there, but that is a command-line utility, and there isn't actually any Python code in there. The parts of the documentation you should focus on for each operation are: "what kind of request do I need to make?" and "which URL do I make the request to?"
 
-Then issue the appropriate HTTP request in Python to satisfy each of the challenges below.
+After consulting the docs, issue an appropriate HTTP request in Python to satisfy each of the challenges below.
 
-### [List Products](https://github.com/prof-rossetti/products-api-flask/tree/csv#list-products)
+### List Products
+
+API Documentation: https://github.com/prof-rossetti/products-api-flask/tree/csv#list-products
 
 Request information about all products, then loop through and print the "id" and "name" of each.
 
-### [Show a Product](https://github.com/prof-rossetti/products-api-flask/tree/csv#show-product)
+### Show a Product
+
+API Documentation: https://github.com/prof-rossetti/products-api-flask/tree/csv#show-product
 
 Choose a product identifier from the list, then request information about that specific product, then print all the product's attributes.
 
-### [Destroy a Product](https://github.com/prof-rossetti/products-api-flask/tree/csv#destroy-product)
+### Destroy a Product
+
+API Documentation: https://github.com/prof-rossetti/products-api-flask/tree/csv#destroy-product
 
 Request to delete the previously-selected product from the inventory.
 
-### [Create a new Product](https://github.com/prof-rossetti/products-api-flask/tree/csv#create-product)
+### Create a new Product
+
+API Documentation: https://github.com/prof-rossetti/products-api-flask/tree/csv#create-product
 
 Request to create a new product in the inventory.
 
-### [Update a Product](https://github.com/prof-rossetti/products-api-flask/tree/csv#update-product)
+### Update a Product
+
+API Documentation: https://github.com/prof-rossetti/products-api-flask/tree/csv#update-product
 
 Request to update the new product you recently created.
