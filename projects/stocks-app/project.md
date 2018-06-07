@@ -71,7 +71,7 @@ After receiving a successful API response, the system should write historical st
 
 If the system processes only a single stock symbol at a time, the system may use a single CSV file named `data/prices.csv`, or it may use multiple CSV files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If the system processes multiple stock symbols at a time, it should use multiple files, each with a name corresponding to the given stock symbol (e.g. `data/prices_msft.csv`, `prices_aapl.csv`, etc.). If using more than one CSV file, the program should have a way of cleaning-up to prevent uncontrolled proliferation of new files.
 
-After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce the following outputs:
+After writing historical data to a CSV file, the system should perform calculations (see "Calculation Requirements" section below) to produce/print the following outputs:
 
   + The **selected stock symbol(s)** (e.g. "Stock: MSFT")
   + The **date and time when the program was executed**, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
