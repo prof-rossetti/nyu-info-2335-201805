@@ -45,15 +45,15 @@ In addition to "GET" requests, you can also issue other types of requests like "
 ```py
 my_data = {} # a dictionary representing the data you want to send to the server
 
-request_url = "https://example-api/some/path" # <--- replace with a real url that accepts POST requests
+request_url = "https://example-api.com/some/path" # <--- replace with a real url that accepts POST requests
 response = requests.post(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
 print(response.status_code)
 
-request_url = "https://example-api/some/path" # <--- replace with a real url that accepts PUT requests
+request_url = "https://example-api.com/some/path" # <--- replace with a real url that accepts PUT requests
 response = requests.put(request_url, json=my_data) # where you can pass a dictionary as the `json` parameter
 print(response.status_code)
 
-request_url = "https://example-api/some/path" # <--- replace with a real url that accepts DELETE requests
+request_url = "https://example-api.com/some/path" # <--- replace with a real url that accepts DELETE requests
 response = requests.delete(request_url)
 print(response.status_code)
 ```
