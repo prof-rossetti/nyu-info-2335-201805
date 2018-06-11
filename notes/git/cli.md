@@ -105,6 +105,13 @@ One of the biggest benefits of version control is the ability to revert to previ
 git reset abc123def456 # where abc123def456 is the identifier, or "SHA", of the commit you would like to revert to
 ```
 
+
+
+
+
+
+
+
 ### Remote Repositories
 
 #### Cloning Remote Repositories
@@ -123,9 +130,19 @@ git remote -v
 
 #### Managing Remote Addresses
 
-If you would like to upload the contents of a local repository to a remote address, assuming you don't already have a remote repo, follow these steps in order:
+Add or remove a local repository's remote addresses, where `REMOTE_NAME` refers to the name of the remote address, (e.g. "origin"), and `REMOTE_ADDRESS` refers to the repository's remote address:
 
-  1. Create a new repo on GitHub, then note its remote address. Sometimes when you create a new empty repo on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH)
+```sh
+git remote add REMOTE_NAME REMOTE_ADDRESS
+git remote rm REMOTE_NAME REMOTE_ADDRESS
+```
+
+Sometimes when you create a new empty repo on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH).
+
+
+If you would like to upload the contents of a local repository to a remote address but you don't already have a remote repo, follow these steps in order:
+
+  1. Create a new repo on GitHub, then note its remote address.
   2. From the command-line, navigate to the root directory of your existing local repository (e.g `cd path/to/my-dir`).
   3. Configure a "remote" address for your local repository: `git remote add origin REMOTE_ADDRESS`. NOTE: the overwhelming convention is to name your default GitHub remote address "origin".
   4. Associate the local repo with the remote repo (one-time, first-time only): `git pull origin master --allow-unrelated-histories`. After doing so, you may be in a "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
@@ -133,11 +150,11 @@ If you would like to upload the contents of a local repository to a remote addre
 
 #### Syncing Local and Remote Repositories
 
-Assuming you have already associated a local repository with a remote repository named "origin":
+Assuming you have already associated a local repository with a remote address named "origin":
 
 ```sh
-git pull origin master # download recent contents from remote repo, in case changes have been made to the remote repository since you last pushed.
-git push origin master # upload local repo contents to remote address
+git pull origin master # downloads recent contents from the remote repo, in case changes have been made to the remote repo since you last pushed.
+git push origin master # uploads local repo contents to remote address
 ```
 
 Sometimes after pulling, you may see merge conflicts, in which case you might need to perform a "rebase" before being able to push. The rebase process can be difficult, so don't hesitate to ask the professor for help.
