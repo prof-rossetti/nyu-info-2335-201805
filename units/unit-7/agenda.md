@@ -20,4 +20,4 @@ Learn more about software development methodologies (i.e. the SDLC) and best pra
 
 ## Projects
 
-  + [Self-guided Project](/projects/freestyle/project.md) (a.k.a. the "Freestyle" Project)
+  + [Self-guided (a.k.a. "Freestyle") Project](/projects/freestyle/project.md) - Proposal Phase
