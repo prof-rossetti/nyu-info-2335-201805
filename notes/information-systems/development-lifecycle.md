@@ -51,4 +51,4 @@ phase | description
 
 If you have a well-defined problem, a clear set of requirements, and your team has experience building similar systems in the past, then a waterfall approach may be the most efficient choice. It will allow your team to deliver the final product more quickly.
 
-However, if the problem is not well defined, or the system requirements are not entirely clear, or your team doesn't have previous experience building similar systems, then an agile approach may be the best choice. It will allow your team to be flexible to changing requirements and deliver a minimum viable product more quickly.
+However, if the problem is not well defined, or the system requirements are not entirely clear, or your team doesn't have previous experience building similar systems, then an agile approach may be the best choice. It will allow your team to be flexible to changing requirements and deliver a **minimum viable product** more quickly.
