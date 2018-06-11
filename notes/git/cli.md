@@ -123,12 +123,13 @@ git remote -v
 
 #### Managing Remote Addresses
 
-If you would like to upload the contents of a local repository to a remote address, follow these steps in order:
+If you would like to upload the contents of a local repository to a remote address, assuming you don't already have a remote repo, follow these steps in order:
 
-  1. Assuming you don't already have a remote repo, create a new repo on GitHub, then note its remote address. Sometimes when you create a new empty repo on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH)
+  1. Create a new repo on GitHub, then note its remote address. Sometimes when you create a new empty repo on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH)
   2. From the command-line, navigate to the root directory of your existing local repository (e.g `cd path/to/my-dir`).
   3. Configure a "remote" address for your local repository: `git remote add origin REMOTE_ADDRESS`. NOTE: the overwhelming convention is to name your default GitHub remote address "origin".
   4. Associate the local repo with the remote repo (one-time, first-time only): `git pull origin master --allow-unrelated-histories`. After doing so, you may be in a "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
+  5. Follow the "Syncing Local and Remote Repositories" section, below, to push your local changes up to GitHub.
 
 #### Syncing Local and Remote Repositories
 
