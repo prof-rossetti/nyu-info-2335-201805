@@ -21,11 +21,11 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Unit 4](/units/unit-4/agenda.md): Processing CSV Data
   + [Unit 6](/units/unit-6/agenda.md): Processing Data from the Internet
 
-### Module II: Management of Software Development
+### Module II: Fundamentals of Software Development
 
   + [Unit 5](/units/unit-5/agenda.md): Automated Testing
-  + Unit 7: SDLC, Version Control, Open Source, and Command-line Git
-  + Unit 8: Design Thinking Workshop (Lab)
+  + [Unit 7](/units/unit-7/agenda.md): Version Control and Git
+  + Unit 8: Management, Design Thinking, and the SDLC
   + Unit 9: Delivery, Deployment Environments, and Heroku
   + Unit 10: Self-directed Project Support (Lab)
 
@@ -51,6 +51,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Automated Testing](/exercises/automated-testing/exercise.md)
   + [Web Requests](/exercises/web-requests/exercise.md)
   + [API Client](/exercises/api-client/exercise.md)
+  + [Version Control](/exercises/version-control/exercise.md)
 
 ### Assignments
 
