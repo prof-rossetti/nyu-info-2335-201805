@@ -15,11 +15,13 @@ Learn about version control, another software development best practice. And bec
 ## Discussions and Notes
 
   + Version Control and [Git](/notes/git/notes.md)
-  + [Command-line Git](/notes/git/cli.md) (optional further exploration, otherwise it is fine to use GUI apps for version control purposes)
+  + [Command-line Git](/notes/git/cli.md) (optional further exploration, otherwise it is fine to use a GUI app for version control purposes)
 
 ## Ungraded Exercises
 
   + [Version Control Exercise](/exercises/version-control/exercise.md)
+
+Don't worry about trying to finish this exercise during class. See if you can at least setup a local repository, make a few commits, and push your local repository to a GitHub remote address.
 
 ## Projects
 
