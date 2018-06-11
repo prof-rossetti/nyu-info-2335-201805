@@ -97,6 +97,14 @@ git commit -m "my message" # saves the changes and adds a unique reference ident
 
 Continue to iteratively repeat the process of reviewing and committing revisions as you incrementally develop your software.
 
+#### Reverting Changes
+
+One of the biggest benefits of version control is the ability to revert to previous versions. If you need to restore the state of your repository to some previous commit:
+
+```sh
+git reset abc123def456 # where abc123def456 is the identifier, or "SHA", of the commit you would like to revert to
+```
+
 ### Remote Repositories
 
 #### Cloning Remote Repositories
