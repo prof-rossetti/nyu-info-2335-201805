@@ -19,9 +19,9 @@ which git
 git --version
 ```
 
-If these commands produce a filepath-looking output and version output, respectively, the Git is already installed. Nice!
+If these commands produce a filepath-looking output and version-looking output, respectively, then Git is already installed. Nice! You can skip down to the "Git Commands Overview" section.
 
-If Git is not already installed, or if you would prefer to use a Homebrew-installed version, you are recommended to use Homebrew to install Git:
+Otherwise, if Git is not already installed, or if you would prefer to use a Homebrew-installed version, you are recommended to use Homebrew to install Git:
 
 ```sh
 # Mac Terminal:
@@ -34,7 +34,9 @@ Try downloading [Git for Windows](https://gitforwindows.org/) and following the 
 
 ## Git Commands Overview
 
-> NOTE: as you execute some commands like `git log` and `git diff`, you can press the "Enter" key to keep reading, and type "q" to quit when you are done.
+> NOTE: after executing some commands like `git log` and `git diff`, you can press the "Enter" key to keep reading, and type "q" to quit when you are done.
+
+> NOTE: after executing other commands like `git pull`, you may find yourself at times in an unfamiliar-looking "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
 
 ### Initializing a Local Repository
 
