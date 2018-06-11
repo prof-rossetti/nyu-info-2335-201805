@@ -114,12 +114,14 @@ git reset abc123def456 # where abc123def456 is the identifier, or "SHA", of the 
 
 ### Remote Repositories
 
+When you create a new empty repository on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH).
+
 #### Cloning Remote Repositories
 
-If there is a remote repository you would like to download, clone it:
+If there is a remote repository you would like to download, clone it (where `REMOTE_ADDRESS` refers to the repository's remote address):
 
 ```sh
-git clone REMOTE_ADDRESS # to find the REMOTE_ADDRESS, visit a repo's homepage on GitHub and click the big green button on the right side that says "Clone or download". The address should resemble https://github.com/USERNAME/REPONAME.git (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH)
+git clone REMOTE_ADDRESS
 ```
 
 After cloning, a default remote address named "origin" is automatically created. You can check a local repository's remote addresses at any time:
@@ -136,9 +138,6 @@ Add or remove a local repository's remote addresses, where `REMOTE_NAME` refers 
 git remote add REMOTE_NAME REMOTE_ADDRESS
 git remote rm REMOTE_NAME REMOTE_ADDRESS
 ```
-
-Sometimes when you create a new empty repo on GitHub, it will display a screen that contains the `REMOTE_ADDRESS`. Otherwise, to find the `REMOTE_ADDRESS` of any existing GitHub repository, visit its homepage and click the big green "Clone or download" button. The address should resemble `https://github.com/USERNAME/REPONAME.git` (HTTPS), or `git@github.com:USERNAME/REPONAME.git` (SSH).
-
 
 If you would like to upload the contents of a local repository to a remote address but you don't already have a remote repo, follow these steps in order:
 
