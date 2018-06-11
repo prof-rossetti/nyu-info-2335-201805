@@ -27,6 +27,6 @@ Learn about version control, another software development best practice. And bec
 
 FYI: here is an [example partial project solution](https://github.com/s2t2/stocks-app-py-2018).
 
-If you are feeling comfortable with Stocks App development so far, see if you can start incorporating version control and automated testing into your development process. Consider referencing the example solution's [tests](https://github.com/s2t2/stocks-app-py-2018/tree/master/tests) and [commit history](https://github.com/s2t2/stocks-app-py-2018/commits/master).
+If you are feeling comfortable in your development efforts thus far, see if you can start incorporating version control and automated testing into your development process. Consider referencing the example solution's [tests](https://github.com/s2t2/stocks-app-py-2018/tree/master/tests) and [commit history](https://github.com/s2t2/stocks-app-py-2018/commits/master).
 
 Otherwise, just focus on satisfying the basic required functionality. And consider referencing the example solution's [app](https://github.com/s2t2/stocks-app-py-2018/blob/master/app/robo_adviser.py) for inspiration.

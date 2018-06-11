@@ -5,6 +5,32 @@ References:
   + https://education.github.com/git-cheat-sheet-education.pdf
   + https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
   + https://www.git-tower.com/blog/git-cheat-sheet/
+  + https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
+
+## Installation
+
+### Installation on Mac
+
+First see if Git is already installed (it may come pre-installed):
+
+```sh
+# Mac Terminal:
+which git
+git --version
+```
+
+If these commands produce a filepath-looking output and version output, respectively, the Git is already installed. Nice!
+
+If Git is not already installed, or if you would prefer to use a Homebrew-installed version, you are recommended to use Homebrew to install Git:
+
+```sh
+# Mac Terminal:
+brew install git
+```
+
+### Installation on Windows
+
+Try downloading [Git for Windows](https://gitforwindows.org/) and following the installation instructions. This software includes both a Git Bash command-line application and a Git GUI application. The Git Bash application is where you can execute Git commands.
 
 ## Git Commands Overview
 
