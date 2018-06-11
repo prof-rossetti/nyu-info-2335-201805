@@ -91,7 +91,7 @@ git diff # see how those files have changed (only shows diffs for files that exi
 After reviewing the changes, if you are satisfied, stage and commit them:
 
 ```sh
-git add . # this "stages" the files for commit. you can undo this with `git reset`. use the period (`.`) to add all changed files in the repository, or specify a single filename to add only that file
+git add . # this "stages" the files for commit. specify a period (`.`) to add all changed files, or specify a single filename to add only that file (e.g. `git add path/to/file.py`)
 git commit -m "my message" # saves the changes and adds a unique reference identifier for this particular version
 ```
 
