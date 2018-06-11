@@ -10,7 +10,7 @@ duration (mins) | usage
 
 ## Objectives
 
-Learn about version control, another software development best practice. And become familiar with how to incorporate version control into your development process.
+Learn about version control, a software development best practice. And become familiar with how to incorporate it into your development process.
 
 ## Discussions and Notes
 

@@ -15,8 +15,8 @@ First see if Git is already installed (it may come pre-installed):
 
 ```sh
 # Mac Terminal:
-which git
-git --version
+which git #> /usr/local/bin/git
+git --version #> git version 2.10.0
 ```
 
 If these commands produce a filepath-looking output and version-looking output, respectively, then Git is already installed. Nice! You can skip down to the "Git Commands Overview" section.
@@ -32,13 +32,25 @@ brew install git
 
 Try downloading [Git for Windows](https://gitforwindows.org/) and following the installation instructions. This software includes both a Git Bash command-line application and a Git GUI application. The Git Bash application is where you can execute Git commands.
 
+
+
+
+
+
+
+
+
+
+
 ## Git Commands Overview
 
 > NOTE: after executing some commands like `git log` and `git diff`, you can press the "Enter" key to keep reading, and type "q" to quit when you are done.
 
 > NOTE: after executing other commands like `git pull`, you may find yourself at times in an unfamiliar-looking "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
 
-### Initializing a Local Repository
+### Local Repositories
+
+#### Initializing a Local Repository
 
 Navigate into a project directory, then initialize a new repository there:
 
@@ -47,7 +59,9 @@ cd path/to/my/project # where path/to/my/project is the actual path to your proj
 git init . # initialize a new git repository, creating a hidden folder called .git in your project's root directory
 ```
 
-### Viewing Revision History
+#### Viewing Revision History
+
+> NOTE: newly-created repositories won't have any revisions to view until you make your first commit (see "Committing Changes" below)
 
 List the most recent revisions:
 
@@ -58,16 +72,14 @@ git log
 Show details about the most recent revision:
 
 ```sh
-git show # optionally specify any commit's identifier, or "SHA", to show that specific commit
+git show # optionally specify any commit's identifier, or "SHA", to show that specific commit (e.g. `git show a5290eda34e9e0d89b90ae1cc01afe7753c294b8`)
 ```
 
-> NOTE: for newly-created repositories, there won't be any revisions.
+#### Making Revisions
 
-### Making Revisions
+Use your text editor to add, delete, and/or modify files, then save them.
 
-Use your text editor to add, delete, and/or modify files, and save them as appropriate.
-
-### Committing Changes
+#### Committing Changes
 
 After making and saving changes, detect and review them:
 
@@ -76,16 +88,18 @@ git status # see which files have changed since the last commit
 git diff # see how those files have changed (only shows diffs for files that existed during the last version, not for newly created files)
 ```
 
-After reviewing the changes, stage and commit changes:
+After reviewing the changes, if you are satisfied, stage and commit them:
 
 ```sh
 git add . # this "stages" the files for commit. you can undo this with `git reset`. use the period (`.`) to add all changed files in the repository, or specify a single filename to add only that file
 git commit -m "my message" # saves the changes and adds a unique reference identifier for this particular version
 ```
 
-Repeat this process of reviewing and committing revisions as necessary as you iteratively develop your software.
+Continue to iteratively repeat the process of reviewing and committing revisions as you incrementally develop your software.
 
-### Cloning Remote Repositories
+### Remote Repositories
+
+#### Cloning Remote Repositories
 
 If there is a remote repository you would like to download, clone it:
 
@@ -99,7 +113,7 @@ After cloning, a default remote address named "origin" is automatically created.
 git remote -v
 ```
 
-### Managing Remote Addresses
+#### Managing Remote Addresses
 
 If you would like to upload the contents of a local repository to a remote address, follow these steps in order:
 
@@ -108,7 +122,7 @@ If you would like to upload the contents of a local repository to a remote addre
   3. Configure a "remote" address for your local repository: `git remote add origin REMOTE_ADDRESS`. NOTE: the overwhelming convention is to name your default GitHub remote address "origin".
   4. Associate the local repo with the remote repo (one-time, first-time only): `git pull origin master --allow-unrelated-histories`. After doing so, you may be in a "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
 
-### Syncing Local and Remote Repositories
+#### Syncing Local and Remote Repositories
 
 Assuming you have already associated a local repository with a remote repository named "origin":
 
