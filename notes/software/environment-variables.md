@@ -2,28 +2,46 @@
 
 **Environment variables** allow developers to customize the environment in which an application is operating.
 
+
+
+
+
+
+
+
+
 ## Setting
 
 Environment variables can be set "globally", in which case they are accessible by any program running on that given computer. Or they can be set "locally", in which case they are only accessible by programs located in a specific directory.
 
-> NOTE: Mac users should be able to manage global environment variables using a hidden file called
-`~/.bash_profile`.
+After setting an environment variable using one of the approaches below, reference the section on "Getting" to see if the variable was set properly.
 
-To set an environment variable, for example one named `NYU_INFO_2335`:
+### Setting on Mac
+
+Mac users should be able to manage global environment variables using a hidden file called
+`~/.bash_profile`. Open the file with your text editor (e.g. `atom ~/.bash_profile`), and place inside the following contents:
 
 ```sh
-# Mac Terminal:
-echo export "NYU_INFO_2335=SecretPassword123" >> ~/.bash_profile
-
-# Windows Command Prompt:
-set NYU_INFO_2335="SecretPassword123" # or use `setx NYU_INFO_2335="SecretPassword123"` to set this variable globally
+# ~/.bash_profile
+export NYU_INFO_2335="SecretPassword123"
 ```
 
-After setting a new environment variable, exit and re-open your command-line application (Terminal or Command Prompt) for the changes to take effect.
+Then exit and re-open your Terminal for the changes to take effect.
+
+### Setting on Windows
+
+Windows users can set local environment variables from the command-line using the `set` keyword:
+
+```sh
+# Windows Command Prompt:
+set NYU_INFO_2335="SecretPassword123"
+```
+
+> NOTE: if you close your command prompt and re-open it, you will need to re-set the environment variable.
 
 ### Setting Locally Using Dotenv File
 
-To set project-specific local environment variables, consider using the "dotenv" approach. Create a special file in your project named `.env` and place inside content like the following:
+To set project-specific local environment variables on either Mac or Windows, consider using the "dotenv" approach. Create a special file in your project named `.env` and place inside content like the following:
 
 ```sh
 # my-project/.env
@@ -31,6 +49,24 @@ NYU_INFO_2335="SecretPassword123"
 ```
 
 To load these `.env` variables into a Python program, use [the `dotenv` package](/notes/programming-languages/python/packages/dotenv.md).
+
+> NOTE: Some students have [reported](https://github.com/prof-rossetti/nyu-info-2335-201805/issues/157) the "dotenv" approach does not work for them. If the "dotenv" approach does not work for you, no worries, just stick to one of the other operating system-specific approaches described above.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Getting
 
@@ -45,6 +81,21 @@ echo %NYU_INFO_2335% #> SecretPassword123
 ```
 
 To access environment variables from within a Python program, use [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <hr>
 
