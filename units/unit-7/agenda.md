@@ -3,10 +3,9 @@
 duration (mins) | usage
 --- | ---
 5 | Announcements
-45 | Version Control Exercise
-45 | Stocks App - Walk-through of partial solution
+75 | Version Control Exercise
 10 | Break
-75 | Stocks App - Development and Testing
+90 | Stocks App - Walk-through of partial solution
 
 ## Objectives
 
