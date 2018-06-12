@@ -57,7 +57,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
 
   + [Onboarding Survey](https://goo.gl/forms/UhXUqDUVE0pgeQlK2)
   + [Weekly Check-ins](https://goo.gl/forms/6MiFYOcwBdDulp763)
-  + Self-directed Project Proposal
+  + [Self-directed Project Proposal](/projects/freestyle/proposal.md)
   + [Industry Insights](/assignments/industry-insights/assignment.md)
 
 ### Projects
@@ -65,7 +65,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + [Inventory Management App](/projects/inventory-app/project.md)
   + [Stock Recommendation App](/projects/stocks-app/project.md)
-  + Self-directed Project
+  + [Self-directed Project](/projects/freestyle/deliverable.md)
 
 ### Exams
 
