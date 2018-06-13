@@ -157,3 +157,13 @@ Full credit for presence of a Python program which runs without error and produc
 Else half credit for presence of a Python program which doesn't run or doesn't exactly produce the desired functionality.
 
 Else no credit.
+
+> UPDATED RUBRIC:
+>
+> Category | Weight
+> --- | ---
+> Info Inputs (Identifiers and "DONE")| 20%
+> Info Outputs (Store Name and Contact) | 20%
+> Info Outputs (Date and Time) | 20%
+> Info Outputs (Products and Prices) | 20%
+> Info Outputs (Tax and Totals) | 20%

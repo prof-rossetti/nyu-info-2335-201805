@@ -64,8 +64,32 @@ os.path.join(os.path.dirname(__file__), "../../some_upstream_file.txt")
 
 ### Accessing Environment Variables
 
-Prerequisite: follow the [Environment Variables Overview](/notes/environment-variables/notes.md) to set an environment variable called `NYU_INFO_2335`, then reference it:
+To setup the following examples, follow the [Environment Variables Overview](/notes/software/environment-variables.md) and/or [the `dotenv` package](/notes/programming-languages/python/packages/dotenv.md) notes to set an environment variable named `NYU_INFO_2335`.
 
-```python
-os.environ["NYU_INFO_2335"] #> SecretPassword123
+Get the entire environment:
+
+```py
+import os
+
+my_env = os.environ
+
+print("------------")
+print(type(my_env)) #> <class 'os._Environ'>
+print(my_env)
+
+print("------------")
+print(type(dict(my_env))) #> <class 'dict'>
+print(dict(my_env)) #> 'dict'
+```
+
+Get a specific environment variable (e.g. `NYU_INFO_2335`, only after you have set it):
+
+```py
+# using a dictionary-like approach:
+my_var = os.environ["NYU_INFO_2335"]
+print(my_var) #> SecretPassword123
+
+# using a getter function approach:
+my_var = os.environ.get("NYU_INFO_2335")
+print(my_var) #> SecretPassword123
 ```

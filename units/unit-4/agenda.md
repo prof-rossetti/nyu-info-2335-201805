@@ -9,7 +9,7 @@ Learn how to use Python to process CSV files.
   + Datastores, Databases, and CSV Files
   + Python Language:
     + [Text File Management](/notes/programming-languages/python/file-management.md)
-    + The [`csv`](/notes/programming-languages/python/modules/csv.md) Module
+    + [The `csv` Module](/notes/programming-languages/python/modules/csv.md)
 
 ## Ungraded Exercises
 
