@@ -25,9 +25,9 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
 
   + [Unit 5](/units/unit-5/agenda.md): Automated Testing
   + [Unit 7](/units/unit-7/agenda.md): Version Control and Git
-  + Unit 8: Management, Design Thinking, and the SDLC
-  + Unit 9: Delivery, Deployment Environments, and Heroku
-  + Unit 10: Self-directed Project Support (Lab)
+  + [Unit 8](/units/unit-8/agenda.md): Management, Design Thinking, and the SDLC
+  + Unit 9: Self-directed Project Support (Lab)
+  + Unit 10: Delivery, Deployment Environments, and Heroku
 
 ### Recap and Review
 
@@ -52,12 +52,14 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Web Requests](/exercises/web-requests/exercise.md)
   + [API Client](/exercises/api-client/exercise.md)
   + [Version Control](/exercises/version-control/exercise.md)
+  + [Process Diagramming](/exercises/process-diagramming/exercise.md)
+  + [Pandas Practice](/exercises/pandas-practice/exercise.md)
 
 ### Assignments
 
   + [Onboarding Survey](https://goo.gl/forms/UhXUqDUVE0pgeQlK2)
   + [Weekly Check-ins](https://goo.gl/forms/6MiFYOcwBdDulp763)
-  + Self-directed Project Proposal
+  + [Self-directed (a.k.a. "Freestyle") Project Proposal](/projects/freestyle/proposal.md)
   + [Industry Insights](/assignments/industry-insights/assignment.md)
 
 ### Projects
@@ -65,7 +67,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + [Inventory Management App](/projects/inventory-app/project.md)
   + [Stock Recommendation App](/projects/stocks-app/project.md)
-  + Self-directed Project
+  + [Self-directed (a.k.a. "Freestyle") Project](/projects/freestyle/project.md)
 
 ### Exams
 
