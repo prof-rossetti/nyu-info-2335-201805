@@ -19,7 +19,7 @@ duration (mins) | usage
   + Notable Third-party Python Packages:
     + [BeautifulSoup](/notes/programming-languages/python/packages/beautifulsoup.md), for scraping websites
     + [Flask](/notes/programming-languages/python/packages/flask.md), for building web-based applications and interfaces
-    + [NLTK](/notes/programming-languages/python/packages/flask.md), for natural language processing
+    + [NLTK](/notes/programming-languages/python/packages/nltk.md), for natural language processing
     + [Pandas](/notes/programming-languages/python/packages/pandas.md), for data processing and statistics
     + [Psycopg](/notes/programming-languages/python/packages/psycopg.md), for interfacing with PostgreSQL relational databases
     + [PyMySQL](/notes/programming-languages/python/packages/pymysql.md), for interfacing with MySQL relational databases
