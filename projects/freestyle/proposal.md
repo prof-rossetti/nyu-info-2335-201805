@@ -53,7 +53,7 @@ Your project proposal should adhere to the following requirements, as detailed i
 
 ### Problem Statement
 
-Provide a **description of the problem** your project is trying to solve, including **statements of user needs** and descriptions of "as-is" and "to-be" processes.
+Provide a **description of the problem** your project is trying to solve, including **statements of user needs** and **descriptions of "as-is" and "to-be" processes**.
 
 If you get stuck, think about the following questions:
 
@@ -114,13 +114,13 @@ for your content to be accepted into the main course repository. Before you upda
 
 ## Evaluation
 
-Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
+Proposals will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
 
 Category | Weight
 --- | ---
 Problem Statement, Statement of User Needs | 30%
-Information Inputs | 25%
-Information Outputs | 25%
-Technology Requirements | 20%
+Information Inputs | 20%
+Information Outputs | 20%
+Technology Requirements | 30%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
