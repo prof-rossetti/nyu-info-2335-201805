@@ -2,15 +2,11 @@
 
 > Prerequisites: [The Systems Development Lifecycle](/notes/information-systems/development-lifecycle.md)
 
-Software development projects usually involve a team of individuals working collaboratively to implement a certain set of system requirements and satisfy system objectives. Often these individuals
+Software development projects usually involve a team of individuals working collaboratively to implement system requirements and satisfy user needs.
 
-represent different disciplines such as design and development.
+Larger scale project may involve cross-functional teams of designers, developers, business analysts, and other individuals within or outside of a given organization. As the scale and scope of a software development project grows, it becomes more and more important to engage in a formal process of project management.
 
-When projects become larger in scale, it becomes more and more important for stakeholders to engage in a formal process of
-
-
-especially large-scale projects, may involve cross-functional teams of designers, developers, business analysts, and other individuals within or outside of a given organization. As the scale and scope of a software development project grows, it becomes more and more important to
-
+As a part of that project management process, project leaders and participants often use the tools below to help them deliver on time and under budget.
 
 
 ## Management Tools
