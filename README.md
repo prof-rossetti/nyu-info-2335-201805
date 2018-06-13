@@ -52,6 +52,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Web Requests](/exercises/web-requests/exercise.md)
   + [API Client](/exercises/api-client/exercise.md)
   + [Version Control](/exercises/version-control/exercise.md)
+  + [Process Diagramming](/exercises/process-diagramming/exercise.md)
   + [Pandas Practice](/exercises/pandas-practice/exercise.md)
 
 ### Assignments
