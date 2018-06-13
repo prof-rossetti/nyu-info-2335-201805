@@ -14,6 +14,8 @@ Reference:
   + [API Reference](http://tweepy.readthedocs.io/en/v3.5.0/api.html#api-reference)
   + [Pagination](http://tweepy.readthedocs.io/en/v3.5.0/code_snippet.html#pagination)
 
+See also this [example application](https://github.com/s2t2/tweet-tweet-py).
+
 ### Prerequisites
 
 Create a Twitter Account. Add your phone number to your Twitter Account, or else you won't be allowed to create a Twitter Application.

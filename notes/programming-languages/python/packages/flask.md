@@ -29,3 +29,5 @@ pip install flask
 ### Usage
 
 Follow the [official tutorial](http://flask.pocoo.org/docs/0.12/tutorial/).
+
+See also this [example application](https://github.com/prof-rossetti/products-api-flask).

@@ -22,7 +22,7 @@ The `Tkinter` package is most likely already pre-installed in your Python instal
 
 ### Usage
 
-Python 3.x:
+Usage example:
 
 ```python
 import tkinter
