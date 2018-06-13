@@ -66,7 +66,7 @@ For more information, see the [syllabus](/syllabus-20180604.pdf).
   + [Point-of-Sale App](/projects/point-of-sale-app/project.md)
   + [Inventory Management App](/projects/inventory-app/project.md)
   + [Stock Recommendation App](/projects/stocks-app/project.md)
-  + [Self-directed Project](/projects/freestyle/deliverable.md)
+  + [Self-directed Project](/projects/freestyle/project.md)
 
 ### Exams
 
