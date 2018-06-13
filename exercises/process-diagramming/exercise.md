@@ -10,11 +10,11 @@ Revisit your submission for the [Human Software Exercise](/exercises/human-softw
 
 ### Challenge II: Diagramming System Processes
 
-Revisit your submission for the [Inventory Management App](_______), the [Stocks App](/projects/stocks-app/project.md), and for each: create a process diagram to visually document the system's logic.
+Revisit your submission for the [Inventory Management App](/projects/inventory-app/project.md), and/or the [Stocks App](/projects/stocks-app/project.md), and for each: create a process diagram to visually document the system's logic.
 
 ### Challenge III: Business Process Improvement
 
-Identify a business process you think could be improved in terms of its effectiveness and/or efficiency.
+First, identify a business process you think could be improved in terms of its effectiveness and/or efficiency.
 
 Then write a detailed and organized description of the "as-is" process, and visually document it by creating an "as-is" process diagram.
 
