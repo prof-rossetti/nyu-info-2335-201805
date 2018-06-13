@@ -14,7 +14,7 @@ For more details, see the [Proposal Instructions](proposal.md).
 
 During the project implementation phase, students will write application software in Python. The application should transform information inputs into information outputs to achieve stated objectives and satisfy user needs as outlined in the project proposal.
 
-For more details, see the [Deliverable Instructions](deliverable.md)
+For more details, see the [Deliverable Instructions](deliverable.md).
 
 ## Requirements
 
