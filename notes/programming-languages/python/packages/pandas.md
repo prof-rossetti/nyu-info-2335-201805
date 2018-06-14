@@ -22,19 +22,22 @@ Reference:
 
 First install the package using pip, if necessary:
 
-```` sh
+```sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install pandas
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install pandas
 
 # All others:
 pip install pandas
-````
+```
 
 ### Usage
 
 #### Reading Data into DataFrames
 
-```python
+```py
 import pandas as pd # pd now references the pandas package, saving you some typing
 
 # We can create pandas DataFrames with native python data structures like lists and dictionaries
@@ -69,7 +72,7 @@ stats.head() # we can use the head() function to preview the data
 
 Now that we can read data into DataFrames, let's do something with it. The examples below include some simple ways we can manipulate a single DataFrame. We'll use the same data we had just loaded into the DataFrame.
 
-```python
+```py
 import pandas as pd
 
 stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats' - you can use your own or see the "Pandas" Exercise to follow along!

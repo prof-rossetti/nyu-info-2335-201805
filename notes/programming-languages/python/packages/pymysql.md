@@ -20,6 +20,9 @@ As a prerequisite: install MySQL on your local machine, if necessary. If you are
 After demonstrating your ability to connect to a local MySQL installation, install `PyMySQL`, if necessary:
 
 ```` sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install PyMySQL
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install PyMySQL
 

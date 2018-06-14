@@ -18,6 +18,9 @@ Reference:
 Install `sendgrid`, if necessary:
 
 ```` sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install sendgrid
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install sendgrid
 

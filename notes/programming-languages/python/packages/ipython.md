@@ -16,6 +16,9 @@ Once you have learned how to [install packages](../package-management.md) using 
 First install `ipython`, if necessary:
 
 ```` sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install ipython
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install ipython
 

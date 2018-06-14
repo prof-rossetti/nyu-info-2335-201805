@@ -33,19 +33,22 @@ After creating a new application, click on the "Keys and Access Tokens" tab, and
 
 Install `tweepy`, if necessary:
 
-```` sh
+```sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install tweepy
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install tweepy
 
 # All others:
 pip install tweepy
-````
+```
 
 ### Usage
 
 List your recent tweets:
 
-```python
+```py
 import os
 import tweepy
 
@@ -72,7 +75,7 @@ tweets = api.user_timeline() # get a list of tweets posted by the currently auth
 # PARSE RESPONSES
 
 print("---------------------------------------------------------------")
-print("RECENT TWEETS BY @{0} ({1} FOLLOWERS / {2} FOLLOWING):".format(user.screen_name, user.followers_count, user.friends_count))
+print(f"RECENT TWEETS BY @{user.screen_name} ({user.followers_count} FOLLOWERS / {user.friends_count} FOLLOWING):")
 print("---------------------------------------------------------------")
 
 for tweet in tweets:
