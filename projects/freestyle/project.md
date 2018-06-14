@@ -2,6 +2,8 @@
 
 The Self-Directed Project provides students with the flexibility to follow their own interests by proposing and ultimately implementing their own application software. First students will brainstorm and submit a proposal outlining their project’s scope, objectives, and requirements. Then students will implement the requirements by writing their own Python application. The final project deliverable will include not only the software itself, but also accompanying version history, documentation, and automated tests.
 
+> NOTE: students may work independently or in teams of up to three members. If students do choose to work in teams, each is expected to contribute to the application's version history, and the team should strive to create an application with a greater scope and/or difficulty level than described below.
+
 ## Phases
 
 ### Proposal Phase
