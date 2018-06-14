@@ -4,7 +4,7 @@ This is a repository of instructional materials for a graduate business school e
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Students will also explore business models and best practices involved in the production and management of application software. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
 
-For more information, see the [syllabus](/syllabus-20180604.pdf).
+For more information, see the [syllabus](/syllabus-20180614.pdf).
 
 
 
