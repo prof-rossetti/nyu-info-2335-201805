@@ -81,9 +81,8 @@ If you get stuck, think about the following questions:
 
 
   + What **APIs or web services**, if any, might your application require in order to produce its desired functionality? Have you read their documentation or tried using them? How is it going? Please include links to API docs.
-  + What **third-party Python packages**, if any, might your application require in order to produce its desired functionality? Have you read their documentation or tried using them? How is it going? Please include links to package docs. And you are encouraged to include any early-stage Python code demonstrating your early-stage attempts to use the prerequisite package(s).
+  + What **third-party Python packages**, if any, might your application require in order to produce its desired functionality? For each package, have you read the  documentation or tried using it? How is it going? Please include links to package docs. You are also encouraged to include somewhere in your repository a file of Python code demonstrating your early-stage attempts to use the prerequisite package(s).
   + What **hardware** will your application run on? Your personal machine or some public server?
-
 
 ## Submission Instructions
 

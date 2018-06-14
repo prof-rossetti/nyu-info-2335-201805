@@ -2,6 +2,8 @@
 
 The Self-Directed Project provides students with the flexibility to follow their own interests by proposing and ultimately implementing their own application software. First students will brainstorm and submit a proposal outlining their project’s scope, objectives, and requirements. Then students will implement the requirements by writing their own Python application. The final project deliverable will include not only the software itself, but also accompanying version history, documentation, and automated tests.
 
+> NOTE: students may work independently or in teams of up to three members. If students do choose to work in teams, each is expected to contribute to the application's version history, and the team should strive to create an application with a greater scope and/or difficulty level than described below.
+
 ## Phases
 
 ### Proposal Phase
@@ -53,3 +55,28 @@ Notable Student Projects from Summer 2017:
   + [Financial Investing Web App](https://github.com/Freestyle-FinTech/robovest), by @asad8855, @aic262, @MrDamienB, @Cynthia0524, and @yingluwang
   + [NYC Events Heatmap](https://github.com/danmikus/nyu_python_freestyle), by @danmikus
   + [Tic Tac Toe Game](https://github.com/rnigam87/Freestyle-Project), by @rnigam87
+
+
+
+
+## Submission Instructions
+
+After following the [submission instructions for the project proposal](proposal.md#submission-instructions), you will have already satisfied the submission instructions for the deliverable as well, as long as you end up developing your application in the same repository you submitted during the proposal phase.
+
+## Evaluation
+
+The project proposal will be evaluated according to its own separate [proposal criteria](proposal.md#evaluation).
+
+The project deliverable will be evaluated based on the following criteria (also described in the "requirements" section above):
+
+Category | Weight
+--- | ---
+Satisfies Proposed Objectives | 15%
+Uniqueness of Subject Matter and Implementation | 10%
+Repository Requirements (README w/ Instructions, LICENSE) | 15%
+Incremental Version History | 15%
+Automated Tests | 10%
+Runs without error | 20%
+User Experience | 15%
+
+This rubric is tentative, and may be subject to slight adjustments during the grading process.

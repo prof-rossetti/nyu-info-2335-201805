@@ -28,7 +28,7 @@ Additionally, some process diagrams use visual separators called "swim lanes" to
 
 ### Current vs Future State
 
-The act of writing a process description and creating a process diagram usually leads to a better understanding of that process. Often
+The act of writing a process description and creating a process diagram usually leads to a better understanding of that process.
 
 Example "as-is" process diagram (see also accompanying [written description](https://github.com/prof-rossetti/salad-system-requirements/blob/master/requirements/business-processes/menu-update-process.md)):
 

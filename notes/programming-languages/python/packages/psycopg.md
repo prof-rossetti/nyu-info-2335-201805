@@ -27,6 +27,9 @@ As a prerequisite: install PostgreSQL on your local machine. If you are on a Mac
 After demonstrating your ability to connect to a local PostgreSQL installation, install `psycopg2`, if necessary:
 
 ```` sh
+# For Pipenv users (Mac or Windows), run from a project's root directory:
+pipenv install psycopg
+
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install psycopg2
 
