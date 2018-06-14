@@ -160,7 +160,7 @@ When you create a new repository, in order to easily use the GitHub.com online i
 check the box to **Initialize this repository with a README**.
 Once the repository is created, add a file to it called `groceries.py`.
 Paste your Python script into that file, then save and commit it.
-At this time you should be able to view your instructions online at your project repository's URL.
+At this time you should be able to view your file online at your project repository's URL.
 
 ### Step 2 - Forking the Course Repo
 

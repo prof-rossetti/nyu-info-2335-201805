@@ -45,4 +45,4 @@ Professor Rossetti's Python notes:
   + [Debugging](debugging.md) (Intermediate Concept)
   + [Errors](errors.md) (Intermediate Concept)
   + [File Management](file-management.md) (Intermediate Concept)
-  + Testing (Intermediate Concept)
+  + [Testing](testing.md) (Intermediate Concept)
