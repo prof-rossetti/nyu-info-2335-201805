@@ -30,4 +30,6 @@
   + [Clearing the Windows Command Prompt](https://superuser.com/a/585241)
   + [String interpolation in Python 3.6](https://www.programiz.com/python-programming/string-interpolation)
   + [The `isinstance` function](https://stackoverflow.com/questions/707674/how-to-compare-type-of-an-object-in-python)
-  + [Formatting numbers as currency with thousands separator]()
+  + [Formatting numbers as currency with thousands separator](https://stackoverflow.com/a/5513747/670433)
+  + [Gantt Chart GIF](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/haymaker/online-gantt-chart.gif)
+  + [Example Sprint Board](https://www.atlassian.com/software/jira)
