@@ -15,6 +15,7 @@ duration (mins) | usage
 
 ## Discussions and Notes
   + [The Systems Development Lifecycle](/notes/information-systems/development-lifecycle.md)
+  + [System Diagramming](/notes/information-systems/diagramming.md)
   + [Management of Software Development](/notes/software/management.md)
   + Notable Third-party Python Packages:
     + [BeautifulSoup](/notes/programming-languages/python/packages/beautifulsoup.md), for scraping websites
