@@ -1,5 +1,6 @@
-github_username, repository_url,
+github_username, repository_url
+rkober3 , https://github.com/rkober3/Planning
 s2t2, https://github.com/prof-rossetti/repo-evaluator-py
 s2t2, https://github.com/prof-rossetti/products-api-flask
 "first_user, second_user, third_user", https://github.com/one_of_the_users/our_repo
-rkober3 , https://github.com/rkober3/Planning
+..., ...
