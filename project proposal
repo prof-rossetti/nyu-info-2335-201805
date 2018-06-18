@@ -1,0 +1,12 @@
+Aria Walfrand										         
+6/18/2018
+Programming in Python							                  
+Final Project Proposal
+
+For my final project, I propose creating an app that will give me different information on medications. I will be using an API from openFDA, which provides public FDA data on drugs.
+
+My plan is to pour over the data in openFDA to see what information I can glean, and then create an app whereby one can enter the name of a drug, and get a variety of information on it. If possible, I would also like for a user to have a “compare” option, that is, to enter the name of two drugs and see how they react to each other. 
+
+Lastly, I would pull data from the BetterDoctor API for a user of my app to get more information on a specific drug. Based on the information in the API, I would look to see if I can match the treatment for the given drug with a doctor that specializes in that illness.  
+
+This app would be run from the command line. 
