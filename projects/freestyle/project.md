@@ -32,7 +32,7 @@ For more details, see the "requirements" section below.
 
   6. The application should be accompanied by reasonable and appropriate **automated tests**.
 
-  7. **Security Requirements**: If the application requires secret credentials such as an API Key in order to function, these credentials should absolutely not be included in your application's source code and should not be visible in any way on GitHub. Use environment variables to hide your secret credentials!
+  7. **Security Requirements**: If the application requires secret credentials such as an API Key in order to function, these credentials should absolutely not be included in your application's source code and should not be visible in any way on GitHub. Use environment variables to hide your secret credentials! Also, do not post any proprietary company information or personally-identifiable information on GitHub. If your application needs proprietary or personally-identifiable files or data, share them with the professor privately via Slack DM.
 
 ## Examples
 
@@ -83,4 +83,4 @@ User Experience | 15%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-Additionally, if a project requires API Keys or other credentials and the "security requirements" are not met, the professor reserves the right to deduct up to 15%.
+Additionally, if a project requires API Keys, secret credentials, or proprietary company information, and the "security requirements" are not met, the professor reserves the right to deduct up to 15%.
