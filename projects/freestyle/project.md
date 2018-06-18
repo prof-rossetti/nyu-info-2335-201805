@@ -32,7 +32,7 @@ For more details, see the "requirements" section below.
 
   6. The application should be accompanied by reasonable and appropriate **automated tests**.
 
-  7. **Security Requirements**: If the application requires secret credentials such as an API Key in order to function, these credentials should absolutely not be included in your application's source code and should not be visible in any way on GitHub. Use environment variables to hide your secret credentials! Also, do not post any proprietary company information or personally-identifiable information on GitHub. If your application needs proprietary or personally-identifiable files or data, share them with the professor privately via Slack DM.
+  7. **Security Requirements**: If the application requires secret credentials such as API Keys or passwords in order to function, these credentials should absolutely not be included in your application's source code and should not be visible in any way on GitHub. Use environment variables to hide your secret credentials! Also, do not post any proprietary company information or personally-identifiable information on GitHub. If your application needs proprietary or personally-identifiable files or data, share them with the professor privately via Slack DM.
 
 ## Examples
 
