@@ -14,7 +14,7 @@ By now, the professor has reviewed all project proposals submitted on-time, and 
 
 If for any reason you need to change your project idea, it's OK! Just make sure to update your project repository's `PLANNING.md` document accordingly.
 
-If your project involves making API requests using your own API credentials, start thinking of a way the professor will be able to evaluate your application. If you are comfortable sharing your API Key with the professor privately via Slack DM, that is one option. Another option would be to provide the professor with detailed instructions on how to sign up to all the relevant services and obtain the relevant credentials.
+If your project involves making API requests using your own API credentials, start thinking of a way the professor will be able to evaluate your application. If you are comfortable sharing your API Key with the professor privately via Slack DM, that is one option. Another option would be to provide the professor with detailed instructions in your project repository's `README.md` file on how to sign up to all the relevant services and obtain the necessary credentials.
 
 ## Assignments
 
