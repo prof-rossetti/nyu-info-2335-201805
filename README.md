@@ -26,7 +26,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
   + [Unit 5](/units/unit-5/agenda.md): Automated Testing
   + [Unit 7](/units/unit-7/agenda.md): Version Control and Git
   + [Unit 8](/units/unit-8/agenda.md): Management, Design Thinking, and the SDLC
-  + Unit 9: Self-directed Project Support (Lab)
+  + [Unit 9](/units/unit-9/agenda.md): Self-directed Project Support (Lab)
   + Unit 10: Delivery, Deployment Environments, and Heroku
 
 ### Recap and Review
