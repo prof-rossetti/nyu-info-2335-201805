@@ -81,6 +81,6 @@ Automated Tests | 10%
 Runs without error | 20%
 User Experience | 15%
 
-This rubric is tentative, and may be subject to slight adjustments during the grading process.
+Additionally, if the "security requirements" are not met, the professor reserves the right to deduct up to 15%.
 
-Additionally, if a project requires API Keys, secret credentials, or proprietary company information, and the "security requirements" are not met, the professor reserves the right to deduct up to 15%.
+This rubric is tentative, and may be subject to slight adjustments during the grading process.
