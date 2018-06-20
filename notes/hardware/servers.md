@@ -22,9 +22,11 @@ Different kinds of servers perform different functions. Common server types incl
 
 ### Application Servers
 
-To "deploy" an application to a server is to copy its source code onto the server. Once the application's source code exists on a server, the server is capable of running the software in a similar way as it would be run on a developer's local machine.
+When an application's source code is uploaded to a remote server, the server is capable of running that software in a similar way as it would be run on a developer's local machine.
 
 #### Deployment Environments
+
+The same application can exist on many different computers, in different "environments".
 
 Name | Description | Common Developer Tasks | Primary Audience | Level of Risk
 --- | --- | --- | --- | ---
