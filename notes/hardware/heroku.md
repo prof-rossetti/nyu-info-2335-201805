@@ -1,26 +1,31 @@
-# Heroku Overview
+# Heroku
 
 > Prerequisites: [Servers](/notes/hardware/servers.md)
 
-
 > Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches. - [Heroku website](https://www.heroku.com/what)
 
-Heroku provides developers with the ability to configure and manage remote servers. Developers configure one or more of these servers to host a web application's source code and serve HTTP responses upon request. Each Heroku server has a unique URL address to allow in some cases public visitation over the Internet, and in all cases the ability to remote login to your server to run commands, check server logs, etc.
+Heroku provides developers with the ability to configure and manage remote servers. Each Heroku server has its own unique address. If the server is running a web application, users can access the server's HTTP address via a web browser. Administrators can access the server privately from the command-line over what is usually an SSH connection.
 
-The Heroku platorm is able to serve applications written in many of today's popular programming languages, including Node.js, Python, Ruby, and more. This means learning how to manage Heroku servers will be beneficial regardless of which programming language you are using at the moment. Heroku can host all kinds of apps.
+Heroku servers can host applications written in popular programming languages like Python, Ruby, Node.js, and more.
 
-For more information about how Heroku works, see: .
+In addition to using the online platform to interface with Heroku, we will use the [Heroku command-line utility (CLI)](https://devcenter.heroku.com/articles/heroku-cli).
 
-Heroku for Python Reference:
+References:
 
   + [Heroku CLI Reference](https://devcenter.heroku.com/categories/command-line)
+  + [Heroku CLI Source Code](https://github.com/heroku/cli)
+  + [Heroku CLI Installation Guide](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
   + [Heroku for "Pythonic apps and APIs"](https://www.heroku.com/python)
   + [Heroku Python Support](https://devcenter.heroku.com/articles/python-support)
   + [Heroku Getting Started with Python](https://devcenter.heroku.com/articles/getting-started-with-python#introduction)
 
 ## Prerequisites
 
-  + Login to an existing Heroku account, or [register](https://signup.heroku.com/) for a new one. Make sure to confirm your account by clicking a confirmation link the confirmation email sent to you by Heroku.
+Before you can use the Heroku CLI, you'll need a Heroku account.
+
+Take a moment to [register](https://signup.heroku.com/) for a new account unless you already have one.
+
+After registering, make sure to confirm your account by clicking a confirmation link the confirmation email sent to you by Heroku.
 
 > Security Alert: consider eventually enabling multi-factor authentication on your Heroku account to keep your account and your servers safe from intrusion. Don't worry about doing this now if you don't feel like it, but take a moment to do so when you have time.
 
@@ -28,19 +33,26 @@ Heroku for Python Reference:
 
 ## Installation
 
-In addition to using Heroku's online platform, we will use the [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-cli) command-line utility to interface with Heroku's resources and capabilities.
+Check to see if the Heroku CLI is already installed:
 
-Source Code: https://github.com/heroku/cli.
-
-Installation Guide: https://devcenter.heroku.com/articles/heroku-cli#download-and-install.
-
-``` shell
+```sh
 # Mac Terminal
 which heroku #> /usr/local/bin/heroku
 
 # Windows Command Prompt
 where heroku #> ...
 ```
+
+IF it is not installed, follow the [installation guide](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) for operating system-specific instructions. As usual, Mac users are able and encouraged to install via Homebrew.
+
+
+
+
+
+
+
+
+
 
 > NOTE for Windows OS users who download the Heroku Toolbelt CLI (h/t @rjzap):
 >
@@ -49,15 +61,54 @@ where heroku #> ...
 > Once installed you have to change your directory to the download location to run the Heroku commands. The filepath will be: `<your chosen download folder>\heroku\bin`.
 >
 
+
+
+
+
+
+
+
+
+
 ## Authentication
 
-After installing Heroku Toolbelt, authenticate using your Heroku account credentials:
+After installing the Heroku CLI, log-in to Heroku from the command-line using your account credentials:
 
 ```` sh
-heroku login
+heroku login # this will prompt you for a username and password
+
+
+
+
+
 ````
 
-Authentication Guide: https://devcenter.heroku.com/articles/heroku-cli#getting-started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Usage
 
