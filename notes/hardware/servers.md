@@ -1,6 +1,6 @@
 # Servers
 
-> Prerequisites: [Software Distribution](/notes/software/notes.md#delivery) and [Computer Networks](/notes/networks/notes.md)
+> Prerequisites: [Software Distribution](/notes/software/notes.md#distribution) and [Computer Networks](/notes/networks/notes.md)
 
 Today's software services are powered by scores of keyboard-less, mouse-less, monitor-less computers called **servers**, which generally run all day or at scheduled or ad-hoc intervals.
 
