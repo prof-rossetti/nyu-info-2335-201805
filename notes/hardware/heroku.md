@@ -4,7 +4,7 @@
 
 > Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches. - [Heroku website](https://www.heroku.com/what)
 
-Heroku provides developers with the ability to configure and manage remote servers. Each Heroku server has its own unique address. If the server is running a web application, users can access the server's HTTP address via a web browser. Administrators can access the server privately from the command-line over what is usually an SSH connection.
+Heroku provides developers with the ability to configure and manage remote servers. Each Heroku server has its own unique HTTP address. Users usually access the server by visiting its address in a web browser, whereas developers and administrators usually access the server from the command-line over what is usually an HTTPS or SSH connection.
 
 Heroku servers can host applications written in popular programming languages like Python, Ruby, Node.js, and more.
 
