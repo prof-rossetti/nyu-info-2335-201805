@@ -46,9 +46,9 @@ OK great, let's get to the fun part!
 
 ### Provisioning a Heroku Server
 
-In addition to the existing remote address called "origin", we will be associating the repository with another remote address called "heroku", which will point to a server provided by Heroku.
+In addition to the existing remote address called "origin", we will be associating the local repository with another remote address called "heroku", which will point to a server provided by Heroku.
 
-Run the following command to associate your repository with a new Heroku remote address:
+Run the following command to associate your local repository with a new Heroku remote address:
 
 ```sh
 # from the repository's root directory:
@@ -59,7 +59,7 @@ heroku create
 
 > NOTE: your application's name will be different.
 
-To verify this worked, let's check our local repository's remote addresses again:
+To verify this worked, let's check the local repository's remote addresses again:
 
 ```sh
 # from the repository's root directory:
@@ -118,7 +118,7 @@ Nice job!
 
 Try revising the application's source code, for example by opening the `products_api/templates/index.html` file in your text editor and changing `<p>Welcome to the Products API.</p>` to `<p>Welcome to the Super Awesome Products API.</p>`.
 
-After saving and committing your changes, re-deploy the source code to Heroku, and you will see the changes reflected online at the Heroku server's remote address.
+After saving and committing your changes, re-deploy the source code to Heroku, and you will see the changes reflected online at the Heroku server's remote address:
 
 
 ![](img/running-in-production-revised.png)
