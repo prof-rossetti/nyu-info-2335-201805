@@ -2,7 +2,7 @@
 
 > Prerequisites: [Software Distribution](/notes/software/notes.md#distribution) and [Computer Networks](/notes/networks/notes.md)
 
-Today's software services are powered by scores of keyboard-less, mouse-less, monitor-less computers called **servers**, which generally run all day or at scheduled or ad-hoc intervals.
+Today's software services are powered by scores of keyboard-less, mouse-less, monitor-less computers called **servers**, which generally run all day or at scheduled intervals.
 
 Most servers are operated "in the cloud" by providers like [Amazon Web Services](https://aws.amazon.com/) and [Heroku](https://www.heroku.com/). These "remote servers" provide business advantages at least in terms of:
 
