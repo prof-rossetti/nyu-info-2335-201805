@@ -27,7 +27,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
   + [Unit 7](/units/unit-7/agenda.md): Version Control and Git
   + [Unit 8](/units/unit-8/agenda.md): Management, Design Thinking, and the SDLC
   + [Unit 9](/units/unit-9/agenda.md): Self-directed Project Support (Lab)
-  + Unit 10: Delivery, Deployment Environments, and Heroku
+  + [Unit 10](/units/unit-10/agenda.md): Hardware, Delivery, and Heroku
 
 ### Recap and Review
 
@@ -54,6 +54,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
   + [Version Control](/exercises/version-control/exercise.md)
   + [Process Diagramming](/exercises/process-diagramming/exercise.md)
   + [Pandas Practice](/exercises/pandas-practice/exercise.md)
+  + [Deploying to Production](/exercises/deploying-to-production/exercise.md)
 
 ### Assignments
 
