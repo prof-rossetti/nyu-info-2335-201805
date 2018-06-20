@@ -33,7 +33,7 @@ After registering, make sure to confirm your account by clicking a confirmation 
 
 ## Installation
 
-Check to see if the Heroku CLI is already installed:
+Check to see if the Heroku CLI is already installed, and if so, what version:
 
 ```sh
 # Mac Terminal
@@ -43,32 +43,11 @@ which heroku #> /usr/local/bin/heroku
 where heroku #> ...
 ```
 
-IF it is not installed, follow the [installation guide](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) for operating system-specific instructions. As usual, Mac users are able and encouraged to install via Homebrew.
+```sh
+heroku --version #> heroku/7.4.1 darwin-x64 node-v10.4.1
+```
 
-
-
-
-
-
-
-
-
-
-> NOTE for Windows OS users who download the Heroku Toolbelt CLI (h/t @rjzap):
->
-> The default installation settings will have a version of git checked as part of the install. You can uncheck the git portion of the download package to avoid any potential conflicts with the git already installed on your computer, it will not prevent the Heroku package from running successfully.
->
-> Once installed you have to change your directory to the download location to run the Heroku commands. The filepath will be: `<your chosen download folder>\heroku\bin`.
->
-
-
-
-
-
-
-
-
-
+If it is not installed, follow the [official installation guide](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) for operating system-specific instructions. As usual, Mac users are able and encouraged to install via Homebrew (`brew install heroku/brew/heroku`). Windows users should install with all default preferences, including making sure "Add PATH to Heroku" is checked.
 
 ## Authentication
 
@@ -76,11 +55,6 @@ After installing the Heroku CLI, log-in to Heroku from the command-line using yo
 
 ```` sh
 heroku login # this will prompt you for a username and password
-
-
-
-
-
 ````
 
 
