@@ -1,6 +1,6 @@
 # Hardware Overview
 
-Computer **hardware** refers to physical devices (e.g. computers, servers, sensors, monitors, printers, speakers, etc.) which perform as instructed by the computer software.
+Computer **hardware** refers to physical devices (e.g. computers, servers, sensors, monitors, printers, speakers, etc.) which perform as instructed by computer software.
 
 See also:
 
