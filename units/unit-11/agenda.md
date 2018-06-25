@@ -12,7 +12,7 @@ duration (mins) | usage
 
 ## Exams
 
-  + [Final Exam](/exams/final/exam.md)
+  + [Final Exam](/exams/final/exam.md) - Preparations and Review
 
 ## Assignments
 
