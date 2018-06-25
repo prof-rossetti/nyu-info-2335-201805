@@ -10,6 +10,14 @@ The exam consists primarily of free-response questions, but may also contain mul
 
 Details about the contents of the final exam will be announced during a final exam preparation session.
 
+> UPDATE: suggested study material includes:
+> + [Information Systems Notes](/notes/information-systems)
+> + [Software Notes](/notes/software)
+> + [Hardware Notes](/notes/hardware)
+> + [Networks Notes](/notes/networks)
+> + [Python Language Overview](/notes/programming-languages/python/notes.md), focusing on datatypes (specifically lists and dictionaries) and functions
+> + Python code used in the first few projects, especially code you may have used across multiple projects (like looping through and filtering arrays)
+
 ## Submission Instructions
 
 Each student should hand-in his/her exam booklet to the professor when finished.

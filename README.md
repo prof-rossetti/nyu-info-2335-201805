@@ -31,7 +31,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
 
 ### Recap and Review
 
-  + Unit 11: Retrospective and Review
+  + [Unit 11](/units/unit-11/agenda.md): Retrospective and Review
   + Unit 12: Final Exam
 
 
@@ -55,6 +55,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
   + [Process Diagramming](/exercises/process-diagramming/exercise.md)
   + [Pandas Practice](/exercises/pandas-practice/exercise.md)
   + [Deploying to Production](/exercises/deploying-to-production/exercise.md)
+  + [Retrospective](/exercises/retrospective/exercise.md)
 
 ### Assignments
 
