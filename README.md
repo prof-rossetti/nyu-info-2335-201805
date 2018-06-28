@@ -32,7 +32,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
 ### Recap and Review
 
   + [Unit 11](/units/unit-11/agenda.md): Retrospective and Review
-  + Unit 12: Final Exam
+  + [Unit 12](/units/unit-12/agenda.md): Final Exam
 
 
 
@@ -73,7 +73,7 @@ For more information, see the [syllabus](/syllabus-20180614.pdf).
 
 ### Exams
 
-  + [Final Exam](/exams/final/exam.md)
+  + [Final Exam](/exams/final/final-exam.pdf)
 
 
 
